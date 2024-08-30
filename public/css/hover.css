@@ -1260,6 +1260,7 @@
 	content: "";
 	position: absolute;
 	z-index: -1;
+	border-radius: 36px;
 	top: 0;
 	left: 0;
 	right: 0;

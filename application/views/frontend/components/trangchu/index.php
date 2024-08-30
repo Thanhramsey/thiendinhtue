@@ -12,506 +12,669 @@
             </div>
         </div>
     </div>
-    <div class="slider">
-        <div class="container">
-            <div class="col-12 col-md-6 col-lg-6 wow fadeInLeft" data-wow-delay="250ms" data-wow-duration="1s"
-                style="visibility: visible; animation-delay: 250ms; animation-name: fadeInLeft; animation-duration: 1s;padding:10px !important">
-                <a href="tin-tuc/thong-bao-khai-truong-trung-tam">
-                    <img style="width: 100%; height: 160px; box-shadow: -10px 10px 5px #bbb; border-radius:20px"
-                        src="public/images/quangcao/qc1.png">
-                </a>
+</section>
+<section id="about" class="features feature-content p-0 pb-60">
+
+    <div class="container">
+        <div class="row mx-md-0">
+            <!--Column item-->
+            <div class="col-md-4 flip p-0 box-margin">
+
+                <div class="front">
+                    <div class="feature-col one">
+                        <div class="box center-block">
+                            <div class="feature-icon"><i class="lni lni-coffee-cup"></i></div>
+                            <h4 class="mb-4 feature-head">Về Thiên Đinh Tuệ</h4>
+                            <p class="text-white mb-4 text-center">Thiên Đinh Tuệ là sự kết hợp giữa truyền thống và
+                                hiện đại, mang đến những tách cà phê đậm đà, thơm ngon từ những hạt cà phê tinh túy
+                                nhất của vùng đất Tây Nguyên.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="back">
+                    <div class="feature-col-1 one-1">
+                        <div class="box center-block">
+                            <div class="feature-icon"><i class="lni lni-coffee-cup"></i></div>
+                            <h4 class="mb-4 theme-dark feature-head">Về Thiên Đinh Tuệ</h4>
+                            <p class="theme-dark mb-4 text-center">Thiên Đinh Tuệ là sự kết hợp giữa truyền thống và
+                                hiện đại, mang đến những tách cà phê đậm đà, thơm ngon từ những hạt cà phê tinh túy
+                                nhất của vùng đất Tây Nguyên.</p>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-6 wow fadeInRight" data-wow-delay="250ms" data-wow-duration="1s"
-                style="visibility: visible; animation-delay: 250ms; animation-name: fadeInRight; animation-duration: 1s;padding:10px !important">
-                <a href="tin-tuc/thong-bao-khai-truong-trung-tam">
-                    <img style="width: 100%; height: 160px; box-shadow: -10px 10px 5px #bbb; border-radius:20px"
-                        src="public/images/quangcao/qc2.png">
-                </a>
+
+            <!--Column item-->
+            <div class="col-md-4 flip p-0 mx-md-3 box-margin">
+
+                <div class="front">
+                    <div class="feature-col two">
+                        <div class="box center-block">
+                            <div class="feature-icon"><i class="lni lni-coffee-cup"></i></div>
+                            <h4 class="mb-4 feature-head">Sứ mệnh của chúng tôi</h4>
+                            <p class="text-white mb-4 text-center">Mang lại trải nghiệm cà phê tuyệt vời cho mọi
+                                khách hàng, giữ vững giá trị bền vững và phát triển cộng đồng người trồng cà phê tại
+                                Việt Nam.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="back">
+                    <div class="feature-col-2 two-2">
+                        <div class="box center-block">
+                            <div class="feature-icon"><i class="lni lni-coffee-cup"></i></div>
+                            <h4 class="theme-dark mb-4 feature-head">Sứ mệnh của chúng tôi</h4>
+                            <p class="theme-dark mb-4 text-center">Mang lại trải nghiệm cà phê tuyệt vời cho mọi
+                                khách hàng, giữ vững giá trị bền vững và phát triển cộng đồng người trồng cà phê tại
+                                Việt Nam.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Column item-->
+            <div class="col-md-4 flip p-0">
+                <div class="front">
+                    <div class="feature-col three">
+                        <div class="box center-block">
+                            <div class="feature-icon"><i class="lni lni-coffee-cup"></i></div>
+                            <h4 class="mb-4 feature-head">Cam kết chất lượng:</h4>
+                            <p class="text-white mb-4 text-center">Mỗi hạt cà phê tại Thiên Đỉnh Tuệ đều được chọn
+                                lọc kỹ càng, rang xay với công nghệ tiên tiến để đảm bảo chất lượng cao nhất trong
+                                từng sản phẩm.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="back">
+                    <div class="feature-col-3 three-3">
+                        <div class="box center-block">
+                            <div class="feature-icon"><i class="lni lni-coffee-cup"></i></div>
+                            <h4 class="mb-4 feature-head">Cam kết chất lượng</h4>
+                            <p class="theme-dark mb-4 text-center">Mỗi hạt cà phê tại Thiên Đỉnh Tuệ đều được chọn
+                                lọc kỹ càng, rang xay với công nghệ tiên tiến để đảm bảo chất lượng cao nhất trong
+                                từng sản phẩm.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="container" style="margin-top: 10px;">
+
+</section>
+<!--feature-box ends -->
+
+<!-- About us-->
+<section id="whymegaone" class="bg-light-gray">
+    <div class="container">
         <div class="row">
-            <h1 class="text-bold text-center text-beauty">Giới thiệu <span
-                    class="text-bold text-beauty text-gradient">TEMPO</span></h1>
-        </div>
-        <div class="row">
-            <div class="col-md-6" style="padding: 0px 50px !important;">
-                <img style="width: 100%; border-radius:20px" src="public/images/about-img.png">
-            </div>
-            <div class="col-md-6 align-items-center" style="padding: 20px 50px !important;">
-                <div class="row fadeInDown" data-wow-delay="250ms" data-wow-duration="1s"
-                    style="visibility: visible; animation-delay: 250ms; animation-name: fadeInDown; animation-duration: 1s">
-                    <h3 style="color:#fc2a40" class="text-beauty text-bold"> <i class="fas fa-sun fa-spin fa-sm"></i>
-                        Thành Lập</h3>
-                    <p class="text-beauty text-bold">Trung tâm Tempo được thành lập vào năm 2021.</p>
-                </div>
-                <div class="row fadeInRight" data-wow-delay="250ms" data-wow-duration="1s"
-                    style="visibility: visible; animation-delay: 250ms; animation-name: fadeInRight; animation-duration: 1s">
-                    <h3 style="color:#fc2a40" class="text-beauty text-bold hvr-icon-pulse-grow"> <i
-                            class="fas fa-star fa-sm hvr-icon"></i> Sứ mạng</h3>
-                    <p class="text-beauty text-bold">Giúp cho học viên trở thành những nghệ sĩ piano tài năng và đầy
-                        năng lượng bằng cách cung cấp cho họ chương trình học đa dạng, chuyên nghiệp và cá nhân hóa.
-                        Chúng tôi cam kết tạo ra môi trường học tập thân thiện và đầy cảm hứng, giúp học viên phát triển
-                        tối đa khả năng của mình và đạt được mục tiêu âm nhạc của mình..</p>
-                </div>
-                <div class="row fadeInLeft" data-wow-delay="250ms" data-wow-duration="1s"
-                    style="visibility: visible; animation-delay: 250ms; animation-name: fadeInLeft; animation-duration: 1s">
-                    <h3 style="color:#fc2a40" class="text-beauty text-bold hvr-icon-buzz-out"> <i
-                            class="fas fa-handshake hvr-icon fa-sm"></i> Cam kết</h3>
-                    <p class="text-beauty text-bold">Mang đến những kiến thức và trải nghiệm tốt nhất đến cho học viên,
-                        bên cạnh đó cam kết cung cấp các sản phẩm chất lượng tới tay người dùng.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container" style="margin-top: 20px;">
-        <div class="sale-title">
-            <span class="text-beauty">SẢN PHẨM KHUYẾN MÃI HOT </span>
-        </div>
-    </div>
-    <div class="container" style="margin-bottom: 20px;">
-        <div class="owl-carousel owl-carousel-product owl-theme"
-            style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; padding: 10px 10px">
-            <?php
-        $product_sale = $this->Mproduct->product_sale(10);
-        foreach ($product_sale as $row) :?>
-            <div class="item" style="margin: 0px;">
-                <div class="products-sale">
-                    <div class="lt-product-group-image">
-                        <a href="<?php echo $row['alias'] ?>" title="<?php echo $row['name'] ?>">
-                            <img class="img-p" src="public/images/products/<?php echo $row['avatar'] ?>" alt="">
-                        </a>
-                        <?php if($row['sale'] > 0) :?>
-                        <div class="giam-percent">
-                            <span class="text-giam-percent">Giảm <?php echo $row['sale'] ?>%</span>
-                        </div>
-                        <?php endif; ?>
-                    </div>
-                    <div class="lt-product-group-info">
-                        <a href="<?php echo $row['alias'] ?>" title="<?php echo $row['name'] ?>"
-                            style="text-align: left;">
-                            <h3><?php echo $row['name'] ?></h3>
-                        </a>
-                        <div>
-                            <div class="lt-product-star-3">
-                                <?php if ($row["star"] <= 1 ) : ?>
-                                <span class="fa fa-star"></span>
-                                <?php elseif ($row["star"] > 1 && $row["star"] <= 2) : ?>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <?php elseif ($row["star"] > 2 && $row["star"] <= 3) : ?>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <?php elseif ($row["star"] > 3 && $row["star"] <= 4) : ?>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <?php elseif ($row["star"] > 4 && $row["star"] <= 5) : ?>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <?php endif; ?>
-                                <span class="sell_num">| Đã bán <?php echo(number_format($row['number_buy'])); ?></span>
-                            </div>
-                        </div>
-                        <div class="price-box">
-                            <?php if($row['sale'] > 0) :?>
+            <div class="container">
+                <div class="main-title style-two d-flex justify-content-md-around align-items-center flex-column flex-md-row text-center text-md-left wow fadeIn"
+                    data-wow-delay="300ms">
+                    <div class="col-md-5 mb-4 mb-md-0">
+                        <h5 class="mb-3"> Khơi nguồn cảm hứng </h5>
+                        <h2 class="pb-0"> Từ từng giọt <span class="family">cà </span> phê</h2>
 
-                            <p class="old-price">
-                                <span class="price"><?php echo(number_format($row['price'])); ?>₫</span>
-                            </p>
-                            <p class="special-price">
-                                <span class="price"><?php echo(number_format($row['price_sale'])); ?>₫</span>
-                            </p>
-                            <?php else: ?>
-                            <!-- <p class="old-price">
-                                    <span class="price" style="color: #fff"><?php echo(number_format($row['price'])); ?>₫</span>
-                                </p> -->
-                            <p class="special-price">
-                                <span class="price"><?php echo(number_format($row['price'])); ?>₫</span>
-                            </p>
-                            <?php endif;?>
-                        </div>
-                        <div class="clear"></div>
+                    </div>
+                    <div class="col-md-7 ml-md-4 pl-md-2">
+                        <p class="mb-4">Khám phá thế giới sáng tạo mỗi ngày với những ly cà phê đậm đà, tinh tế, và
+                            đậm chất nghệ thuật từ chúng tôi.</p>
+
+                        <p class="mb-4">Trải nghiệm sự pha trộn hoàn hảo của hương vị và cảm xúc, giúp mỗi khoảnh
+                            khắc của bạn trở nên đáng nhớ hơn.</p>
                     </div>
                 </div>
             </div>
-            <?php endforeach; ?>
-        </div>
-    </div>
-
-    <!-- Sản phẩm tiềm năng -->
-    <?php
- $product_tiemnang = $this->Mproduct->product_tiemnang(10);
- if(count($product_tiemnang) > 0) :?>
-    <div class="container" style="margin-top: 20px;">
-        <div class="sale-title">
-            <span class="text-beauty">SẢN PHẨM TIỀM NĂNG </span>
-        </div>
-    </div>
-    <div class="container" style="margin-bottom: 20px;">
-        <div class="owl-carousel owl-carousel-product owl-theme"
-            style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; padding: 10px 10px">
-            <?php
-        $product_tiemnang = $this->Mproduct->product_tiemnang(10);
-        foreach ($product_tiemnang as $row) :?>
-            <div class="item" style="margin: 0px;">
-                <div class="products-sale">
-                    <div class="lt-product-group-image">
-                        <a href="<?php echo $row['alias'] ?>" title="<?php echo $row['name'] ?>">
-                            <img class="img-p" src="public/images/products/<?php echo $row['avatar'] ?>" alt="">
-                        </a>
-
-                        <?php if($row['sale'] > 0) :?>
-                        <div class="giam-percent">
-                            <span class="text-giam-percent">Giảm <?php echo $row['sale'] ?>%</span>
-                        </div>
-                        <?php endif; ?>
-                    </div>
-                    <div class="lt-product-group-info">
-                        <a href="<?php echo $row['alias'] ?>" title="<?php echo $row['name'] ?>"
-                            style="text-align: left;">
-                            <h3><?php echo $row['name'] ?></h3>
-                        </a>
-                        <div>
-                            <div class="lt-product-star-3">
-                                <?php if ($row["star"] <= 1 ) : ?>
-                                <span class="fa fa-star"></span>
-                                <?php elseif ($row["star"] > 1 && $row["star"] <= 2) : ?>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <?php elseif ($row["star"] > 2 && $row["star"] <= 3) : ?>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <?php elseif ($row["star"] > 3 && $row["star"] <= 4) : ?>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <?php elseif ($row["star"] > 4 && $row["star"] <= 5) : ?>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <?php endif; ?>
-                                <span class="sell_num">| Đã bán <?php echo(number_format($row['number_buy'])); ?></span>
-                            </div>
-                        </div>
-                        <div class="price-box">
-                            <?php if($row['sale'] > 0) :?>
-
-                            <p class="old-price">
-                                <span class="price"><?php echo(number_format($row['price'])); ?>₫</span>
-                            </p>
-                            <p class="special-price">
-                                <span class="price"><?php echo(number_format($row['price_sale'])); ?>₫</span>
-                            </p>
-                            <?php else: ?>
-                            <!-- <p class="old-price">
-                                    <span class="price" style="color: #fff"><?php echo(number_format($row['price'])); ?>₫</span>
-                                </p> -->
-                            <p class="special-price">
-                                <span class="price"><?php echo(number_format($row['price'])); ?>₫</span>
-                            </p>
-                            <?php endif;?>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                </div>
-            </div>
-            <?php endforeach; ?>
-        </div>
-    </div>
-    <?php endif;?>
-
-
-    <div class="container" style="margin-top: 20px;">
-        <div class="sale-title">
-            <span class="text-beauty">SẢN PHẨM BÁN CHẠY</span>
-        </div>
-    </div>
-    <div class="container" style="margin-bottom: 20px;">
-        <div class="owl-carousel owl-carousel-product owl-theme"
-            style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; padding: 10px 10px">
-            <?php
-        $product_sale = $this->Mproduct->product_selling(10);
-        foreach ($product_sale as $row) :?>
-            <div class="item" style="margin: 0px;">
-                <div class="products-sale">
-                    <div class="lt-product-group-image">
-                        <a href="<?php echo $row['alias'] ?>" title="<?php echo $row['name'] ?>">
-                            <img class="img-p" src="public/images/products/<?php echo $row['avatar'] ?>" alt="">
-                        </a>
-                        <?php if($row['sale'] > 0) :?>
-                        <div class="giam-percent">
-                            <span class="text-giam-percent">Giảm <?php echo $row['sale'] ?>%</span>
-                        </div>
-                        <?php endif; ?>
-                    </div>
-                    <div class="lt-product-group-info">
-                        <a href="<?php echo $row['alias'] ?>" title="<?php echo $row['name'] ?>"
-                            style="text-align: left;">
-                            <h3><?php echo $row['name'] ?></h3>
-                        </a>
-                        <div>
-                            <div class="lt-product-star-3">
-                                <?php if ($row["star"] <= 1 ) : ?>
-                                <span class="fa fa-star"></span>
-                                <?php elseif ($row["star"] > 1 && $row["star"] <= 2) : ?>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <?php elseif ($row["star"] > 2 && $row["star"] <= 3) : ?>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <?php elseif ($row["star"] > 3 && $row["star"] <= 4) : ?>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <?php elseif ($row["star"] > 4 && $row["star"] <= 5) : ?>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <?php endif; ?>
-                                <span class="sell_num">| Đã bán <?php echo(number_format($row['number_buy'])); ?></span>
-                            </div>
-                        </div>
-                        <div class="price-box">
-                            <?php if($row['sale'] > 0) :?>
-
-                            <p class="old-price">
-                                <span class="price"><?php echo(number_format($row['price'])); ?>₫</span>
-                            </p>
-                            <p class="special-price">
-                                <span class="price"><?php echo(number_format($row['price_sale'])); ?>₫</span>
-                            </p>
-                            <?php else: ?>
-                            <!-- <p class="old-price">
-                                    <span class="price" style="color: #fff"><?php echo(number_format($row['price'])); ?>₫</span>
-                                </p> -->
-                            <p class="special-price">
-                                <span class="price"><?php echo(number_format($row['price'])); ?>₫</span>
-                            </p>
-                            <?php endif;?>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                </div>
-            </div>
-            <?php endforeach; ?>
         </div>
     </div>
 </section>
+<!--end About us-->
 
-</section>
-<div id="content">
-    <div class="container">
-        <?php
-        $listCategory=$this->Mcategory->category_list(0,'10');
-        foreach ($listCategory as $rowCategory):
-            // row dien thoai
-            $subCategory=$this->Mcategory->category_list($rowCategory['id'],'10');
-            // Id dien thoai
-            $catId=$this->Mcategory->category_id($rowCategory['link']);
-            // list id dt ss, apple,...
-            $listCatId=$this->Mcategory->category_listcat($catId);
-            // list dt ss, apple
-            $listProducts=$this->Mproduct->product_home_limit($listCatId,10);
-            if((count($listProducts) >= 2)):?>
-        <div class="sale-title">
-            <!-- <span><a href="<?php echo  $rowCategory['link']?>"><?php echo  $rowCategory['name']?> nổi bật</a></span> -->
-            <span class="text-beauty"><?php echo  $rowCategory['name']?> nổi bật</span>
-            <!-- <?php if((count($subCategory) >= 0)):?>
-                        <ul class="sub-category">
-                            <?php foreach ($subCategory as $rowSubCategory) :?>
-                                <li>
-                                    <a href="san-pham/<?php echo $rowSubCategory['link'] ?>" '
-                                        title="<?php echo $rowSubCategory['name'] ?>"
-                                        class="ws-nw overflow ellipsis"
-                                        >
-                                        <?php echo $rowSubCategory['name'] ?>
-                                    </a>
-                                </li>
-                            <?php endforeach; ?>
-                        </ul>
-						<?php endif;?> -->
-        </div>
-        <div class="list-product" style="margin-bottom:20px">
-            <div class="product-container">
-                <?php foreach ($listProducts as $sp) :?>
-                <div class="p-box-5">
-                    <div class="product-lt  hvr-pulse-shrink">
-                        <div class="lt-product-group-image">
-                            <a href="<?php echo $sp['alias'] ?>" title="<?php echo $sp['name'] ?>">
-                                <img class="img-p" src="public/images/products/<?php echo $sp['avatar'] ?>" alt="">
-                            </a>
-                            <?php if($sp['sale'] > 0) :?>
-                            <div class="giam-percent">
-                                <span class="text-giam-percent">Giảm <?php echo $sp['sale'] ?>%</span>
+<!-- Bars-->
+<section class="pt-0">
+    <h2 class="d-none">aas</h2>
+    <div class="container ">
+        <div class="row ">
+            <div class="col-12 my-auto">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="skills alt-font">
+                            <div class="prog-item">
+                                <p>Tươi ngon & Hữu cơ</p>
+                                <div class="skills-progress"><span class="bar-light" data-value="100%"></span></div>
                             </div>
-                            <?php endif; ?>
-                        </div>
-
-                        <div class="lt-product-group-info">
-                            <a href="<?php echo $sp['alias'] ?>" title="<?php echo $sp['name'] ?>"
-                                style="text-align: left;">
-                                <h3><?php echo $sp['name'] ?></h3>
-                            </a>
-                            <div>
-                                <div class="lt-product-star-3">
-                                    <?php if ($row["star"] <= 1 ) : ?>
-                                    <span class="fa fa-star"></span>
-                                    <?php elseif ($row["star"] > 1 && $row["star"] <= 2) : ?>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <?php elseif ($row["star"] > 2 && $row["star"] <= 3) : ?>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <?php elseif ($row["star"] > 3 && $row["star"] <= 4) : ?>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <?php elseif ($row["star"] > 4 && $row["star"] <= 5) : ?>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                    <?php endif; ?>
-                                    <span class="sell_num">| Đã bán
-                                        <?php echo(number_format($row['number_buy'])); ?></span>
-                                </div>
+                            <div class="prog-item">
+                                <p>Chất lượng tuyệt hảo</p>
+                                <div class="skills-progress"><span class="bar-dark" data-value="100%"></span></div>
                             </div>
-                            <div class="price-box">
-                                <?php if($sp['sale'] > 0) :?>
-
-                                <p class="old-price">
-                                    <span class="price"><?php echo(number_format($sp['price'])); ?>₫</span>
-                                </p>
-                                <p class="special-price">
-                                    <span class="price"><?php echo(number_format($sp['price_sale'])); ?>₫</span>
-                                </p>
-                                <?php else: ?>
-                                <!-- <p class="old-price">
-                                                    <span class="price" style="color: #fff"><?php echo(number_format($sp['price'])); ?>₫</span>
-                                                </p> -->
-                                <p class="special-price">
-                                    <span class="price"><?php echo(number_format($sp['price'])); ?>₫</span>
-                                </p>
-                                <?php endif;?>
+                            <div class="prog-item mb-lg-0">
+                                <p>Nhân viên chuyên nghiệp</p>
+                                <div class="skills-progress"><span class="bar-light" data-value="100%"></span></div>
                             </div>
-                            <div class="lienhe">
-                                <a href="<?php echo base_url() ?>doanhngiep/detail/<?php $producer = $this->Muser->user_detail_id_fg($sp['userId']);echo $producer['id'] ?>"
-                                    title="">
-                                    <h3>Liên hệ</h3>
-                                </a>
-                            </div>
-                            <div class="clear"></div>
                         </div>
                     </div>
-                </div>
-                <?php endforeach;?>
-            </div>
-        </div>
-        <?php endif;?>
-        <?php endforeach;?>
-    </div>
-</div>
 
-<div class="home-blog">
-    <div class="container">
-        <div class="blog-content">
-            <!-- <div class="row-p">
 
-        </div> -->
-            <div class="text-center">
-                <h2 class="sectin-title title title-blue text-beauty">Tin tức</h2>
-            </div>
-            <?php
-            $listBaiViet=$this->Mcontent->content_list_home(6, 'all');
-            foreach ($listBaiViet as $rowPost) :?>
-            <div class="col-xs-12 col-12 col-sm-6 col-md-4 col-lg-4" style="padding: 10px !important;">
-                <div class="latest tintuc">
 
-                    <a href="tin-tuc/<?php echo $rowPost['alias'] ?>">
-                        <div class="tempvideo" style="margin-bottom:5px;">
-                            <img width="98%" src="public/images/posts/<?php echo $rowPost['img'] ?>">
+                    <div class="col-lg-6">
+                        <div class="skills alt-font">
+                            <div class="prog-item">
+                                <p>Giao hàng cà phê 24/7</p>
+                                <div class="skills-progress"><span class="bar-dark" data-value="100%"></span></div>
+                            </div>
+                            <div class="prog-item">
+                                <p>Nguồn gốc rõ ràng</p>
+                                <div class="skills-progress"><span class="bar-light" data-value="100%"></span></div>
+                            </div>
+                            <div class="prog-item">
+                                <p>Giá cả hợp lý</p>
+                                <div class="skills-progress"><span class="bar-dark" data-value="100%"></span></div>
+                            </div>
                         </div>
-                        <?php echo $rowPost['title'] ?>
-                    </a>
-                    <!-- <h4 style="color: cornflowerblue;"><?php echo $rowPost['title'] ?></h4> -->
+                    </div>
+
                 </div>
             </div>
-            <?php endforeach; ?>
         </div>
+
     </div>
-</div>
-<div class="adv">
-    <section id="service" style="margin: 20px;">
+</section>
+<!-- end Bars-->
+
+<!-- Appointment -->
+<!-- <section id="reservation" class="form-bg parallax parallaxie">
         <div class="container">
             <div class="row">
-                <div id="service_home" class="clearfix">
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center m-b-xs-10">
-                        <div class="service_item">
-                            <div class="icon icon_product">
-                                <img src="public/images/icon_142e7.png" alt="">
-                            </div>
-                            <div class="description_icon">
-                                <span class="large-text">
-                                    Miễn phí giao hàng
-                                </span>
-                                <span class="small-text">
-                                    Cho hóa đơn từ 10,000,000 đ
-                                </span>
-                            </div>
+                <div class="col-md-12">
+                    <div class="appointment-box">
+
+                        <div class="form-title">
+                            <h2>Book Your Table</h2>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center m-b-xs-10">
-                        <div class="service_item">
-                            <div class="icon icon_product">
-                                <img src="public/images/icon_242e7.png" alt="">
-                            </div>
-                            <div class="description_icon">
-                                <span class="large-text">
-                                    Giao hàng trong tuần
-                                </span>
-                                <span class="small-text">
-                                    Với tất cả đơn hàng
-                                </span>
-                            </div>
+                        <div class="form-para">
+                            <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                                Aenean sollicitudin, lorem quis bibendum auctor.</p>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center m-b-xs-10">
-                        <div class="service_item">
-                            <div class="icon icon_product">
-                                <img src="public/images/icon_342e7.png" alt="">
+                        <form id="contact-form-data">
+
+                            <div class="row">
+                                <div class="col-sm-12" id="result"></div>
+
+                                <div class="col-md-12">
+                                    <div class="row">
+                                        <div class="col-md-6 mb-3">
+                                            <input type="text" class="form-control m-mb-20" required=""
+                                                placeholder="Name" name="userName">
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <input type="text" class="form-control m-mb-20" required=""
+                                                placeholder="Email" name="userEmail">
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <div class="position-relative m-mb-20">
+
+                                                <label class="position-absolute m-label">
+                                                    <span class="calender-line"></span>
+                                                    <i class="fas fa-calendar-alt calender-icon"></i>
+                                                </label>
+
+                                                <input type="text" required="" id="my-date"
+                                                    placeholder="Reservation Date:" class=" form-control datepicker"
+                                                    name="reservationDate">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <div class="position-relative m-mb-20">
+                                                <label class="position-absolute m-label">
+                                                    <span class="calender-line"></span>
+                                                    <i class="icofont-caret-down mr-4 "></i>
+                                                </label>
+                                                <select class="js-example-basic-single" required="" name="totalPeople">
+                                                    <option value="Male">Total People</option>
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <textarea class="message form-control m-mb-20 pt-2" placeholder="Message:"
+                                                name="userMessage"></textarea>
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 text-center text-md-right">
+                                            <button type="button"
+                                                class="contact_btn mt-3 btn btn-rounded btn-large btn-pink fadeInDown-slide animated  text-uppercase">
+                                                Submit
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="description_icon">
-                                <span class="large-text">
-                                    Sản phẩm chất lượng
-                                </span>
-                                <span class="small-text">
-                                    Cam kết chính hãng
-                                </span>
-                            </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!--Begin-->
-    <!--End-->
-</div>
+    </section> -->
+<!-- ends Appointment -->
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="department-sub alt-font text-center">
+                    <h5 class="pink profession">Chúng Tôi Là Những Chuyên Gia</h5>
+                </div>
+                <div class="department-title main-font text-center">
+                    <h2 class="grey">Cam kết mang đến cho bạn những trải nghiệm cà phê tuyệt vời nhất.</h2>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="feature-item mb-md-0 mb-5">
+
+
+                    <span class="icon">
+                        <i aria-hidden="true" class="lni-dinner"></i></span>
+
+
+                    <div class="text feature-txt ">
+                        <h4 class="feature-heading">Cà phê rang xay</h4>
+                        <p>Pha trộn hoàn hảo từ những hạt cà phê tươi ngon, mang lại hương vị đậm đà và tinh tế cho
+                            từng tách cà phê.</p>
+                    </div>
+
+                </div>
+                <div class="feature-item mb-md-0 mb-5">
+                    <span class="icon-2">
+                        <i aria-hidden="true" class="lni-pizza"></i></span>
+
+                    <div class="text feature-txt">
+                        <h4 class="feature-heading">Cà phê pha máy</h4>
+                        <p>Thưởng thức sự kết hợp hoàn hảo giữa công nghệ hiện đại và hương vị cà phê truyền thống
+                            với những tách cà phê pha máy chuẩn vị.</p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="feature-item mb-md-0 mb-5">
+                    <span class="icon-2">
+                        <i aria-hidden="true" class="lni-cake"></i></span>
+                    <div class="text feature-txt">
+                        <h4 class="feature-heading">Cà phê đặc sản</h4>
+                        <p>Khám phá những loại cà phê độc đáo từ các vùng trồng cà phê nổi tiếng trên thế giới, được
+                            tuyển chọn kỹ lưỡng để mang đến hương vị đặc biệt nhất.</p>
+                    </div>
+
+                </div>
+                <div class="feature-item mb-md-0 mb-5">
+                    <span class="icon">
+                        <i aria-hidden="true" class="lni-coffee-cup"></i></span>
+                    <div class="text feature-txt">
+                        <h4 class="feature-heading">Trà & Cà phê lạnh</h4>
+                        <p>Tận hưởng hương vị tươi mát và độc đáo của các loại trà và cà phê lạnh, được pha chế tinh
+                            tế và sáng tạo.</p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="feature-item mb-md-0 mb-5 ">
+
+                    <span class="icon">
+                        <i aria-hidden="true" class="lni-service"></i></span>
+
+                    <div class="text feature-txt">
+                        <h4 class="feature-heading">Dịch vụ pha chế chuyên nghiệp</h4>
+                        <p>Đội ngũ pha chế của chúng tôi luôn sẵn sàng tạo ra những tách cà phê hoàn hảo, từ những
+                            công thức truyền thống đến những sáng tạo mới lạ.</p>
+                    </div>
+
+                </div>
+                <div class="feature-item">
+
+                    <span class="icon-2">
+                        <i aria-hidden="true" class="lni-fresh-juice"></i></span>
+
+                    <div class="text feature-txt">
+                        <h4 class="feature-heading">Cà phê hạt nguyên chất</h4>
+                        <p>Trải nghiệm hương vị đậm đà và tinh tế từ những hạt cà phê nguyên chất được chọn lọc kỹ
+                            lưỡng, hoàn hảo cho những người yêu thích pha chế tại nhà.</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Counters -->
+<section class="bg-counter demo-banner">
+    <h2 class="d-none">as</h2>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="serial-box">
+                    <span class="count">15381</span>
+                    <div class="count-line "></div>
+                    <p>Khách hàng</p>
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+                <div class="serial-box">
+                    <span class="count">34</span>
+                    <div class="count-line "></div>
+                    <p>Sản phẩm</p>
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+                <div class="serial-box">
+                    <span class="count">12510</span>
+                    <div class="count-line "></div>
+                    <p>Đơn hàng</p>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+</section>
+<!-- end Counters-->
+
+<!-- portfolio -->
+<section id="ourmenu">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="port">
+                    <div class="portfolio-title">
+                        <h2 class="grey">Các sản phẩm của chúng tôi. </h2>
+                    </div>
+                    <div class="portfolio-subtitle">
+                        <p></p>
+                    </div>
+                </div>
+                <!-- <div class="pointer nav nav-pills mb-4 mb-md-4 d-flex justify-content-center filtering">
+                        <span data-filter="*" class="nav-link active">All</span>
+                        <span class="nav-link" data-filter=".surgery">Coffe</span>
+                        <span class="nav-link" data-filter=".clinical">Trà</span>
+                        <span class="nav-link" data-filter=".operations">Loại sản phẩm 1 </span>
+                        <span class="nav-link" data-filter=".patients">Loại sản phẩm 2</span>
+                    </div> -->
+
+                <ul class="da-thumbs gallery">
+                    <li class="items surgery operations">
+                        <img src="public/restaurant/img/portfolio-1.jpg" alt="img">
+                        <div class="overlay">
+                            <a href="public/restaurant/img/portfolio-1.jpg" class="text-center" data-fancybox="images">
+                                <div class="search-icon"><i class="fa fa-search"></i> </div>
+                                <h4 class="">Sản phẩm 1</h4>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="items clinical patients">
+                        <img src="public/restaurant/img/portfolio-2.jpg" alt="img">
+                        <div class="overlay">
+                            <a href="public/restaurant/img/portfolio-2.jpg" class="text-center" data-fancybox="images">
+                                <div class="search-icon"><i class="fa fa-search"></i> </div>
+                                <h4 class="">Sản phẩm 2</h4>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="items operations clinical">
+                        <img src="public/restaurant/img/portfolio-3.jpg" alt="img">
+                        <div class="overlay">
+                            <a href="public/restaurant/img/portfolio-3.jpg" class="text-center" data-fancybox="images">
+                                <div class="search-icon"><i class="fa fa-search"></i> </div>
+                                <h4 class="">Sản phẩm 3</h4>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="items patients operations">
+                        <img src="public/restaurant/img/portfolio-4.jpg" alt="img">
+                        <div class="overlay">
+                            <a href="public/restaurant/img/portfolio-4.jpg" class="text-center" data-fancybox="images">
+                                <div class="search-icon"><i class="fa fa-search"></i> </div>
+                                <h4 class="">Sản phẩm 4</h4>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="items surgery patients">
+                        <img src="public/restaurant/img/portfolio-5.jpg" alt="img">
+                        <div class="overlay">
+                            <a href="public/restaurant/img/portfolio-5.jpg" class="text-center" data-fancybox="images">
+                                <div class="search-icon"><i class="fa fa-search"></i> </div>
+                                <h4 class="">Sản phẩm 5</h4>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="items clinical surgery">
+
+                        <img src="public/restaurant/img/portfolio-6.jpg" alt="img">
+                        <div class="overlay">
+                            <a href="public/restaurant/img/portfolio-6.jpg" class="text-center" data-fancybox="images">
+                                <div class="search-icon"><i class="fa fa-search"></i> </div>
+                                <h4 class="">Sản phẩm 6</h4>
+                            </a>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Ends portfolio -->
+
+<!-- testimonial -->
+<section class="bg-testimonial parallax parallaxie">
+    <div class="container">
+        <div class="row">
+            <div class="test">
+                <div class="testimonial-title">
+                    <h2 class="text-white">Khách hàng</h2>
+                </div>
+                <div class="testimonial-subtitle">
+                    <p>Đánh giá của khách hàng</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="testimonial_slider" class="owl-carousel">
+
+                <!--testimonial item-->
+                <div class="testimonial-item item">
+                    <i class="fa fa-quote-left testimonial-icon gradient-text1"></i>
+                    <p class="mb-4">Đây thật sự là điểm đến lý tưởng. Cà phê thơm ngon, không gian ấm cúng và nhân
+                        viên phục vụ rất nhiệt tình. Chắc chắn tôi sẽ quay lại!
+                    </p>
+
+                    <!--Image-->
+                    <div class="testimonial-image">
+                        <img src="public/restaurant/img/testimonial-1.png" alt="image">
+                    </div>
+                    <h5 class="font-weight-500 main-font pink">Nguyễn Thị Lan Anh</h5>
+                    <span class="destination main-font">Từ Liêm, Hà Nội</span>
+                </div>
+                <!--testimonial item-->
+                <div class="testimonial-item item">
+                    <i class="fa fa-quote-left testimonial-icon gradient-text1"></i>
+                    <p class="mb-4">Cà phê ở đây rất tuyệt, hương vị đậm đà và đặc biệt. Tôi thích cách họ chăm sóc
+                        từng chi tiết nhỏ nhất. Dịch vụ giao hàng cũng rất nhanh chóng và tiện lợi.
+                    </p>
+
+                    <!--Image-->
+                    <div class="testimonial-image">
+                        <img src="public/restaurant/img/testimonial-2.png" alt="image">
+                    </div>
+                    <h5 class="font-weight-500 main-font pink">Trần Văn Minh</h5>
+                    <span class="destination main-font">Pleiku, Gia Lai</span>
+                </div>
+                <!--testimonial item-->
+                <div class="testimonial-item item">
+                    <i class="fa fa-quote-left testimonial-icon gradient-text1"></i>
+                    <p class="mb-4">Không gian quán rất thoải mái và thoáng đãng. Đồ uống đa dạng, từ cà phê đến trà
+                        đều ngon tuyệt, rất hợp để thưởng thức cùng cà phê.
+                    </p>
+
+                    <!--Image-->
+                    <div class="testimonial-image">
+                        <img src="public/restaurant/img/testimonial-3.png" alt="image">
+                    </div>
+                    <h5 class="font-weight-500 main-font pink">Phạm Thùy Dung</h5>
+                    <span class="destination main-font">Pleiku, Gia Lai</span>
+                </div>
+                <!--testimonial item-->
+                <div class="testimonial-item item">
+                    <i class="fa fa-quote-right testimonial-icon gradient-text1"></i>
+                    <p class="mb-4">Mình đã mua cà phê hạt về nhà và rất hài lòng với chất lượng. Hương vị đậm đà,
+                        thơm lừng, đúng là cà phê nguyên chất. Sẽ tiếp tục ủng hộ quán!
+                    </p>
+
+                    <!--Image-->
+                    <div class="testimonial-image">
+                        <img src="public/restaurant/img/testimonial-1.png" alt="image">
+                    </div>
+                    <h5 class="font-weight-500 main-font pink">Lê Quốc Hưng</h5>
+                    <span class="destination main-font">Tân Bình, TP.HCM</span>
+                </div>
+                <!--testimonial item-->
+                <div class="testimonial-item item">
+                    <i class="fa fa-quote-right testimonial-icon gradient-text1"></i>
+                    <p class="mb-4">Dịch vụ tuyệt vời, nhân viên thân thiện và chuyên nghiệp. Cà phê ở đây thực sự
+                        khác biệt, mỗi tách đều mang lại cảm giác mới lạ và độc đáo. Rất đáng để thử!
+                    </p>
+
+                    <!--Image-->
+                    <div class="testimonial-image">
+                        <img src="public/restaurant/img/testimonial-1.png" alt="image">
+                    </div>
+                    <h5 class="font-weight-500 main-font pink">Hoàng Thị Mai</h5>
+                    <span class="destination main-font">Đà Nẵng</span>
+                </div>
+                <!--testimonial item-->
+                <div class="testimonial-item item">
+                    <i class="fa fa-quote-right testimonial-icon gradient-text1"></i>
+                    <p class="mb-4">Quán cà phê này thật sự là một điểm đến lý tưởng cho những ai yêu thích cà phê.
+                        Mỗi lần ghé thăm đều là một trải nghiệm mới mẻ và thú vị.
+                    </p>
+
+                    <!--Image-->
+                    <div class="testimonial-image">
+                        <img src="public/restaurant/img/testimonial-1.png" alt="image">
+                    </div>
+                    <h5 class="font-weight-500 main-font pink">Đỗ Thanh Tùng</h5>
+                    <span class="destination main-font">Nha Trang</span>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- Ends testimonial -->
+
+<!--Blog Start-->
+<section id="ourblog" class="bg-light">
+    <div class="container">
+
+        <div class="row align-items-center mb-5">
+            <div class="col-md-6 order-2 wow fadeInRight">
+                <!--Blog Content-->
+                <div class="blog-text blog-right">
+                    <h2>Tiêu đề 1</h2>
+                    <p>Nội dung tiêu đề 1</p>
+                    <a href="public/restaurant/blog-listing.html"
+                        class="btn btn-rounded btn-large btn-green fadeInDown-slide animated  text-uppercase">Xem
+                        Thêm</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <!--Blog Image-->
+                <div class="img-hvr">
+                    <div class="date">
+                        <h5 class="m-0">20</h5>
+                        <h5 class="m-0">Feb</h5>
+                        <h5 class="m-0">2020</h5>
+                    </div>
+                </div>
+                <div id="blog-slider" class=" owl-carousel">
+                    <div class="item blog-image wow hover-effect fadeInLeft">
+                        <img src="public/restaurant/img/blog-image1.jpg" alt="image">
+                    </div>
+                    <div class="item blog-image wow hover-effect fadeInLeft">
+                        <img src="public/restaurant/img/blog-image3.jpg" alt="image">
+                    </div>
+                    <div class="item blog-image wow hover-effect fadeInLeft">
+                        <img src="public/restaurant/img/blog-image4.jpg" alt="image">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row align-items-center">
+            <div class="col-md-6 order-2 order-md-1 wow fadeInLeft">
+                <!--Blog Content-->
+                <div class="blog-text">
+                    <h2>Tiêu đề 2</h2>
+                    <p>Nội dung tiêu đề 2</p>
+                    <a href="public/restaurant/blog-listing.html"
+                        class="btn btn-rounded btn-large btn-pink fadeInDown-slide animated  text-uppercase">Xem
+                        Thêm</a>
+                </div>
+            </div>
+            <div class="col-md-6 order-md-2">
+                <div class="img-hvr">
+                    <div class="date-2">
+                        <h5 class="m-0">20</h5>
+                        <h5 class="m-0">Feb</h5>
+                        <h5 class="m-0">2020</h5>
+                    </div>
+                </div>
+                <!--Blog Image-->
+                <div id="blog-slider-1" class="owl-carousel">
+                    <div class="item blog-image2 text-right hover-effect wow fadeInRight">
+                        <img src="public/restaurant/img/blog-image2.jpg" alt="image">
+                    </div>
+                    <div class="item blog-image2 text-right hover-effect wow fadeInRight">
+                        <img src="public/restaurant/img/blog-image5.jpg" alt="image">
+                    </div>
+                    <div class="item blog-image2 text-right hover-effect wow fadeInRight">
+                        <img src="public/restaurant/img/blog-image6.jpg" alt="image">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>

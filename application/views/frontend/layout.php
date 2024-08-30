@@ -25,7 +25,7 @@
     <link href="public/css/owl.carousel.min.css" rel="stylesheet">
     <link rel="stylesheet" href="public/css/style-jc.css">
     <link href="public/css/menu-tab.css" rel="stylesheet">
-    <link href="public/css/style.css" rel="stylesheet">
+    <!-- <link href="public/css/style.css" rel="stylesheet"> -->
     <link href="public/css/ketnoi.css" rel="stylesheet">
     <link href="public/css/ketquatimkiem.css" rel="stylesheet">
     <link href="public/css/flexslider.css" rel="stylesheet">
@@ -34,6 +34,20 @@
     <link href="public/css/animate.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
     <script src="public/js/jquery-2.2.3.min.js"></script>
+    <link rel="icon" href="public/restaurant/img/favicon.ico">
+    <!-- Bundle -->
+    <link rel="stylesheet" href="public/vendor/css/bundle.min.css">
+    <!-- Plugin Css -->
+    <link rel="stylesheet" href="public/vendor/css/revolution-settings.min.css">
+    <link rel="stylesheet" href="public/vendor/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="public/vendor/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="public/vendor/css/swiper.min.css">
+    <link rel="stylesheet" href="public/vendor/css/cubeportfolio.min.css">
+    <link rel="stylesheet" href="public/vendor/css/LineIcons.min.css">
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="public/vendor/css/select2.min.css">
+    <link rel="stylesheet" href="public/vendor/css/jquery-ui.bundle.css">
+    <link rel="stylesheet" href="public/restaurant/css/style.css">
 </head>
 
 <body>
@@ -66,20 +80,12 @@
     });
     </script>
     <!-- TOPBAR -->
+
+
     <?php
 	$this->load->view('frontend/modules/topbar');
 	?>
-    <!-- HEADER LOGO + SEARCH -->
-    <?php
-	$this->load->view('frontend/modules/logo-search');
-	?>
-    <!-- <?php
-			$this->load->view('frontend/modules/category');
-			?> -->
-    <section id="menu-bar">
-        <?php
-		$this->load->view('frontend/modules/panel-left');
-		?>
+
     </section>
     <!--CONTENT-->
     <?php
@@ -94,7 +100,6 @@
 	$this->load->view('frontend/modules/footer');
 	?>
     <audio id="myAudio" controls hidden>
-
         <source src="<?php echo base_url() ?>public/music/song.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
@@ -113,6 +118,44 @@
     <script src="public/js/jquery.zoom.min.js"></script>
     <script src="<?php echo base_url() ?>/public/js/wow.js"></script>
     <script src="<?php echo base_url() ?>/public/js/wow.min.js"></script>
+    <!-- JavaScript -->
+    <script src="public/vendor/js/bundle.min.js"></script>
+
+    <!-- Plugin Js -->
+    <script src="public/vendor/js/jquery.fancybox.min.js"></script>
+    <script src="public/vendor/js/owl.carousel.min.js"></script>
+    <script src="public/vendor/js/swiper.min.js"></script>
+    <script src="public/vendor/js/jquery.cubeportfolio.min.js"></script>
+    <script src="public/vendor/js/jquery.appear.js"></script>
+    <script src="public/vendor/js/hover-item.js"></script>
+    <script src="public/vendor/js/isotope.pkgd.min.js"></script>
+    <!-- REVOLUTION JS FILES -->
+    <script src="public/vendor/js/jquery.themepunch.tools.min.js"></script>
+    <script src="public/vendor/js/jquery.themepunch.revolution.min.js"></script>
+    <!-- SLIDER REVOLUTION EXTENSIONS -->
+    <script src="public/vendor/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="public/vendor/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="public/vendor/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="public/vendor/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="public/vendor/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="public/vendor/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="public/vendor/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="public/vendor/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="public/vendor/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="public/vendor/js/parallaxie.min.js"></script>
+    <!-- custom script -->
+    <script src="public/vendor/js/select2.min.js"></script>
+    <script src="public/vendor/js/date.js"></script>
+    <script src="public/vendor/js/jquery.hoverdir.js"></script>
+    <script src="public/vendor/js/jquery-ui.bundle.js"></script>
+    <script src="public/vendor/js/flip.js"></script>
+
+    <!--contact form-->
+    <script src="public/vendor/js/contact_us.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4fusEY9kSwNHgtK8KOgyoTsyP5Tb2NXo"></script>
+    <script src="public/restaurant/js/map.js"></script>
+    <script src="public/restaurant/js/script.js"></script>
 
     <script>
     function test() {
@@ -129,9 +172,7 @@
     }
     </script>
     <btn onclick="test()" id="btn_music" class="music-top"><i id="icon" class="fa fa-music"></i></btn>
-    <div class='scrolltop'>
-        <div class='scroll icon'><i class="fa fa-4x fa-angle-up"></i></div>
-    </div>
+
     <div class='scrolltop icon'>
         <a class='facebook' target="_blank" href="https://www.facebook.com/tempogialai">
             <i style="color:#fff" class="fab fa-2x fa-facebook-f"></i>

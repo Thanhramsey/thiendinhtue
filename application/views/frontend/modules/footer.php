@@ -1,92 +1,70 @@
 <footer id="footer">
-	<div class="dangky">
-		<div class="container">
-			<div class="col-md-6 col-md-offset-6">
-				<h4>NƠI THỎA NIỀM ĐAM MÊ VỚI NGHỆ THUẬT - <span>Hotline:</span> <strong>0979.190.303 - 0349.303.368</strong> </h4>
-				<div class="row">
-					<div class="col-md-6" style="border-right: 2px  solid #cac8c8; padding:15px 15px 0 15px;">
-						<a href="lien-he" class="btn-dk">Đăng ký học thử </a>
-						<div class="content-dk">
-							<p style="text-align:center">Miễn phí học thử.</p>
+    <!-- Map -->
+    <section id="contactus" class="contact p-0 position-relative parallax parallaxie">
+        <div class="bg-overlay bg-color"></div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247803.84326507727!2d107.80477634776497!3d13.96247158169519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x316c1f82022f81a3%3A0x2234918a6e4ab03a!2sPleiku%2C%20Gia%20Lai%2C%20Vietnam!5e0!3m2!1sen!2s!4v1723307582780!5m2!1sen!2s"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
 
-							<p style="text-align:center">Hỗ trợ, tư vấn lộ trình học tập.</p>
-							<p>&nbsp;</p>
-						</div>
-					</div>
-					<div class="col-md-6" style=" padding:15px 15px 0 15px;">
-						<a href="san-pham" class="btn-dk">Cung cấp nhạc cụ</a>
-						<div class="content-dk">
-							<p style="text-align:center"><span style="color:#FFFFFF">Cung cấp các nhạc cụ chất lượng.</span></p>
+                <div class="col-md-6">
+                    <div class="address-box tittle mb-0 bg-img4 ml-0 ml-md-5">
+                        <!--overlay-->
+                        <div class="bg-overlay opacity-8"></div>
+                        <div class="address-text alt-font text-md-left text-white position-relative wow fadeInUp">
+                            <h5 class="mb-3 text-capitalize contact-subtitle font-weight-light">Liên hệ với chúng tôi
+                            </h5>
+                            <!--title-->
+                            <h2 class="mb-4 main-font map-text text-capitalize">Thiên Đinh Tuệ</h2>
+                            <!--Address-->
+                            <p class="mb-3">Địa chỉ. </p>
+                            <!--Phone-->
+                            <p class="mb-3">Số điện thoại : 09xxxxxxxxx>
+                            </p>
+                            <!--Email-->
+                            <p class="mb-3">email : thiendinhtue@gmail.com<br>
+                            </p>
+                            <!--Timing-->
+                            <p class="mb-3">Mon-Sun: 8am to 6pm</p>
 
-							<p style="text-align:center"><span style="color:#FFFFFF">Hỗ trợ bảo hành , cam kết về chất lượng.</span></p>
+                        </div>
+                    </div>
+                </div>
 
-							<p style="text-align:center">&nbsp;</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="top-footer">
-		<div class="container" style="border: 1px solid #e8e6e2">
-			<div class="col-xs-12 col-sm-12 col-md-12">
-				<div class="col-xs-12 col-sm-4" style="padding-left:20px !important">
-					<div class="f-contact" style="padding-top:20px">
-						<h3>Thông tin liên hệ</h3>
-						<ul class="list-unstyled">
-							<li class="clearfix">
-								<i class="fa fa-map-marker"></i>
-								<span>89 Phạm Văn Đồng, TP.Pleiku , Tỉnh Gia Lai</span>
-							</li>
-							<li class="clearfix">
-								<i class="fa fa-phone"></i>
-								<span>0979.190.303 - 0349.303.368</span>
-							</li>
-							<li class="clearfix">
-								<i class="fa fa-envelope"></i>
-								<span><a href="mailto:tempomusic0403@gmail.com">tempomusic0403@gmail.com</a></span>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<!--  -->
-				<div class="col-xs-12 col-sm-4">
-					<div class="f-contact" style="padding-top:20px; padding-left: 20px">
-						<h3 class="footer-title">HỖ TRỢ KHÁCH HÀNG</h3>
-						<ul>
-							<li><a href="chinhsachbaomat">Chính sách bảo mật</a></li>
-							<li><a href="dieukhoanbaohanh">Điều khoản bảo hành</a></li>
-							<li><a href="questions">Câu hỏi thường gặp</a></li>
-							<li><?php
-        					    $this->load->view('frontend/modules/onlineNow');
-        					?></li>
-						</ul>
-					</div>
-				</div>
-				<!--  -->
-				<div class="col-xs-12 col-sm-4">
-					<a href="https://www.facebook.com/tempogialai"><img style="border-radius:5px" src="public/images/banners/slider-1.png" class="img-responsive"></a>
-				</div>
-			</div>
-		</div>
-	</div>
-	</div>
-	<div class="news-social">
-		<div class="container">
-			<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-				<ul class="list-unstyled social pull-left" style="margin-bottom:0px">
-					<li><span style="line-height:40px; font-size:13px; color:#fff">© 2022TEMPO | <i style="font-size:12px" class="glyphicon glyphicon-earphone"></i> 0979.190.303 - 0349.303.368 | <i style="font-size:12px" class="glyphicon glyphicon-envelope"></i>
-					tempomusic0403@gmail.com</span></li>
-				</ul>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-				<ul class="list-unstyled social pull-right" style="margin-bottom:0">
-					<li><a href="https://www.facebook.com/tempogialai"><i class="fab fa-facebook-f"></i></a></li>
-					<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-					<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-					<li><a href="#"><i class="fab fa-youtube"></i></a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer Start-->
+    <section class="text-center footer-sec">
+        <h2 class="d-none">hidden</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-social">
+                        <ul class="list-unstyled text-white">
+                            <li><a class="wow fadeInUp facebook-bg-hvr" href="javascript:void(0);"><i
+                                        class="fab fa-facebook-f"></i></a></li>
+                            <li><a class="wow fadeInDown twitter-bg-hvr" href="javascript:void(0);"><i
+                                        class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a class="wow fadeInUp google-bg-hvr" href="javascript:void(0);"><i
+                                        class="fab fa-google-plus-g" aria-hidden="true"></i></a></li>
+                            <li><a class="wow fadeInDown linkedin-bg-hvr" href="javascript:void(0);"><i
+                                        class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+                            <li><a class="wow fadeInUp instagram-bg-hvr" href="javascript:void(0);"><i
+                                        class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                    <p class="company-about fadeIn theme-dark text-capitalize">© Bản quyền thuộc <a class="theme-dark"
+                            href="javascript:void(0);">Thien Dinh TUe</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="go-top"><i class="fas fa-chevron-up"></i><i class="fas fa-chevron-up"></i></div>
+
 </footer>

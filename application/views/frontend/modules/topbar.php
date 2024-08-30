@@ -1,83 +1,117 @@
+<header class="cursor-light">
 
-<section id="header">
-	<nav class="navbar" style="z-index: 9999; background:#262144">
-		<div class="container">
-			<div class="col-md-12 col-lg-12">
-				<div class="navbar-header">
-					<!-- <div class="icon-img-logo hidden-md hidden-lg">
-						<strong><p style="color:#fff">TEMPO </p></strong>
-                    </div> -->
-					<button style="padding-left:10px !important" type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<div class="icon-cart-mobile hidden-md hidden-lg">
-						<a href="gio-hang">
-							<i class="fa fa-shopping-cart" aria-hidden="true" style="color: #fff; font-size: 17px;"></i>
-							<span>(<?php
-                               if($this->session->userdata('cart')){
-                                $val = $this->session->userdata('cart');
-                                echo count($val);
-                            }else{
-                                echo 0;
-                            }
-                            ?>)</span>
-                        </a>
+    <!--Navigation-->
+    <nav class="navbar navbar-top-default nav-radius navbar-expand-lg">
+        <div class="container">
+            <a href="javascript:void(0)" title="Logo" class="logo scroll">
+                <!--Logo Default-->
+                <img src="public/restaurant/img/logo2.png" alt="logo" class="logo-dark logo-default">
+                <img src="public/restaurant/img/logo2.png" alt="logo" class="logo-light logo-scrolled">
+            </a>
+
+            <!--Nav Links-->
+            <div class="collapse navbar-collapse">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link hvr-sweep-to-right" href="">Trang chủ</a>
+                    <a class="nav-link hvr-sweep-to-right" href="gioithieu">Thông tin</a>
+                    <div class="nav-item">
+                        <a class="nav-link hvr-sweep-to-right" href="#ourmenu">Sản phẩm</a>
+                        <div class="sub-menu">
+                            <div class="menu-column">
+                                <h4>Trải nghiệm</h4>
+                                <a class="hvr-sweep-to-right" href="#exp1">Trải nghiệm 1</a>
+                                <a class="hvr-sweep-to-right" href="#exp2">Trải nghiệm 2</a>
+                                <a class="hvr-sweep-to-right" href="#exp3">Trải nghiệm 3</a>
+                            </div>
+                            <div class="menu-column">
+                                <h4>Sản phẩm</h4>
+                                <a class="hvr-sweep-to-right" href="#product1">Sản phẩm 1</a>
+                                <a class="hvr-sweep-to-right" href="#product2">Sản phẩm 2</a>
+                                <a class="hvr-sweep-to-right" href="#product3">Sản phẩm 3</a>
+                            </div>
+                        </div>
                     </div>
+                    <a class="nav-link hvr-sweep-to-right" href="#ourblog">Tin tức</a>
+                    <a class="nav-link hvr-sweep-to-right" href="#contactus">Liên hệ</a>
+                    <!-- <a class="nav-link scroll" href="#reservation">Reservation</a> -->
                 </div>
-                <div id="navbar" class="collapse navbar-collapse">
-                	<ul class="nav navbar navbar-nav" id="nav1">
-                		<li><a style='color:#fff' href="#">Trang chủ</a></li>
-                		<li><a style='color:#fff' href="san-pham/1">Sản phẩm</a></li>
-                		<li><a style='color:#fff' href="tin-tuc/1">Tin tức</a></li>
-                		<li><a style='color:#fff' href="van-ban">Chính sách</a></li>
-                		<li><a style='color:#fff' href="lien-he">Liên hệ</a></li>
-                		<!-- <li><a href="thong-tin-tai-khoan">Tài khoản</a></li> -->
-                		<?php
-                		if($this->session->userdata('sessionKhachHang')){
-                			echo "<li><a style='color:#fff' href='dang-xuat'>Thoát</a></li>";
-                		}else{
-                			echo "<li><a style='color:#fff' href='dang-ky'>Đăng ký</a></li>";
-                			echo "<li><a style='color:#fff' href='dang-nhap'>Đăng nhập</a></li>";
-                		}
-                		?>
-                	</ul>
-                	<ul class="nav navbar navbar-nav pull-right" id="nav2">
-					<li><a class='logi' style='color:#fff' href='#'><i style='margin-right:6px' class='glyphicon glyphicon-earphone'></i>Hot line:  0979.190.303 - 0349.303.368</a></li>
-                		<?php
-                		if($this->session->userdata('sessionKhachHang')){
-                			$name=$this->session->userdata('sessionKhachHang_name');
-                			echo "<li><a class='logi' style='color:#fff' href='#'>Xin chào: $name</a></li>";
-                			echo "<li><a class='logi' style='color:#fff' href='dang-xuat'><i style='margin-right:6px' class='glyphicon glyphicon-log-out'></i><span>Thoát</span></a></a></li>";
-                		}else{
-                			echo "<li><a class='logi' style='color:#fff' href='dang-ky'><i style='margin-right:6px' class='glyphicon glyphicon-log-in'></i><span>Đăng ký</span></a></li>";
-                			echo "<li><a class='logi' style='color:#fff' href='dang-nhap'><i style='margin-right:6px' class='glyphicon glyphicon-user'></i><span>Đăng nhập</span></a></li>";
-                		}
-                		?>
-                	</ul>
-					<ul class="nav navbar navbar-nav pull-left" id="nav2">
-					<li><div style="padding:10px 0px; color:#fff"><i class="glyphicon glyphicon-calendar"></i></div></li>
-					<li><div style="padding:10px 10px 10px 5px; color:#fff" id="runningDay">Ngày</div></li>
-					<li><div style="padding:10px 0px; color:#fff; margin-left:5px"><i class="glyphicon glyphicon-time"></i></div></li>
-					<li><div style="padding:10px 10px 10px 5px; color:#fff" id="runningTime">Giờ</div></li>
-					</ul>
+                <div> <span class="open_search"><i class="fas fa-search"></i> </span></div>
+
+                <div class="search_block">
+                    <div class="search_box animated wow fadeInUp">
+                        <div class="inner">
+                            <input type="text" name="search" id="search" class="search_input" autocomplete="off"
+                                placeholder="Enter Your Keywords.." />
+
+                            <button class="search_icon glyphicon glyphicon-search"><i class="fas fa-search"></i>
+                            </button>
+
+                        </div>
+                    </div>
+                    <div class="search-overlay"></div>
+
+                </div>
+
+                <!-- search input-->
+            </div>
+
+        </div>
+
+        <!--Side Menu Button-->
+        <a href="javascript:void(0)" class="parallax-btn sidemenu_btn" id="sidemenu_toggle">
+            <div class="animated-wrap sidemenu_btn_inner">
+                <div class="animated-element">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
             </div>
-        </div>
+        </a>
     </nav>
-</section>
+
+    <!--Side Nav-->
+    <div class="side-menu">
+        <div class="inner-wrapper">
+            <span class="btn-close link" id="btn_sideNavClose"></span>
+            <nav class="side-nav w-100">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link  scroll" href="/">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  scroll" href="/gioithieu">Thông tin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  scroll" href="#gallery">Thư viện</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  scroll" href="#ourblog">Tin tức</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  scroll" href="#contactus">Liên hệ</a>
+                    </li>
+                    <!-- <li class="nav-item">
+			   <a class="nav-link  scroll" href="#reservation">Reservation</a>
+		   </li> -->
+                </ul>
+            </nav>
+
+            <div class="side-footer text-white w-100">
+                <ul class="social-icons-simple">
+                    <li class="animated-wrap"><a class="animated-element" href="javascript:void(0)"><i
+                                class="fab fa-facebook-f"></i> </a> </li>
+                    <li class="animated-wrap"><a class="animated-element" href="javascript:void(0)"><i
+                                class="fab fa-instagram"></i> </a> </li>
+                    <li class="animated-wrap"><a class="animated-element" href="javascript:void(0)"><i
+                                class="fab fa-twitter"></i> </a> </li>
+                </ul>
+                <p class="text-white">&copy; VNPT</p>
+            </div>
+        </div>
+    </div>
+    <a id="close_side_menu" href="javascript:void(0);"></a>
+    <!-- End side menu -->
 
 
-<script type="text/javascript">
-	$(document).ready(function() {
-		// var dateObj = new Date();
-		// $('#runningDay').html(new Intl.DateTimeFormat(['ban', 'id']).format(dateObj));
-		// $('#runningTime').html(dateObj.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }));
-		setInterval(function() {
-			var dateObj = new Date();
-			$('#runningDay').html(new Intl.DateTimeFormat(['ban', 'id']).format(dateObj));
-			$('#runningTime').html(dateObj.toLocaleTimeString());
-		}, 1000);
-	});
-</script>
+
+</header>

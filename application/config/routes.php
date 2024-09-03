@@ -37,6 +37,7 @@ $route['questions'] = 'lienhe/questions';
 $route['dieukhoanbaohanh'] = 'lienhe/dieukhoanthamgia';
 $route['chinhsachbaomat'] = 'lienhe/chinhsachbaomat';
 $route['coban'] = 'lienhe/coban';
+$route['vanbanphaply'] = 'lienhe/vanbanphaply';
 $route['nangcao'] = 'lienhe/nangcao';
 $route['demhat'] = 'lienhe/demhat';
 $route['doctau'] = 'lienhe/doctau';

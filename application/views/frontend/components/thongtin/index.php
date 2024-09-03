@@ -1,5 +1,5 @@
-<section id="content">
-    <div class="container account" style="margin=top:40px">
+<section id="thong-tin-tk">
+    <div class="container account product-wrap" style="margin=top:40px">
         <aside class="col-right sidebar col-md-3 col-xs-12">
             <div class="block block-account">
                 <div class="general__title">

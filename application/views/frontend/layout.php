@@ -12,9 +12,9 @@
     <title>
         <?php
 		if (isset($title))
-			echo "TEMPO - Cung cấp nhạc cụ và đào tạo các môn nghệ thuật.";
+			echo "Thiên Định Tuệ";
 		else
-			echo "TEMPO - Cung cấp nhạc cụ và đào tạo các môn nghệ thuật.";
+			echo "Thiên Định Tuệ";
 		?>
     </title>
     <link rel="icon" type="image/x-icon" href="public/images/favicon.png">
@@ -33,6 +33,10 @@
     <link href="public/css/animate.css" rel="stylesheet">
     <link href="public/css/animate.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <script src="public/js/jquery-2.2.3.min.js"></script>
     <link rel="icon" href="public/restaurant/img/favicon.ico">
     <!-- Bundle -->
@@ -99,10 +103,22 @@
     <?php
 	$this->load->view('frontend/modules/footer');
 	?>
-    <audio id="myAudio" controls hidden>
-        <source src="<?php echo base_url() ?>public/music/song.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
+    <!--G0 Top-->
+    <div class="go-top"><i class="fas fa-chevron-up"></i><i class="fas fa-chevron-up"></i></div>
+    <a href="https://facebook.com" class="social-button facebook" target="_blank" title="Facebook">
+        <i class="fab fa-facebook-f"></i>
+    </a>
+
+    <!-- Nút Zalo -->
+    <a href="https://zalo.me" class="social-button zalo" target="_blank" title="Zalo">
+        <img src="public/images/zalo.png"></img>
+    </a>
+    <!--End Go Top-->
+
+    <!-- <audio id="myAudio" controls hidden>
+        <source src="<?php echo base_url() ?>public/music/song.mp3" type="audio/mpeg"> -->
+    <!-- Your browser does not support the audio element.
+    </audio> -->
     <script src="public/js/jquery-2.2.3.min.js"></script>
     <script src="public/js/bootstrap.js"></script>
     <script src="public/js/app.min.js"></script>
@@ -149,6 +165,8 @@
     <script src="public/vendor/js/jquery.hoverdir.js"></script>
     <script src="public/vendor/js/jquery-ui.bundle.js"></script>
     <script src="public/vendor/js/flip.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
 
     <!--contact form-->
     <script src="public/vendor/js/contact_us.js"></script>
@@ -157,7 +175,7 @@
     <script src="public/restaurant/js/map.js"></script>
     <script src="public/restaurant/js/script.js"></script>
 
-    <script>
+    <!-- <script>
     function test() {
         var button = document.getElementById("btn_music");
         var icon = document.getElementById("icon");
@@ -170,14 +188,14 @@
             icon.classList.toggle('fa-pause');
         }
     }
-    </script>
-    <btn onclick="test()" id="btn_music" class="music-top"><i id="icon" class="fa fa-music"></i></btn>
+    </script> -->
+    <!-- <btn onclick="test()" id="btn_music" class="music-top"><i id="icon" class="fa fa-music"></i></btn> -->
 
-    <div class='scrolltop icon'>
+    <!-- <div class='scrolltop icon'>
         <a class='facebook' target="_blank" href="https://www.facebook.com/tempogialai">
             <i style="color:#fff" class="fab fa-2x fa-facebook-f"></i>
         </a>
-    </div>
+    </div> -->
     <!-- Messenger Plugin chat Code -->
     <div id="fb-root"></div>
 
@@ -214,6 +232,28 @@
         //
     });
     </script>
+    <script>
+    const swiper = new Swiper('.swiper-container', {
+        slidesPerView: 3, // Hiển thị 3 slide cùng lúc
+        slidesPerGroup: 1, // Mỗi lần chuyển đổi 1 slide
+        spaceBetween: 20, // Khoảng cách giữa các slide
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        loop: true,
+        autoplay: {
+            delay: 3000, // Thay đổi thời gian giữa các slide (3 giây)
+            disableOnInteraction: false, // Cho phép autoplay tiếp tục khi người dùng tương tác
+        },
+    });
+    </script>
+
+
 </body>
 
 </html>

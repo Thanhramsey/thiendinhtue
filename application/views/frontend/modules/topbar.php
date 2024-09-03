@@ -3,7 +3,7 @@
     <!--Navigation-->
     <nav class="navbar navbar-top-default nav-radius navbar-expand-lg">
         <div class="container">
-            <a href="javascript:void(0)" title="Logo" class="logo scroll">
+            <a href="" title="Logo" class="logo">
                 <!--Logo Default-->
                 <img src="public/restaurant/img/logo2.png" alt="logo" class="logo-dark logo-default">
                 <img src="public/restaurant/img/logo2.png" alt="logo" class="logo-light logo-scrolled">
@@ -12,32 +12,63 @@
             <!--Nav Links-->
             <div class="collapse navbar-collapse">
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-link hvr-sweep-to-right" href="">Trang chủ</a>
-                    <a class="nav-link hvr-sweep-to-right" href="gioithieu">Thông tin</a>
+                    <a class="nav-link hvr-underline-from-left" href="">Trang chủ</a>
                     <div class="nav-item">
-                        <a class="nav-link hvr-sweep-to-right" href="#ourmenu">Sản phẩm</a>
+                        <a class="nav-link hvr-underline-from-left" href="">Công ty</a>
                         <div class="sub-menu">
                             <div class="menu-column">
-                                <h4>Trải nghiệm</h4>
-                                <a class="hvr-sweep-to-right" href="#exp1">Trải nghiệm 1</a>
-                                <a class="hvr-sweep-to-right" href="#exp2">Trải nghiệm 2</a>
-                                <a class="hvr-sweep-to-right" href="#exp3">Trải nghiệm 3</a>
-                            </div>
-                            <div class="menu-column">
-                                <h4>Sản phẩm</h4>
-                                <a class="hvr-sweep-to-right" href="#product1">Sản phẩm 1</a>
-                                <a class="hvr-sweep-to-right" href="#product2">Sản phẩm 2</a>
-                                <a class="hvr-sweep-to-right" href="#product3">Sản phẩm 3</a>
+                                <a class="hvr-underline-from-left" href="tin-tuc/gioi-thieu-cong-ty">Giới
+                                    thiệu công ty</a>
+                                <a class="hvr-underline-from-left" href="tin-tuc/thong-bao-tuyen-dung">Tuyển dụng</a>
+                                <a class="hvr-underline-from-left" href="tin-tuc/thong-tin-lien-he">Thông tin liên
+                                    hệ</a>
+                                <a class="hvr-underline-from-left" href="tin-tuc/gioi-thieu-cong-ty">Văn bản pháp lý</a>
+                                <a class="hvr-underline-from-left" href="lien-he">Khiếu nại</a>
                             </div>
                         </div>
                     </div>
-                    <a class="nav-link hvr-sweep-to-right" href="#ourblog">Tin tức</a>
-                    <a class="nav-link hvr-sweep-to-right" href="#contactus">Liên hệ</a>
+                    <div class="nav-item">
+                        <a class="nav-link hvr-underline-from-left" href="san-pham">Sản phẩm</a>
+                        <div class="sub-menu">
+                            <div class="menu-column">
+                                <h4>Trải nghiệm</h4>
+                                <a class="hvr-underline-from-left" href="lien-he">Liên hệ trải nghiệm</a>
+                            </div>
+                            <div class="menu-column">
+                                <h4>Sản phẩm</h4>
+                                <a class="hvr-underline-from-left" href="san-pham">Danh sách sản phẩm</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav-item">
+                        <a class="nav-link hvr-underline-from-left" href="lien-he">Hợp tác</a>
+                        <div class="sub-menu">
+                            <div class="menu-column">
+                                <a class="hvr-underline-from-left" href="lien-he">Liên hệ hợp tác</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="nav-link hvr-underline-from-left" href="tin-tuc">Tin tức</a>
+                    <a class="nav-link hvr-underline-from-left" href="thuvien">Hình ảnh</a>
+                    <a class="nav-link hvr-underline-from-left" href="lien-he">Liên hệ</a>
+                    <div class="nav-item">
+                        <a class="nav-link hvr-underline-from-left" href="#">Tài khoản</a>
+                        <div class="sub-menu">
+                            <div class="menu-column">
+                                <a class="hvr-underline-from-left" href="dang-nhap">Đăng nhập</a>
+                                <a class="hvr-underline-from-left" href="dang-ky">Đăng ký</a>
+                                <a class="hvr-underline-from-left" href="thong-tin-khach-hang.html">Thông tin tài
+                                    khoản</a>
+                                <a class="hvr-underline-from-left" href=" gio-hang.html">Giỏ hàng</a>
+
+                            </div>
+                        </div>
+                    </div>
                     <!-- <a class="nav-link scroll" href="#reservation">Reservation</a> -->
                 </div>
-                <div> <span class="open_search"><i class="fas fa-search"></i> </span></div>
+                <!-- <div> <span class="open_search"><i class="fas fa-search"></i> </span></div> -->
 
-                <div class="search_block">
+                <!-- <div class="search_block">
                     <div class="search_box animated wow fadeInUp">
                         <div class="inner">
                             <input type="text" name="search" id="search" class="search_input" autocomplete="off"
@@ -50,7 +81,7 @@
                     </div>
                     <div class="search-overlay"></div>
 
-                </div>
+                </div> -->
 
                 <!-- search input-->
             </div>
@@ -76,19 +107,22 @@
             <nav class="side-nav w-100">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link  scroll" href="/">Trang chủ</a>
+                        <a class="nav-link  " href="/">Trang chủ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  scroll" href="/gioithieu">Thông tin</a>
+                        <a class="nav-link  " href="/tin-tuc/gioi-thieu-cong-ty">Thông tin</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  scroll" href="#gallery">Thư viện</a>
+                        <a class="nav-link  " href="san-pham">Sản phẩm</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  scroll" href="#ourblog">Tin tức</a>
+                        <a class="nav-link  " href="thu-vien">Thư viện</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  scroll" href="#contactus">Liên hệ</a>
+                        <a class="nav-link  " href="tin-tuc">Tin tức</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  " href="lien-he">Liên hệ</a>
                     </li>
                     <!-- <li class="nav-item">
 			   <a class="nav-link  scroll" href="#reservation">Reservation</a>

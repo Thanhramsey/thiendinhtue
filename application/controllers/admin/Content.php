@@ -53,8 +53,8 @@ class Content extends CI_Controller {
 				'status'=>$_POST['status']
 			);
 			$config['upload_path']= './public/images/posts/';
-            $config['allowed_types']= 'gif|jpg|png';
-            $config['max_size']= 2000;
+            $config['allowed_types']= 'gif|jpg|png|jpeg';
+            $config['max_size']= 5000;
             $this->load->library('upload', $config);
             if ( $this->upload->do_upload('img'))
             {
@@ -100,8 +100,8 @@ class Content extends CI_Controller {
 				'status'=>$_POST['status']
 			);
 			$config['upload_path']= './public/images/posts/';
-            $config['allowed_types']= 'gif|jpg|png';
-            $config['max_size']= 2000;
+            $config['allowed_types']= 'gif|jpg|png|jpeg';
+            $config['max_size']= 5000;
             $this->load->library('upload', $config);
             if ( $this->upload->do_upload('img'))
             {

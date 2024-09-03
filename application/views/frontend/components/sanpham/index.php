@@ -9,16 +9,16 @@
     <div class="slider">
         <div class="container">
             <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 list-menu pull-left">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 list-menu pull-left container-custom">
                     <?php $this->load->view('frontend/modules/category'); ?>
                 </div>
                 <?php $this->load->view('frontend/modules/product-sale'); ?>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 product-content">
-                <div class="product-wrap">
+                <div class="product-wrap container-custom">
                     <div class="collection__title">
                         <h1><span>Tất cả sản phẩm</span></h1>
-                        <div id="sort-by" class="hidden-xs">
+                        <!-- <div id="sort-by" class="hidden-xs">
                             <label class="left hidden-xs" for="sort-select">Sắp xếp theo: </label>
                             <form class="form-inline form-viewpro">
                                 <div class="form-group">
@@ -77,7 +77,7 @@
                             ?>
                                 </div>
                             </form>
-                        </div>
+                        </div> -->
                         <div class="collection-filter" id="list-product">
                             <div class="category-products clearfix">
                                 <div class="products-grid clearfix">

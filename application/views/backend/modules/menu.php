@@ -3,7 +3,7 @@
     <section class="sidebar">
         <ul class="sidebar-menu">
             <!-- quan ly hoc vu -->
-            <li class="header">QUẢN LÝ HỌC VỤ</li>
+            <!-- <li class="header">QUẢN LÝ HỌC VỤ</li>
             <li class="treeview">
                 <a href="admin/diemdanh">
                     <i class="glyphicon glyphicon-apple"></i><span>Quản lý điểm danh</span>
@@ -14,23 +14,14 @@
                     <i class="glyphicon glyphicon-shopping-cart"></i> <span>Quản lý học viên</span>
                 </a>
             </li>
+			<li class="treeview">
+                <a href="admin/hoidap">
+                    <i class="glyphicon glyphicon-question-sign"></i> <span>Hỏi đáp</span>
+                </a>
+            </li> -->
             <?php
 			if ($user['role'] == 1) {
-				echo ' <li class="treeview">
-                <a href="admin/nhanvien">
-                    <i class="glyphicon glyphicon-apple"></i><span>Quản lý nhân viên</span>
-                </a>
-            </li>
-            <li class="treeview">
-            <a href="admin/cahoc">
-                <i class="glyphicon glyphicon-apple"></i><span>Quản lý ca học</span>
-            </a>
-        </li>
-        <li class="treeview">
-            <a href="admin/monhoc">
-                <i class="glyphicon glyphicon-signal"></i> <span>Quản lý môn học</span>
-            </a>
-        </li> <li class="header">QUẢN LÝ CỬA HÀNG</li>
+				echo ' <li class="header">QUẢN LÝ CỬA HÀNG</li>
         <li class="treeview">
             <a href="admin">
                 <i class="glyphicon glyphicon-signal"></i> <span>Thống kê</span>
@@ -48,11 +39,7 @@
         </li>';
 			}
 			?>
-            <li class="treeview">
-                <a href="admin/hoidap">
-                    <i class="glyphicon glyphicon-question-sign"></i> <span>Hỏi đáp</span>
-                </a>
-            </li>
+
             <!-- quan ly hoc vu -->
             <?php
 			if ($user['role'] == 1) {
@@ -81,12 +68,8 @@
 					<a href="admin/customer">
 						<i class="glyphicon glyphicon-user"></i><span>Khách hàng</span>
 					</a>
-				</li>
-				<li class="treeview">
-					<a href="admin/cungcau">
-						<i class="glyphicon glyphicon-grain"></i><span>Kết nối cung cầu</span>
-					</a>
 				</li>';
+			
 
 			}
 			?>
@@ -104,7 +87,7 @@
 			if ($user['role'] == 1) {
 				echo '<li class="treeview">
                 <a href="admin/producer">
-                    <i class="glyphicon glyphicon-globe"></i><span>Địa bàn</span>
+                    <i class="glyphicon glyphicon-globe"></i><span>Doanh Nghiệp</span>
                 </a>
             </li>';
 			}

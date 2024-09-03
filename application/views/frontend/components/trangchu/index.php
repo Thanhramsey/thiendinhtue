@@ -607,74 +607,29 @@
 <section id="ourblog" class="bg-light">
     <div class="container">
 
-        <div class="row align-items-center mb-5">
-            <div class="col-md-6 order-2 wow fadeInRight">
-                <!--Blog Content-->
-                <div class="blog-text blog-right">
-                    <h2>Tiêu đề 1</h2>
-                    <p>Nội dung tiêu đề 1</p>
-                    <a href="public/restaurant/blog-listing.html"
-                        class="btn btn-rounded btn-large btn-green fadeInDown-slide animated  text-uppercase">Xem
-                        Thêm</a>
+        <div class="portfolio-title text-center">
+            <h2 class="grey">Tin tức</h2>
+        </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <?php foreach ($news as $item) :?>
+                <div class="swiper-slide">
+                    <a href="tin-tuc/<?php echo $item['alias']; ?>">
+                        <img style="margin-right:15px" src="public/images/posts/<?php echo $item['img']; ?>">
+                    </a>
+                    <p><?php echo $item['title']; ?></p>
                 </div>
+                <?php endforeach; ?>
+                <!-- Thêm nhiều slide nếu cần -->
             </div>
-            <div class="col-md-6">
-                <!--Blog Image-->
-                <div class="img-hvr">
-                    <div class="date">
-                        <h5 class="m-0">20</h5>
-                        <h5 class="m-0">Feb</h5>
-                        <h5 class="m-0">2020</h5>
-                    </div>
-                </div>
-                <div id="blog-slider" class=" owl-carousel">
-                    <div class="item blog-image wow hover-effect fadeInLeft">
-                        <img src="public/restaurant/img/blog-image1.jpg" alt="image">
-                    </div>
-                    <div class="item blog-image wow hover-effect fadeInLeft">
-                        <img src="public/restaurant/img/blog-image3.jpg" alt="image">
-                    </div>
-                    <div class="item blog-image wow hover-effect fadeInLeft">
-                        <img src="public/restaurant/img/blog-image4.jpg" alt="image">
-                    </div>
-
-                </div>
-            </div>
+            <!-- Thêm pagination nếu cần -->
+            <div class="swiper-pagination"></div>
+            <!-- Thêm navigation nếu cần -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
 
-        <div class="row align-items-center">
-            <div class="col-md-6 order-2 order-md-1 wow fadeInLeft">
-                <!--Blog Content-->
-                <div class="blog-text">
-                    <h2>Tiêu đề 2</h2>
-                    <p>Nội dung tiêu đề 2</p>
-                    <a href="public/restaurant/blog-listing.html"
-                        class="btn btn-rounded btn-large btn-pink fadeInDown-slide animated  text-uppercase">Xem
-                        Thêm</a>
-                </div>
-            </div>
-            <div class="col-md-6 order-md-2">
-                <div class="img-hvr">
-                    <div class="date-2">
-                        <h5 class="m-0">20</h5>
-                        <h5 class="m-0">Feb</h5>
-                        <h5 class="m-0">2020</h5>
-                    </div>
-                </div>
-                <!--Blog Image-->
-                <div id="blog-slider-1" class="owl-carousel">
-                    <div class="item blog-image2 text-right hover-effect wow fadeInRight">
-                        <img src="public/restaurant/img/blog-image2.jpg" alt="image">
-                    </div>
-                    <div class="item blog-image2 text-right hover-effect wow fadeInRight">
-                        <img src="public/restaurant/img/blog-image5.jpg" alt="image">
-                    </div>
-                    <div class="item blog-image2 text-right hover-effect wow fadeInRight">
-                        <img src="public/restaurant/img/blog-image6.jpg" alt="image">
-                    </div>
-                </div>
-            </div>
-        </div>
+
 
     </div>
 </section>

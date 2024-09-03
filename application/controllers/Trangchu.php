@@ -21,6 +21,7 @@ class Trangchu extends CI_Controller {
 		$this->data['option']= 0;
         $this->data['title']='TEMPO';
         $this->data['view']='index';
+        $this->data['news'] = $this->Mcontent->content_get_news(6);
 		$this->load->view('frontend/layout',$this->data);
 	}
 }

@@ -35,15 +35,15 @@
                                             <div class="col-md-12">
                                                 <div class="col-md-4" style="padding-left: 0px;">
                                                     <div class="form-group">
-                                                        <label>Loại hóa đơn<span class="maudo">(*)</span></label>
+                                                        <label>Loại văn bản<span class="maudo">(*)</span></label>
                                                         <select name="typeHd" class="form-control" id="typeHd">
-                                                            <option value="">[--Chọn loại hóa đơn--]</option>
+                                                            <option value="">[--Chọn loại--]</option>
                                                             <option value='1' <?php if ($row['type'] == 1) {
 																echo 'selected';
-															} ?>>Học phí</option>
+															} ?>>Văn bản</option>
                                                             <option value='2' <?php if ($row['type'] == 2) {
 																echo 'selected';
-															} ?>>Bán nhạc cụ</option>
+															} ?>>File</option>
                                                         </select>
                                                         <div class="error" id="password_error">
                                                             <?php echo form_error('typeHd') ?></div>

@@ -1,4 +1,4 @@
-<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 products-sale-off">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 products-sale-off container-custom">
     <div class="widget">
         <p>Sản phẩm khuyến mãi</p>
         <div class="panel-left-body">

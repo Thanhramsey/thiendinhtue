@@ -1,6 +1,6 @@
 <div class="content-wrapper">
     <section class="content-header">
-        <h1><i class="glyphicon glyphicon-book"></i> Danh sách hóa đơn</h1>
+        <h1><i class="glyphicon glyphicon-book"></i> Danh sách văn bản</h1>
         <div class="breadcrumb">
 
             <?php
@@ -48,7 +48,7 @@
                                                 <th class="text-center id-col">id</th>
                                                 <th class="text-center">Hóa đơn</th>
                                                 <th class="text-center">Số hiệu</th>
-                                                <th class="text-center">Loại hóa đơn</th>
+                                                <th class="text-center">Loại </th>
                                                 <th class="text-center">Khách hàng</th>
                                                 <th class="text-center">Download</th>
                                                 <th class="text-center" colspan="2">Thao tác</th>
@@ -61,9 +61,9 @@
                                                 <td><?php echo $row['name'] ?></td>
                                                 <td><?php echo $row['sohieu'] ?></td>
                                                 <td><?php if ($row['type'] = '1' ) : ?>
-                                                    <span> Hóa đơn học phí</span>
+                                                    <span> Văn bản</span>
                                                     <?php elseif ($row['type'] = '2') : ?>
-                                                    <span> Hóa đơn nhạc cụ</span>
+                                                    <span> Files</span>
                                                     <?php endif; ?>
                                                 </td>
                                                 <td>

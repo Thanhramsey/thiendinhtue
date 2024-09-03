@@ -218,7 +218,7 @@ class Giohang extends CI_Controller {
             $this->email->subject('Hệ thống TEMPO ');
             $body = $this->load->view('frontend/modules/email',$data,TRUE);
             $this->email->message($body);
-            $this->email->send();
+            // $this->email->send();
 
             $datax = array('email' => '');
             $idx= $this->session->userdata('id-info-customer');

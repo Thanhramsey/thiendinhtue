@@ -17,4 +17,8 @@ use CKSource\CKFinder\CKFinder;
 
 $ckfinder = new CKFinder(__DIR__ . '/../../../config.php');
 
+// Trong file cấu hình CKFinder (connector.php hoặc tương tự)
+
+
+
 $ckfinder->run();

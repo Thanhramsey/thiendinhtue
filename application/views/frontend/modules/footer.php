@@ -6,7 +6,7 @@
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247803.84326507727!2d107.80477634776497!3d13.96247158169519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x316c1f82022f81a3%3A0x2234918a6e4ab03a!2sPleiku%2C%20Gia%20Lai%2C%20Vietnam!5e0!3m2!1sen!2s!4v1723307582780!5m2!1sen!2s"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123880.22710105272!2d107.60727395455302!3d14.002764008269095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x316c15e27a909b81%3A0xad4e9cf72acd327d!2sIa%20T%C3%B4%2C%20Ia%20Grai%20District%2C%20Gia%20Lai%2C%20Vietnam!5e0!3m2!1sen!2s!4v1725285405402!5m2!1sen!2s"
                         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
@@ -21,9 +21,9 @@
                             <!--title-->
                             <h2 class="mb-4 main-font map-text text-capitalize">Thiên Đinh Tuệ</h2>
                             <!--Address-->
-                            <p class="mb-3">Địa chỉ. </p>
+                            <p class="mb-3">Địa chỉ:Thôn 6, Xã Ia Tô, H.IaGrai, Tỉnh Gia Lai</p>
                             <!--Phone-->
-                            <p class="mb-3">Số điện thoại : 09xxxxxxxxx>
+                            <p class="mb-3">Số điện thoại : 0941497768 - 0333337768>
                             </p>
                             <!--Email-->
                             <p class="mb-3">email : thiendinhtue@gmail.com<br>
@@ -60,11 +60,10 @@
                         </ul>
                     </div>
                     <p class="company-about fadeIn theme-dark text-capitalize">© Bản quyền thuộc <a class="theme-dark"
-                            href="javascript:void(0);">Thien Dinh TUe</a></p>
+                            href="javascript:void(0);">Thiên Định Tuệ</a></p>
                 </div>
             </div>
         </div>
     </section>
-    <div class="go-top"><i class="fas fa-chevron-up"></i><i class="fas fa-chevron-up"></i></div>
 
 </footer>

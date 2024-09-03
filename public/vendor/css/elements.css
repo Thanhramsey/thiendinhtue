@@ -10264,6 +10264,7 @@ section.ui-block-25 {
     font-size: 20px;
     text-transform: initial;
     color: #e02f46;
+;
 }
 
 .ui-block-13.stats .main-title.style-two h2 {
@@ -10321,6 +10322,7 @@ section.ui-block-25 {
 
 .ui-block-13.stats .bar-dark{
     background: #e02f46;
+;
 }
 
 .ui-block-13.stats .bar-light {
@@ -16799,6 +16801,7 @@ section.ui-block-25 {
 
 .ui-block-04.blog .date.date-hvr, .ui-block-04.blog .date-2.date-2-hvr{
     background: #e02f46;
+;
     transition: .3s;
     color: #ffffff;
 }
@@ -16817,7 +16820,8 @@ section.ui-block-25 {
 .ui-block-04.blog .btn.btn-green{background: #84b813; border-color: #84b813; color: #ffffff !important; transition: 1s;}
 .ui-block-04.blog .btn.btn-green:hover{background: #444444 !important; border-color: #444444; color: #ffffff !important; transition: 1s;}
 
-.ui-block-04.blog .btn.btn-pink{color: #ffffff !important; flex: 1 1 auto;background-size: 200% auto; transition: 1s; background: #e02f46;}
+.ui-block-04.blog .btn.btn-pink{color: #ffffff !important; flex: 1 1 auto;background-size: 200% auto; transition: 1s; background: #e02f46;
+;}
 .ui-block-04.blog .btn.btn-pink:hover{background: #84b813 !important; border-color: #84b813; color: #ffffff !important; transition: 1s;}
 
 @media screen and (max-width: 768px){
@@ -24534,6 +24538,7 @@ section.ui-block-25 {
     margin: 0 15px;
     text-align: center;
     background-color: #e02f46;
+;
     padding: 50px 30px;
 }
 
@@ -24651,6 +24656,7 @@ section.ui-block-25 {
 
 .ui-block-15.testimonial-sec .pink {
     color: #e02f46;
+;
 }
 
 .ui-block-15.testimonial-sec .main-font {

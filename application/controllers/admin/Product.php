@@ -209,14 +209,14 @@ class Product extends CI_Controller
 			$config = array();
 			$config['upload_path']   = './public/images/products/';
 			$config['allowed_types'] = 'jpg|png|gif|jpeg';
-			$config['max_size'] = 2000;
+			$config['max_size'] = 5000;
 			$config['encrypt_name'] = TRUE;
 			$name_array = array();
 			$file  = $_FILES['image_list'];
 			$count = count($file['name']);
 			$img = '';
 			$this->load->library('upload', $config);
-			for ($i = 0; $i <= $count - 1; $i++) {
+			for ($i = 0; $i < $count; $i++) {
 				$_FILES['userfile']['name']     = $file['name'][$i];  //khai báo tên của file thứ i
 				$_FILES['userfile']['type']     = $file['type'][$i]; //khai báo kiểu của file thứ i
 				$_FILES['userfile']['tmp_name'] = $file['tmp_name'][$i]; //khai báo đường dẫn tạm của file thứ i
@@ -227,12 +227,14 @@ class Product extends CI_Controller
 					$img .= $data['file_name'] . '#';
 				}
 			}
-			$name_array = explode('#',$img);
-			if(count($name_array)>=4){
+			$name_array = explode('#', trim($img, '#')); 
+			print_r($name_array);
+			print_r($count);
+			if(count($name_array)>= 4){
 				$mydata['img']=$name_array[0];
 				$mydata['img2']=$name_array[1];
 				$mydata['img3']=$name_array[2];
-				$mydata['img4']=$name_array[4];
+				$mydata['img4']=$name_array[3];
 			}else if(count($name_array)==3){
 				$mydata['img']=$name_array[0];
 				$mydata['img2']=$name_array[1];
@@ -240,8 +242,11 @@ class Product extends CI_Controller
 			}else if(count($name_array)==2){
 				$mydata['img']=$name_array[0];
 				$mydata['img2']=$name_array[1];
-			}else{
-				$mydata['img']=$name_array[0];
+			}else if(count($name_array) == 1){
+				$mydata['img'] = $name_array[0];
+			} else {
+				// Không có hình nào được upload
+				$mydata['img'] = null;
 			}
 			$this->load->library('upload', $config);
 			if($this->upload->do_upload('image')){
@@ -249,8 +254,8 @@ class Product extends CI_Controller
 				$mydata['avatar']=$data['file_name'];
 			}
 			$this->Mproduct->product_update($mydata, $id);
-			$this->session->set_flashdata('success', 'Cập nhật sản phẩm thành công');
-			redirect('admin/product', 'refresh');
+			// $this->session->set_flashdata('success', 'Cập nhật sản phẩm thành công');
+			// redirect('admin/product', 'refresh');
 		}
 		$this->data['view'] = 'update';
 		$this->data['title'] = 'Cập nhật sản phẩm';

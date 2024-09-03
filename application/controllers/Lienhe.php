@@ -14,6 +14,7 @@ class Lienhe extends CI_Controller {
 		$this->load->model('backend/Muser');
 		$this->load->model('backend/Mmonhoc');
 		$this->load->model('backend/Mcahoc');
+		$this->load->model('frontend/Mchinhsach');
 		$this->load->model('frontend/Mslider');
 	}
 
@@ -34,6 +35,7 @@ class Lienhe extends CI_Controller {
 				'email'=>$_POST['email'],
 				'phone'=>$_POST['phone'],
 				'title'=>$_POST['title'],
+				'cccd'=>$_POST['cccd'],
 				'content'=>$_POST['content'],
 				'created_at'=> $today
 			);
@@ -68,6 +70,14 @@ class Lienhe extends CI_Controller {
 	{
 		$this->data['title']="TEMPO  - Liên hệ";
 		$this->data['view']='coban';
+		$this->load->view('frontend/layout',$this->data);
+	}
+
+	public function vanbanphaply()
+	{
+		$this->data['title']="TEMPO  - Liên hệ";
+		$this->data['list']= $this->Mchinhsach->chinhsach_all_2();
+		$this->data['view']='vanbanphaply';
 		$this->load->view('frontend/layout',$this->data);
 	}
 	public function nangcao()

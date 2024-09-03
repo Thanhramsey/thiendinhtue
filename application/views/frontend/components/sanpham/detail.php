@@ -18,10 +18,72 @@
                         <li class="product"><?php echo $row['name'] ?></li>
                     </ul>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 listimg-desc-product">
-                    <?php $this->load->view('frontend/modules/jcarousel'); ?>
+                <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 listimg-desc-product  wow fadeIn"
+                    data-wow-duration="1s" data-wow-delay=".3s">
+                    <div class="item-img">
+                        <a href="<?php echo base_url() ?>public/images/products/<?php echo $row['avatar']; ?>"
+                            data-fancybox="images">
+                            <img src="<?php echo base_url() ?>public/images/products/<?php echo $row['avatar']; ?>"
+                                alt="image" style="height:100%;border-radius:20px">
+                        </a>
+                        <div class="row" style="margin-top:10px">
+
+                            <div class="col-md-3 wow fadeIn">
+                                <?php if(!empty($row['img'])) :?>
+                                <a href="<?php echo base_url() ?>public/images/products/<?php echo $row['img']; ?>"
+                                    data-fancybox="images">
+                                    <img src="<?php echo base_url() ?>public/images/products/<?php echo $row['img']; ?>"
+                                        alt="image" style="height:100%;width:100%">
+                                </a>
+                                <?php else: ?>
+                                <!-- <a href="<?php echo base_url() ?>public/images/products/default.png">
+														<img src="<?php echo base_url() ?>public/images/products/default.png?>" alt="image" style="height:100%;width:100%">
+													</a> -->
+                                <?php endif;?>
+                            </div>
+                            <div class="col-md-3 wow fadeIn">
+                                <?php if(!empty($row['img2'])) :?>
+                                <a href="<?php echo base_url() ?>public/images/products/<?php echo $row['img2']; ?>"
+                                    data-fancybox="images">
+                                    <img src="<?php echo base_url() ?>public/images/products/<?php echo $row['img2']; ?>"
+                                        alt="image" style="height:100%;width:100%">
+                                </a>
+                                <?php else: ?>
+                                <!-- <a href="<?php echo base_url() ?>public/images/products/default.png">
+														<img src="<?php echo base_url() ?>public/images/products/default.png?>" alt="image" style="height:100%;width:100%">
+													</a> -->
+                                <?php endif;?>
+                            </div>
+                            <div class="col-md-3 wow fadeIn">
+                                <?php if(!empty($row['img3'])) :?>
+                                <a href="<?php echo base_url() ?>public/images/products/<?php echo $row['img3']; ?>"
+                                    data-fancybox="images">
+                                    <img src="<?php echo base_url() ?>public/images/products/<?php echo $row['img3']; ?>"
+                                        alt="image" style="height:100%;width:100%">
+                                </a>
+                                <?php else: ?>
+                                <!-- <a href="<?php echo base_url() ?>public/images/products/default.png">
+														<img src="<?php echo base_url() ?>public/images/products/default.png?>" alt="image" style="height:100%;width:100%">
+													</a> -->
+                                <?php endif;?>
+                            </div>
+                            <div class="col-md-3 wow fadeIn">
+                                <?php if(!empty($row['img4'])) :?>
+                                <a href="<?php echo base_url() ?>public/images/products/<?php echo $row['img4']; ?>"
+                                    data-fancybox="images">
+                                    <img src="<?php echo base_url() ?>public/images/products/<?php echo $row['img4']; ?>"
+                                        alt="image" style="height:100%;width:100%">
+                                </a>
+                                <?php else: ?>
+                                <!-- <a href="<?php echo base_url() ?>public/images/products/default.png">
+														<img src="<?php echo base_url() ?>public/images/products/default.png?>" alt="image" style="height:100%;width:100%">
+													</a> -->
+                                <?php endif;?>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
                     <div class="product-view-content">
                         <div class="product-view-name">
                             <h1><?php echo $row['name'] ?></h1>
@@ -61,14 +123,6 @@
                             </div>
                             <?php endif; ?>
                         </div>
-                        <!-- <div class="product-status" style="margin-top:0 !important;height: 22px;">
-								<div class="pull-left">
-									<span class="price-label">Doanh nghiệp sản xuất:</span>
-									<a href="<?php echo base_url() ?>doanhngiep/detail/<?php $producer = $this->Muser->user_detail_id_fg($row['userId']);
-																						echo $producer['id'] ?>" title=""><strong><span style="color:red"><?php $producer = $this->Muser->user_detail_id_fg($row['userId']);
-																																																							echo $producer['fullname'] ?></span></strong></a>
-								</div>
-							</div> -->
                         <div class="product-status">
                             <p style=" float: left;margin-right: 10px;">Thương hiệu: <?php $name = $this->Mproducer->diaban_name($row['producer']);
 																							echo $name; ?></p>
@@ -93,6 +147,7 @@
                         <div class="fk-boxs" id="km-all" data-comt="False">
                             <div id="km-detail">
                                 <p class="fk-tit">Khuyến mại đặc biệt (SL có hạn)</p>
+
                                 <div class="fk-main">
                                     <div class="fk-sales">
                                         </ul>
@@ -109,283 +164,15 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div style="margin-top: 20px;">
-								<b>Tình trạng</b>
-								<br>
-								<span>Nguyên hộp. Đầy đủ phụ kiện từ nhà sản xuất, gồm: Sạc, cáp, tai nghe, que lấy SIM, sách hướng dẫn</span>
-							</div>
-							<div style="margin-top: 20px;">
-								<b>Bảo hành</b>
-								<br>
-								<span>Bảo hành 12 tháng tại trung tâm bảo hành Chính hãng. 1 đổi 1 trong 30 ngày nếu có lỗi nhà sản xuất.</span><a href="#" style="color:red"> (Chi tiết)</a>
-							</div> -->
                     </div>
                 </div>
-                <div class="product-v-desc col-md-10 col-12 col-xs-12">
+                <div class="product-v-details col-md-12 col-12 col-xs-12">
                     <h3>Đặc điểm nổi bật</h3>
                     <?php echo $row['detail'] ?>
                 </div>
-                <div class="product-comment product-v-desc">
-                    <h3>Bình luận</h3>
-                    <div class="col-sm-12 col-xs-12 col-md-4 col-lg-4">
-                        <?php if ($star5 == 0) : ?>
-                        <div class="row">
-                            <div class="side">
-                                <div class="star-col">5 ★</div>
-                            </div>
-                            <div class="middle">
-                                <div class="bar-container">
-                                    <div class="bar-5"></div>
-                                </div>
-                            </div>
-                            <div class="side right-ct">
-                                <div>0</div>
-                            </div>
-                        </div>
-                        <?php else : ?>
-                        <div class="row">
-                            <div class="side">
-                                <div class="star-col">5 ★</div>
-                            </div>
-                            <div class="middle">
-                                <div class="bar-container">
-                                    <div class="bar-5"></div>
-                                </div>
-                            </div>
-                            <div class="side right-ct">
-                                <div><?php echo $total5 ?></div>
-                            </div>
-                        </div>
-                        <?php endif; ?>
-
-                        <?php if ($star4 == 0) : ?>
-                        <div class="row">
-                            <div class="side">
-                                <div class="star-col">4 ★</div>
-                            </div>
-                            <div class="middle">
-                                <div class="bar-container">
-                                    <div class="bar-4"></div>
-                                </div>
-                            </div>
-                            <div class="side right-ct">
-                                <div>0</div>
-                            </div>
-                        </div>
-                        <?php else : ?>
-                        <div class="row">
-                            <div class="side">
-                                <div class="star-col">4 ★</div>
-                            </div>
-                            <div class="middle">
-                                <div class="bar-container">
-                                    <div class="bar-4"></div>
-                                </div>
-                            </div>
-                            <div class="side right-ct">
-                                <div><?php echo $total4 ?></div>
-                            </div>
-                        </div>
-                        <?php endif; ?>
-                        <?php if ($star3 == 0) : ?>
-                        <div class="row">
-                            <div class="side">
-                                <div class="star-col">3 ★</div>
-                            </div>
-                            <div class="middle">
-                                <div class="bar-container">
-                                    <div class="bar-3"></div>
-                                </div>
-                            </div>
-                            <div class="side right-ct">
-                                <div>0</div>
-                            </div>
-                        </div>
-                        <?php else : ?>
-                        <div class="row">
-                            <div class="side">
-                                <div class="star-col">3 ★</div>
-                            </div>
-                            <div class="middle">
-                                <div class="bar-container">
-                                    <div class="bar-3"></div>
-                                </div>
-                            </div>
-                            <div class="side right-ct">
-                                <div><?php echo $total3 ?></div>
-                            </div>
-                        </div>
-                        <?php endif; ?>
-                        <?php if ($star2 == 0) : ?>
-                        <div class="row">
-                            <div class="side">
-                                <div class="star-col">2 ★</div>
-                            </div>
-                            <div class="middle">
-                                <div class="bar-container">
-                                    <div class="bar-2"></div>
-                                </div>
-                            </div>
-                            <div class="side right-ct">
-                                <div>0</div>
-                            </div>
-                        </div>
-                        <?php else : ?>
-                        <div class="row">
-                            <div class="side">
-                                <div class="star-col">2★</div>
-                            </div>
-                            <div class="middle">
-                                <div class="bar-container">
-                                    <div class="bar-2"></div>
-                                </div>
-                            </div>
-                            <div class="side right-ct">
-                                <div><?php echo $total2 ?></div>
-                            </div>
-                        </div>
-                        <?php endif; ?>
-                        <?php if ($star1 == 0) : ?>
-                        <div class="row">
-                            <div class="side">
-                                <div class="star-col">1 ★</div>
-                            </div>
-                            <div class="middle">
-                                <div class="bar-container">
-                                    <div class="bar-1"></div>
-                                </div>
-                            </div>
-                            <div class="side right-ct">
-                                <div>0</div>
-                            </div>
-                        </div>
-                        <?php else : ?>
-                        <div class="row">
-                            <div class="side">
-                                <div class="star-col">1 ★</div>
-                            </div>
-                            <div class="middle">
-                                <div class="bar-container">
-                                    <div class="bar-1"></div>
-                                </div>
-                            </div>
-                            <div class="side right-ct">
-                                <div><?php echo $total1 ?></div>
-                            </div>
-                        </div>
-                        <?php endif; ?>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6 rating">
-                    <label>
-                        <input type="radio" name="starsrt" value="1" />
-                        <span class="icon">★</span>
-                    </label>
-                    <label>
-                        <input type="radio" name="starsrt" value="2" />
-                        <span class="icon">★</span>
-                        <span class="icon">★</span>
-                    </label>
-                    <label>
-                        <input type="radio" name="starsrt" value="3" />
-                        <span class="icon">★</span>
-                        <span class="icon">★</span>
-                        <span class="icon">★</span>
-                    </label>
-                    <label>
-                        <input type="radio" name="starsrt" value="4" />
-                        <span class="icon">★</span>
-                        <span class="icon">★</span>
-                        <span class="icon">★</span>
-                        <span class="icon">★</span>
-                    </label>
-                    <label>
-                        <input type="radio" name="starsrt" value="5" />
-                        <span class="icon">★</span>
-                        <span class="icon">★</span>
-                        <span class="icon">★</span>
-                        <span class="icon">★</span>
-                        <span class="icon">★</span>
-                    </label>
-                </div>
-
-                <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12 mg-sp">
-                    <textarea class="textarea-sp" id="commentContent"
-                        placeholder="Mời bạn đánh giá về sản phẩm..."></textarea>
-                </div>
-
-                <!-- <div class="col-sm-12 col-xs-12 col-md-4 col-lg-4 mg-sp">
-						<input type="text" id="nguoi_gui" class="form-control" placeholder="Nhập tên">
-					</div>
-
-					<div class="col-sm-12 col-xs-12 col-md-4 col-lg-4 mg-sp" style="margin-left:20px">
-						<input type="text" id="sdt" class="form-control" placeholder="Nhập Số điện thoại">
-					</div> -->
-
-                <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6">
-                    <?php if ($this->session->userdata('sessionKhachHang')) : ?>
-                    <button class="btn btn-primary" type="button"
-                        onclick="submitComment(<?php echo $row['id'] ?>)">Gửi</button>
-                    <?php else : ?>
-                    <a class="btn btn-primary" data-toggle="tooltip" data-placement="top"
-                        title="Bạn cần đăng nhập để gửi câu hỏi !">Gửi</a>
-                    <?php endif; ?>
-
-                </div>
-
-                <!-- Hiện comment tại đây -->
-                <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
-                    <div class="fb-comments" data-href="<?php echo base_url() ?><?php echo $row['alias'] ?>"
-                        data-numposts="5">
-                        <?php $list_comment = $this->Mevaluate->comment_productid($row['id']); ?>
-                        <?php
-							if (count($list_comment) > 0) : ?>
-                        <?php foreach ($list_comment as $comment) : ?>
-                        <div class="col-12 col-md-12 comment-item"
-                            style="border-top: 2px solid #e6e6e6; margin-top:10px">
-                            <h4><?php echo $comment['user_name'] ?>
-                                &nbsp; &nbsp;
-                                <span class="<?php if ($comment['star'] >= 1) {
-																echo 'fa fa-star';
-															} else {
-																echo 'fa fa-star no';
-															} ?>"></span>
-                                <span class="<?php if ($comment['star'] >= 2) {
-																echo 'fa fa-star';
-															} else {
-																echo 'fa fa-star no';
-															} ?>"></span>
-                                <span class="<?php if ($comment['star'] >= 3) {
-																echo 'fa fa-star';
-															} else {
-																echo 'fa fa-star no';
-															} ?>"></span>
-                                <span class="<?php if ($comment['star'] >= 4) {
-																echo 'fa fa-star';
-															} else {
-																echo 'fa fa-star no';
-															} ?>"></span>
-                                <span class="<?php if ($comment['star'] >= 5) {
-																echo 'fa fa-star';
-															} else {
-																echo 'fa fa-star no';
-															} ?>"></span>
-                                <input type="hidden" name="whatever1" class="rating-value" value="2.56">
-                            </h4>
-                        </div>
-                        <div class="col-12 col-md-12" style="margin-bottom: 10px;">
-                            <span><?php echo $comment['content'] ?> &nbsp; &nbsp;
-                                <?php echo $comment['comment_time'] ?></span>
-                        </div>
-                        <?php endforeach; ?>
-                        <?php else : ?>
-                        <h4>Chưa có bình luận về sản phẩm</h4>
-                        <?php endif; ?>
-                    </div>
-                </div>
         </div>
         <!-- Hỏi đáp -->
-        <div class="product-comment product-v-desc">
+        <!-- <div class="product-comment product-v-desc">
             <h3>Hỏi đáp</h3>
             <div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
                 <textarea class="textarea-sp" id="questionPContent" placeholder="Mời bạn đặt câu hỏi..."></textarea>
@@ -415,7 +202,7 @@
             </div>
             <?php endforeach; ?>
             <?php endif; ?>
-        </div>
+        </div> -->
         <!-- Sản phẩm liên quan -->
         <div class="product-comment product-v-desc product">
             <h3>Sản phẩm liên quan</h3>
@@ -477,6 +264,8 @@
             </form>
 
         </div>
+        <button type="button" id="myModalButton" data-toggle="modal" data-target="#redirectModal" hidden>Open
+            Modal</button>
         <div class="modal fade custom-modal" id="myModal">
             <div class="modal-dialog modal-sm" style="top:100px">
                 <div class="modal-content">
@@ -496,7 +285,8 @@
                 </div><!-- /.modal-content -->
             </div><!-- /.modal-dialog -->
         </div><!-- /.modal -->
-
+        <button type="button" id="redirectButton" data-toggle="modal" data-target="#redirectModal" hidden>Open
+            Modal</button>
         <div class="modal fade custom-modal" id="redirectModal">
             <div class="modal-dialog modal-sm" style="top:100px">
                 <div class="modal-content">
@@ -524,6 +314,7 @@ function reLoad() {
 }
 
 function onAddCart(id) {
+
     var strurl = "<?php echo base_url(); ?>" + '/sanpham/addcart';
 
     var session = "<?php 
@@ -537,9 +328,10 @@ function onAddCart(id) {
 			echo $info;
 		}
 		?>";
-    console.log(session);
     if (session == "") {
-        $('#redirectModal').modal('show');
+        console.log("vào đây");
+        $('#redirectButton').click();
+        // alert("Vui lòng đăng nhập");
     } else {
         jQuery.ajax({
             url: strurl,
@@ -549,7 +341,8 @@ function onAddCart(id) {
                 id: id
             },
             success: function(data) {
-                $('#myModal').modal('show');
+                // $('#myModal').modal('show');
+                $('#myModalButton').click();
             }
         });
     }

@@ -105,7 +105,7 @@
 	?>
     <!--G0 Top-->
     <div class="go-top"><i class="fas fa-chevron-up"></i><i class="fas fa-chevron-up"></i></div>
-    <a href="https://facebook.com" class="social-button facebook" target="_blank" title="Facebook">
+    <a href="https://facebook.com" class="social-button facebook text-white" target="_blank" title="Facebook">
         <i class="fab fa-facebook-f"></i>
     </a>
 

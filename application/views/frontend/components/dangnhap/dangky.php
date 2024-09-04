@@ -3,7 +3,7 @@
     <div class="container" style="background-color: #fafdff;border-radius: 20px;">
         <div class="col-md-3 col-sm-3 hidden-xs"></div>
         <div class="col-md-6 col-sm-6 col-xs-12">
-            <div class="products-wrap">
+            <div class="product-wrap">
                 <div class="accordion accordion-lg divcenter nobottommargin clearfix" style="max-width: 650px;">
                     <div id="register">
                         <div class="row">

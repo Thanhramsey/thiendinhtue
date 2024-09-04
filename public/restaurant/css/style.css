@@ -167,6 +167,26 @@ body {
     padding: 15px;
 
   }
+
+  .navbar .container{
+    padding-top: 0px;
+  }
+
+  .container{
+    padding-top: 40px;
+  }
+
+  .modal-header{
+    background: #004063;
+    color: #fff;
+  }
+
+  .modal-body{
+    padding: 20px 10px;
+  }
+  .modal-body p{
+    color: #000;
+  }
   
   .container-custom {
     background-color: #ffffff; /* Nền trắng để nổi bật */
@@ -183,7 +203,7 @@ body {
   /* SSản phẩm */
   /* Căn chỉnh và bố cục tổng thể */
 .collection-filter {
-    padding: 20px;
+    padding: 20px 0px;
     background-color: #f8f9fa;
     border-radius: 10px;
   }
@@ -196,7 +216,7 @@ body {
   
   /* Tùy chỉnh từng box sản phẩm */
   .detail-box {
-    flex: 1 1 calc(33.333% - 15px); /* Đảm bảo 3 sản phẩm trên mỗi hàng */
+    flex: 1 1 calc(50% - 15px); /* Đảm bảo 3 sản phẩm trên mỗi hàng */
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -3876,6 +3896,7 @@ Go Top CSS
     transition: .9s;
     -webkit-transform: translateY(150px);
     transform: translateY(150px);
+    border-radius: 10px;
 }
 
 .go-top.active {
@@ -3922,6 +3943,7 @@ Go Top CSS
 
 .go-top:hover, .go-top:focus {
     color: #ffffff;
+    border-radius: 10px;
 }
 
 .go-top:hover::before, .go-top:focus::before {

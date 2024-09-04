@@ -8,7 +8,7 @@
 	</div> -->
     <div class="slider">
         <div class="container">
-            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3" style="padding-top: 20px;">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 list-menu pull-left container-custom">
                     <?php $this->load->view('frontend/modules/category'); ?>
                 </div>
@@ -80,12 +80,12 @@
                         </div> -->
                         <div class="collection-filter" id="list-product">
                             <div class="category-products clearfix">
-                                <div class="products-grid clearfix">
+                                <div class="products-grid clearfix row">
                                     <?php if(count($list)==0): ?>
                                     <p>Không có sản phẩm !</p>
                                     <?php else : ?>
                                     <?php foreach ($list as $sp) :?>
-                                    <div class="col-md-4 col-lg-4 col-xs-6 col-12 detail-box">
+                                    <div class="col-md-6 col-lg-6 col-xs-6 col-12 detail-box">
                                         <div class="product-lt  hvr-pulse-shrink">
                                             <div class="lt-product-group-image">
                                                 <a id="zoomOut" href="<?php echo $sp['alias'] ?>"

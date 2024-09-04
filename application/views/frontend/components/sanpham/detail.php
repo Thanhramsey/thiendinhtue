@@ -1,6 +1,6 @@
 <section id="product-detail">
     <div class="container">
-        <div class="products-wrap">
+        <div class="product-wrap">
             <form action="" method="post" id="ProductDetailsForm">
                 <?php if ($row) : ?>
                 <div class="breadcrumbs">
@@ -114,7 +114,9 @@
                         <div class="product-view-price">
                             <div class="pull-left">
                                 <span class="price-label">Giá bán:</span>
-                                <span class="price"><?php echo number_format($row['price_sale']) ?>₫</span>
+                                <!-- <span class="price"><?php echo number_format($row['price_sale']) ?>₫</span> -->
+                                <span class="price"> <?php if ($row['price_sale']  == 0) echo 'Liên hệ';
+													else echo number_format($row['price_sale']) ?></p>
                             </div>
                             <?php if ($row['price_sale'] > 0 && $row['sale'] > 0) : ?>
                             <div class="product-view-price-old">
@@ -264,15 +266,15 @@
             </form>
 
         </div>
-        <button type="button" id="myModalButton" data-toggle="modal" data-target="#redirectModal" hidden>Open
+        <button type="button" id="myModalButton" data-toggle="modal" data-target="#myModal" hidden>Open
             Modal</button>
         <div class="modal fade custom-modal" id="myModal">
-            <div class="modal-dialog modal-sm" style="top:100px">
+            <div class="modal-dialog modal-md" style="top:100px">
                 <div class="modal-content">
                     <div class="modal-header">
+                        <h4 class="modal-title">Thông báo</h4>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
                                 aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title">Thông báo</h4>
                     </div>
                     <div class="modal-body">
                         <strong>
@@ -280,7 +282,7 @@
                     </div>
                     <div class="modal-footer">
                         <a type="button" class="btn btn-default" href="gio-hang">Đến giỏ hàng</a>
-                        <a type="button" class="btn btn-default" href="san-pham">Tiếp tục mua hàng</a>
+                        <a type="button" class="btn btn-danger" href="san-pham">Tiếp tục mua hàng</a>
                     </div>
                 </div><!-- /.modal-content -->
             </div><!-- /.modal-dialog -->
@@ -288,19 +290,21 @@
         <button type="button" id="redirectButton" data-toggle="modal" data-target="#redirectModal" hidden>Open
             Modal</button>
         <div class="modal fade custom-modal" id="redirectModal">
-            <div class="modal-dialog modal-sm" style="top:100px">
+            <div class="modal-dialog modal-md" style="top:100px">
                 <div class="modal-content">
                     <div class="modal-header">
+                        <h4 class="modal-title">Thông báo</h4>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
                                 aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title">Thông báo</h4>
                     </div>
                     <div class="modal-body">
                         <strong>
                             <p id="modalContent">Vui lòng đăng nhập để thêm sản phẩm vào giỏ hàng&hellip;</p>
                     </div>
                     <div class="modal-footer">
-                        <a type="button" class="btn btn-default" href="dang-nhap">Ok</a>
+                        <a type="button" class="btn btn-default" href="dang-nhap">Đăng nhập</a>
+                        <button type="button" class="btn btn-default" data-dismiss="modal" aria-label="Close"
+                            style="margin-bottom:10px">Đóng</button>
                     </div>
                 </div><!-- /.modal-content -->
             </div><!-- /.modal-dialog -->

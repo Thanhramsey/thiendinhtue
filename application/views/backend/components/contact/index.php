@@ -6,6 +6,9 @@
 			<a class="btn btn-primary btn-sm" href="<?php echo base_url()?>admin/contact/recyclebin" role="button">
 				<span class="glyphicon glyphicon-trash"></span> Thùng rác(<?php $total=$this->Mcontact->contact_trash_count(); echo $total; ?>)
 			</a>
+			<a class="btn btn-success btn-sm" href="<?= base_url('export-excel') ?>" role="button">
+				<span class="glyphicon glyphicon-circle-arrow-down"></span> Tải Excel
+			</a>	
 		</div>
 	</section>
 	<!-- Main content -->

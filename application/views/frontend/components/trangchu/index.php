@@ -421,71 +421,19 @@
                         <p></p>
                     </div>
                 </div>
-                <!-- <div class="pointer nav nav-pills mb-4 mb-md-4 d-flex justify-content-center filtering">
-                        <span data-filter="*" class="nav-link active">All</span>
-                        <span class="nav-link" data-filter=".surgery">Coffe</span>
-                        <span class="nav-link" data-filter=".clinical">Trà</span>
-                        <span class="nav-link" data-filter=".operations">Loại sản phẩm 1 </span>
-                        <span class="nav-link" data-filter=".patients">Loại sản phẩm 2</span>
-                    </div> -->
-
                 <ul class="da-thumbs gallery">
-                    <li class="items surgery operations">
-                        <img src="public/restaurant/img/portfolio-1.jpg" alt="img">
+                    
+                    <?php foreach ($sanpham as $item) :?>
+                        <li class="items surgery operations">
+                        <img src="public/images/products/<?php echo $item['avatar']; ?>" alt="img">
                         <div class="overlay">
-                            <a href="public/restaurant/img/portfolio-1.jpg" class="text-center" data-fancybox="images">
-                                <div class="search-icon"><i class="fa fa-search"></i> </div>
-                                <h4 class="">Sản phẩm 1</h4>
+                            <a href="public/images/products/<?php echo $item['avatar']; ?>" class="text-center" data-fancybox="images">
+                                <div class="search-icon"><i class="fa fa-image"></i> </div>
+                                <h4 class=""><?php echo $item['name']; ?></h4>
                             </a>
                         </div>
                     </li>
-                    <li class="items clinical patients">
-                        <img src="public/restaurant/img/portfolio-2.jpg" alt="img">
-                        <div class="overlay">
-                            <a href="public/restaurant/img/portfolio-2.jpg" class="text-center" data-fancybox="images">
-                                <div class="search-icon"><i class="fa fa-search"></i> </div>
-                                <h4 class="">Sản phẩm 2</h4>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="items operations clinical">
-                        <img src="public/restaurant/img/portfolio-3.jpg" alt="img">
-                        <div class="overlay">
-                            <a href="public/restaurant/img/portfolio-3.jpg" class="text-center" data-fancybox="images">
-                                <div class="search-icon"><i class="fa fa-search"></i> </div>
-                                <h4 class="">Sản phẩm 3</h4>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="items patients operations">
-                        <img src="public/restaurant/img/portfolio-4.jpg" alt="img">
-                        <div class="overlay">
-                            <a href="public/restaurant/img/portfolio-4.jpg" class="text-center" data-fancybox="images">
-                                <div class="search-icon"><i class="fa fa-search"></i> </div>
-                                <h4 class="">Sản phẩm 4</h4>
-                            </a>
-                        </div>
-                    </li>
-
-                    <li class="items surgery patients">
-                        <img src="public/restaurant/img/portfolio-5.jpg" alt="img">
-                        <div class="overlay">
-                            <a href="public/restaurant/img/portfolio-5.jpg" class="text-center" data-fancybox="images">
-                                <div class="search-icon"><i class="fa fa-search"></i> </div>
-                                <h4 class="">Sản phẩm 5</h4>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="items clinical surgery">
-
-                        <img src="public/restaurant/img/portfolio-6.jpg" alt="img">
-                        <div class="overlay">
-                            <a href="public/restaurant/img/portfolio-6.jpg" class="text-center" data-fancybox="images">
-                                <div class="search-icon"><i class="fa fa-search"></i> </div>
-                                <h4 class="">Sản phẩm 6</h4>
-                            </a>
-                        </div>
-                    </li>
+                    <?php endforeach; ?>
 
                 </ul>
             </div>
@@ -507,6 +455,7 @@
                 </div>
             </div>
         </div>
+        
 
         <div class="row">
             <div id="testimonial_slider" class="owl-carousel">
@@ -628,8 +577,5 @@
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
         </div>
-
-
-
     </div>
 </section>

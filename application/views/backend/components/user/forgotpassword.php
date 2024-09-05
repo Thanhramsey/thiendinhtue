@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Hệ thống quản lý OCCP- </title>
-        <link rel="shortcut icon" href="public/images/templates/favicon.png" />
+        <link rel="shortcut icon" href="public/images/favicon.ico" />
 		<link rel="stylesheet" href="public/css/bootstrap.css">
 		<link rel="stylesheet" href="public/css/login.css">
 		<link rel="stylesheet" href="public/css/font-awesome.min.css">

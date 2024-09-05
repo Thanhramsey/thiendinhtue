@@ -70,5 +70,14 @@ class Mcontact extends CI_Model {
         $this->db->where('id',$id);
         $this->db->delete($this->table);
     }
+
+    public function contact_all_2()
+    {
+        $this->db->where('trash', 1);
+        $this->db->order_by('id', 'desc');
+        $query = $this->db->get($this->table);
+        return $query->result(); // Trả về kết quả dạng đối tượng
+    }
+    
     
 }

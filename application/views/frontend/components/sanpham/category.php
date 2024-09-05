@@ -82,18 +82,18 @@
                         </div>
                         <div class="collection-filter" id="list-product">
                             <div class="category-products clearfix">
-                                <div class="products-grid clearfix">
+                                <div class="products-grid clearfix row">
                                     <?php if(count($list)==0): ?>
-                                    <p class="no-products"> Danh mục hiện chưa có sản phẩm nào !</p>
+                                    <p>Không có sản phẩm !</p>
                                     <?php else : ?>
                                     <?php foreach ($list as $sp) :?>
-                                    <div class="col-md-4 col-lg-4 col-xs-6 col-6 detail-box">
+                                    <div class="col-md-6 col-lg-6 col-xs-6 col-12 detail-box">
                                         <div class="product-lt  hvr-pulse-shrink">
                                             <div class="lt-product-group-image">
                                                 <a id="zoomOut" href="<?php echo $sp['alias'] ?>"
                                                     title="<?php echo $sp['name'] ?>">
                                                     <figure>
-                                                        <img class="img-p"
+                                                        <img class="img-sp"
                                                             src="public/images/products/<?php echo $sp['avatar'] ?>"
                                                             alt="">
                                                     </figure>
@@ -107,69 +107,67 @@
                                                 <?php endif; ?>
                                             </div>
 
-                                            <div class="lt-product-group-info">
-                                                <a href="<?php echo $sp['alias'] ?>" title="<?php echo $sp['name'] ?>">
-                                                    <h3><?php echo $sp['name'] ?></h3>
-                                                </a>
-                                                <div>
-                                                    <div class="lt-product-star-3">
-                                                        <?php if ($sp["star"] <= 1 ) : ?>
-                                                        <span class="fa fa-star"></span>
-                                                        <?php elseif ($sp["star"] > 1 && $sp["star"] <= 2) : ?>
-                                                        <span class="fa fa-star"></span>
-                                                        <span class="fa fa-star"></span>
-                                                        <?php elseif ($sp["star"] > 2 && $sp["star"] <= 3) : ?>
-                                                        <span class="fa fa-star"></span>
-                                                        <span class="fa fa-star"></span>
-                                                        <span class="fa fa-star"></span>
-                                                        <?php elseif ($sp["star"] > 3 && $sp["star"] <= 4) : ?>
-                                                        <span class="fa fa-star"></span>
-                                                        <span class="fa fa-star"></span>
-                                                        <span class="fa fa-star"></span>
-                                                        <span class="fa fa-star"></span>
-                                                        <?php elseif ($sp["star"] > 4 && $sp["star"] <= 5) : ?>
-                                                        <span class="fa fa-star"></span>
-                                                        <span class="fa fa-star"></span>
-                                                        <span class="fa fa-star"></span>
-                                                        <span class="fa fa-star"></span>
-                                                        <span class="fa fa-star"></span>
-                                                        <?php endif; ?>
-                                                        <span class="sell_num">| Đã bán
-                                                            <?php echo(number_format($sp['number_buy'])); ?></span>
-                                                    </div>
+                                            <a href="<?php echo $sp['alias'] ?>" title="<?php echo $sp['name'] ?>">
+                                                <h5><?php echo $sp['name'] ?></h5>
+                                            </a>
+                                            <div>
+                                                <div class="lt-product-star-3">
+                                                    <?php if ($sp["star"] <= 1 ) : ?>
+                                                    <span class="fa fa-star"></span>
+                                                    <?php elseif ($sp["star"] > 1 && $sp["star"] <= 2) : ?>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <?php elseif ($sp["star"] > 2 && $sp["star"] <= 3) : ?>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <?php elseif ($sp["star"] > 3 && $sp["star"] <= 4) : ?>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <?php elseif ($sp["star"] > 4 && $sp["star"] <= 5) : ?>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <?php endif; ?>
+                                                    <span class="sell_num">| Đã bán
+                                                        <?php echo(number_format($sp['number_buy'])); ?></span>
                                                 </div>
-                                                <div class="price-box">
-                                                    <?php if($sp['sale'] > 0) :?>
-
-                                                    <p class="old-price">
-                                                        <span
-                                                            class="price"><?php echo(number_format($sp['price'])); ?>₫</span>
-                                                    </p>
-                                                    <p class="special-price">
-                                                        <span
-                                                            class="price"><?php echo(number_format($sp['price_sale'])); ?>₫</span>
-                                                    </p>
-                                                    <?php else: ?>
-                                                    <!-- <p class="old-price">
-                                                        <span class="price" style="color: #fff"><?php echo(number_format($sp['price'])); ?>₫</span>
-                                                    </p> -->
-                                                    <p class="special-price">
-                                                        <span
-                                                            class="price"><?php echo(number_format($sp['price'])); ?>₫</span>
-                                                    </p>
-                                                    <?php endif;?>
-                                                </div>
-                                                <!-- <div class="lienhe">
+                                            </div>
+                                            <div class="price-box">
+                                                <?php if($sp['sale'] > 0) :?>
+                                                <p class="old-price">
+                                                    <span
+                                                        class="price"><?php echo(number_format($sp['price'])); ?>₫</span>
+                                                </p>
+                                                <p class="special-price">
+                                                    <span
+                                                        class="price"><?php echo(number_format($sp['price_sale'])); ?>₫</span>
+                                                </p>
+                                                <?php else: ?>
+                                                <!-- <p class="old-price">
+														<span class="price" style="color: #fff"><?php echo(number_format($sp['price'])); ?>₫</span>
+													</p> -->
+                                                <p class="special-price">
+                                                <span class="price"> <?php if ($sp['price_sale']  == 0) echo 'Liên hệ';
+                                                        else echo number_format($sp['price_sale']) ?></span>
+                                                </p>
+                                                <?php endif;?>
+                                            </div>
+                                            <!-- <div class="lienhe">
 													<a href="<?php echo base_url() ?>doanhngiep/detail/<?php $producer = $this->Muser->user_detail_id_fg($sp['userId']);echo $producer['id'] ?>" title="">
 														<h3>Liên hệ</h3>
 													</a>
 												</div> -->
-                                                <div class="clear"></div>
-                                            </div>
+                                            <div class="clear"></div>
                                         </div>
                                     </div>
                                     <?php endforeach; ?>
                                 </div>
+
                                 <div class="text-center pull-right">
                                     <ul class="pagination">
                                         <?php echo $strphantrang; ?>

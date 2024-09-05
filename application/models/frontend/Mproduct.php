@@ -258,4 +258,13 @@ class Mproduct extends CI_Model {
 		$this->db->update($this->table, $mydata);
 	}
 
+    public function content_get_news($limit){
+        $this->db->where('status',1);
+        $this->db->where('trash',1);
+        $this->db->limit($limit);
+        $this->db->order_by('created', 'desc');
+        $query=$this->db->get($this->table);
+        return $query->result_array();
+    }
+
 }

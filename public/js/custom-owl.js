@@ -11,6 +11,19 @@ $('.owl-carousel-slider').owlCarousel({
     items: 1,
     dots: true
 })
+
+$('.owl-carousel-img').owlCarousel({
+    loop: true,
+    margin: 10,
+    autoplay: true,
+    nav: false,
+    navigation: false,
+    autoplayTimeout: 3000,
+    smartSpeed: 2500,
+	animateIn: 'fadeIn',
+	animateOut:'fadeOut',
+    dots: false
+})
 $('.owl-carousel-product').owlCarousel({
     loop: true,
     margin: 10,

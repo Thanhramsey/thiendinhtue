@@ -7,10 +7,10 @@
             <form action="" method="post" id="cartformpage">
                 <div class="cart-index">
                     <h2>Chi tiết giỏ hàng</h2>
-                    <div class="tbody text-center">
+                    <div class="row text-center">
                         <div class="col-xs-12 col-12 col-sm-12 col-md-8 col-lg-8">
 
-                            <table class="table table-list-product">
+                            <table class="table table-list-product" style="margin-top: 20px;">
 
                                 <thead>
                                     <tr style="background: #f3f3f3;">
@@ -76,7 +76,7 @@
                                 </tbody>
                             </table>
                             <button class="btn" onclick="window.location.href='san-pham'"> <a
-                                    href="<?php echo base_url() ?>san-pham">Tiếp tục mua hàng</a></button>
+                                    href="<?php echo base_url() ?>san-pham" class="text-white">Tiếp tục mua hàng</a></button>
                         </div>
                         <?php $total = 0; ?>
                         <?php foreach ($cart as $key => $value) :

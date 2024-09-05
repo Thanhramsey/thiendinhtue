@@ -15,6 +15,14 @@ body {
     
 }
 
+
+.surgery.operations img{
+max-height: 275px;
+}
+
+.swiper-pagination-bullets {
+    display: none;
+}
 .alt-font {    font-family: 'Roboto', sans-serif;}
 .main-font {   font-family: 'Baloo Bhai', cursive;}
 
@@ -204,7 +212,7 @@ body {
   /* Căn chỉnh và bố cục tổng thể */
 .collection-filter {
     padding: 20px 0px;
-    background-color: #f8f9fa;
+    /* background-color: #f8f9fa; */
     border-radius: 10px;
   }
   .products-grid {
@@ -237,6 +245,7 @@ body {
     width: 100%;
     height: auto;
     object-fit: contain; /* Đảm bảo hình ảnh không bị méo */
+    max-height: 150px;
   }
   
   .product-lt:hover .lt-product-group-image img {
@@ -541,13 +550,8 @@ body {
 
 /* comment */
 .product-v-details {
-    font-family: 'Arial', sans-serif; /* Font chữ cơ bản */
-    background-color: #f9f9f9; /* Màu nền nhẹ nhàng */
-    padding: 20px; /* Khoảng cách bên trong */
-    border-radius: 8px; /* Bo tròn góc */
-    border: 1px solid #ddd; /* Đường viền nhẹ */
+    padding: 30px 20px; /* Khoảng cách bên trong */
     margin-bottom: 20px; /* Khoảng cách dưới mỗi phần */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
   }
   
   .product-v-details h3 {
@@ -2290,6 +2294,7 @@ input, select, textarea {margin :0;}
     background: #fff; /* Đặt nền cho tiêu đề nếu cần */
     padding: 5px; /* Thêm khoảng đệm cho tiêu đề */
     width: 100%; /* Chiếm toàn bộ chiều rộng của slide */
+    border-radius:5px ;
   }
 
 /*-------------------------

@@ -45,6 +45,7 @@ $route['thuvien'] = 'lienhe/thuvien';
 $route['thuvien/(:num)'] = 'lienhe/thuvien/$1';
 $route['ketnoicungcau'] = 'ketnoicungcau/index';
 $route['ketnoicungcau/timkiem'] = 'ketnoicungcau/timkiem';
+$route['export-excel'] = 'admin/contact/exportExcel';
 
 $route['lichhoc'] = 'lichhoc/index';
 

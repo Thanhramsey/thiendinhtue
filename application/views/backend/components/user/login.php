@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hệ thống quản lý OCCP- </title>
-    <link rel="shortcut icon" href="public/images/templates/favicon.png" />
+    <link rel="shortcut icon" href="public/images/favicon.ico" />
     <link rel="stylesheet" href="public/css/bootstrap.css">
     <link rel="stylesheet" href="public/css/login.css">
     <link rel="stylesheet" href="public/css/font-awesome.min.css">
@@ -53,7 +53,7 @@
                     <ul class="pull-left" style="padding-left:15px">
                         <li><a href="gianhang/forgotpassword" class="fright">Quên mật khẩu?</a></li>
                         <li><a href="gianhang/insert" class="fright">Người dùng mới? Đăng ký tài khoản</a></li>
-                        <li><a href="#" class="fright">Về trang web TEMPO</a></li>
+                        <li><a href="#" class="fright">Về trang web</a></li>
                     </ul>
                 </div>
             </form>
@@ -61,7 +61,7 @@
     </div>
     <nav class="navbar navbar-fixed-bottom" role="navigation">
         <div class="container">
-            <h5 class="text-center">Copyright © 2022 <a href="#" style="color:red">COOP </a>. All rights reserved.</h5>
+            <h5 class="text-center">Copyright © <a href="#" style="color:red">Thiên Định Tuệ </a>. All rights reserved.</h5>
         </div>
     </nav>
     <!-- jQuery -->

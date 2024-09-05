@@ -24,7 +24,7 @@ date_default_timezone_set("Asia/Ho_Chi_Minh");
 |
 */
 $config['base_url'] = 'http://localhost:8080/thiendinhtue/';
-// $config['base_url'] = 'https://tempocenter.000webhostapp.com/';
+// $config['base_url'] = 'https://thiendinhtue.com.vn';
 
 /*
 |--------------------------------------------------------------------------
@@ -37,7 +37,6 @@ $config['base_url'] = 'http://localhost:8080/thiendinhtue/';
 |
 */
 $config['index_page'] = '';
-
 /*
 |--------------------------------------------------------------------------
 | URI PROTOCOL

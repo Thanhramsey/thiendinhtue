@@ -102,7 +102,7 @@ class Lienhe extends CI_Controller {
 	public function thuvien()
 	{
 		$this->load->library('phantrang');
-        $limit=12;
+        $limit=6;
         $current=$this->phantrang->PageCurrent();
         $first=$this->phantrang->PageFirst($limit, $current);
         $total=$this->Mslider->list_img_class_count("","");

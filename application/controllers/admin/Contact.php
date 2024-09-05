@@ -1,5 +1,7 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-
+require 'vendor/autoload.php';
+use PhpOffice\PhpSpreadsheet\Spreadsheet;
+use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 class Contact extends CI_Controller {
 
 	public function __construct(){
@@ -76,6 +78,46 @@ class Contact extends CI_Controller {
 		$this->session->set_flashdata('success', 'Khôi phục thành công');
 		redirect('admin/contact/recyclebin','refresh');
 	}
+
+	public function exportExcel() {
+		// Tạo đối tượng Spreadsheet
+		$spreadsheet = new \PhpOffice\PhpSpreadsheet\Spreadsheet();
+		$sheet = $spreadsheet->getActiveSheet();
+	
+			// Thiết lập tiêu đề cột
+			$sheet->setCellValue('A1', 'Tên');
+			$sheet->setCellValue('B1', 'Số cccd');
+			$sheet->setCellValue('C1', 'SĐT');
+			$sheet->setCellValue('D1', 'Email');
+			$sheet->setCellValue('E1', 'Nội dung');
+		
+			// Lấy dữ liệu từ Model
+			$data = $this->Mcontact->contact_all_2();
+		
+			// Điền dữ liệu vào bảng
+			$rowNumber = 2; // Dòng bắt đầu điền dữ liệu
+			foreach ($data as $row) {
+				$sheet->setCellValue('A' . $rowNumber, $row->title); // Sử dụng ->title thay vì ['title']
+				$sheet->setCellValue('B' . $rowNumber, $row->cccd); // Sử dụng ->phone thay vì ['phone']
+				$sheet->setCellValue('C' . $rowNumber, $row->phone); // Sử dụng ->phone thay vì ['phone']
+				$sheet->setCellValue('D' . $rowNumber, $row->email); // Sử dụng ->email thay vì ['email']
+				$sheet->setCellValue('E' . $rowNumber, $row->content); // Sử dụng ->content thay vì ['content']
+				$rowNumber++;
+			}
+	
+		// Đặt tên file và loại file để xuất ra
+		$filename = 'contacts.xlsx';
+	
+		// Xuất file Excel
+		$writer = new \PhpOffice\PhpSpreadsheet\Writer\Xlsx($spreadsheet);
+		
+		header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+		header('Content-Disposition: attachment;filename="' . $filename . '"');
+		header('Cache-Control: max-age=0');
+	
+		$writer->save('php://output');
+		exit;
+	}	
 
 
 }

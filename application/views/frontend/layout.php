@@ -17,7 +17,7 @@
 			echo "Thiên Định Tuệ";
 		?>
     </title>
-    <link rel="icon" type="image/x-icon" href="public/images/favicon.png">
+    <link rel="icon" type="image/x-icon" href="public/images/favicon.ico">
     <link href="public/css/bootstrap.css" rel="stylesheet">
     <link href="public/css/fontawesome.css" rel="stylesheet">
     <link href="public/css/lte.css" rel="stylesheet">

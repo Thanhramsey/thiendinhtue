@@ -14,11 +14,84 @@ body {
     font-family: 'GoogleSans Bold,Arial,sans-serif';
     
 }
+.fileModal {
+    z-index: 10500 !important; /* Ensure the modal is on top */
+}
+.fileModal .modal-backdrop {
+    z-index: 10499 !important; /* Ensure backdrop is below modal */
+}
+  /* Adjust modal dialog to increase its height */
+.fileModal .modal-dialog {
+    /* Set a custom height */
+    height: 80%; /* You can adjust this value */
+}
+
+/* Ensure the modal content fits the dialog */
+.fileModal .modal-content {
+    height: 100%; /* Fill the dialog height */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Adjust the modal body to take remaining space */
+.fileModal .modal-body {
+    flex: 1;
+    overflow: auto;
+}
+
 
 .tb-vanban th{
     border: 1px solid #dddddd;
     background-color: #0056b3;
     color: #ffffff
+}
+/* Style cho Switch Button */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider-tb {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider-tb:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider-tb {
+    background-color: #4CAF50;
+}
+
+input:checked + .slider-tb:before {
+    transform: translateX(26px);
+}
+.toggle-wrapper{
+    text-align: end;
 }
 
 

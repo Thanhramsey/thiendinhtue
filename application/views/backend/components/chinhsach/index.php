@@ -60,9 +60,9 @@
                                                 <td class="text-center id-col"><?php echo $row['id'] ?></td>
                                                 <td><?php echo $row['name'] ?></td>
                                                 <td><?php echo $row['sohieu'] ?></td>
-                                                <td><?php if ($row['type'] = '1' ) : ?>
-                                                    <span> Văn bản</span>
-                                                    <?php elseif ($row['type'] = '2') : ?>
+                                                <td><?php if ($row['type'] == '1' ) : ?>
+                                                    <span> Ảnh</span>
+                                                    <?php elseif ($row['type'] == '2') : ?>
                                                     <span> Files</span>
                                                     <?php endif; ?>
                                                 </td>

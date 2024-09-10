@@ -252,6 +252,29 @@
         },
     });
     </script>
+    <script>
+    document.getElementById('toggle').addEventListener('change', function() {
+        var isChecked = this.checked;
+        var imageGallery = document.getElementById('image-gallery');
+        var pdfTable = document.getElementById('pdf-table');
+
+        if (isChecked) {
+            imageGallery.style.display = 'none';
+            pdfTable.style.display = 'block';
+        } else {
+            imageGallery.style.display = 'block';
+            pdfTable.style.display = 'none';
+        }
+    });
+    </script>
+    <script>
+    $(document).ready(function() {
+        $('.view-details').on('click', function() {
+            var fileUrl = $(this).data('file');
+            $('#fileViewer').attr('src', fileUrl);
+        });
+    });
+    </script>
 
 
 </body>

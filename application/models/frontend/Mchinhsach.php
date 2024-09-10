@@ -13,9 +13,24 @@ class Mchinhsach extends CI_Model {
         $query = $this->db->get($this->table, $limit, $first);
         return $query->result_array();
     }
-    
+
     public function chinhsach_all_2(){
         $this->db->where('trash', 1);
+        $this->db->order_by('created_at', 'desc');
+        $query = $this->db->get($this->table);
+        return $query->result_array();
+    }
+    
+    public function chinhsach_all_2_pdf(){
+        $this->db->where('trash', 1);
+        $this->db->where('type', 2);
+        $this->db->order_by('created_at', 'desc');
+        $query = $this->db->get($this->table);
+        return $query->result_array();
+    }
+    public function chinhsach_all_2_img(){
+        $this->db->where('trash', 1);
+        $this->db->where('type', 1);
         $this->db->order_by('created_at', 'desc');
         $query = $this->db->get($this->table);
         return $query->result_array();

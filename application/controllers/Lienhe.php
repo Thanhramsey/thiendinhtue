@@ -77,6 +77,7 @@ class Lienhe extends CI_Controller {
 	{
 		$this->data['title']="TEMPO  - Liên hệ";
 		$this->data['list']= $this->Mchinhsach->chinhsach_all_2();
+		$this->data['anh']= $this->Mchinhsach->chinhsach_all_2_img();
 		$this->data['view']='vanbanphaply';
 		$this->load->view('frontend/layout',$this->data);
 	}

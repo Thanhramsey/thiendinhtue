@@ -149,14 +149,6 @@
         $("#loaivanban").change(function() {
             $("#loaivanban_name").val(("#loaivanban").find(":selected").text());
         });
-
-        $("#typeHd").change(function() {
-            if ($("#typeHd").val() == 1) {
-                $("#customer").show();
-            } else {
-                $("#customer").hide();
-            }
-        });
     });
     </script>
 

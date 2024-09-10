@@ -59,27 +59,6 @@
                                                             <?php echo form_error('sohieu') ?></div>
                                                     </div>
                                                 </div>
-                                                <div id="customer" class="col-md-4"
-                                                    style="padding-right: 0px;display: none">
-                                                    <div class="form-group">
-                                                        <label>Chủ hóa đơn</label>
-                                                        <select name="customer_id" class="form-control">
-                                                            <option value="">[--Chọn tên khách hàng--]</option>
-                                                            <?php
-													$list = $this->Mcustomer->customer_list();
-													$option_parentid = "";
-													foreach ($list as $r) {
-                                                    if ($row['customer_id'] == $r['id']) {
-                                                            $option_parentid .= "<option selected value='" . $r['id'] . "'>" . $r['fullname'] . "</option>";
-                                                        }else{
-                                                            $option_parentid .= "<option value='" . $r['id'] . "'>" . $r['fullname'] . "</option>";
-                                                        }														
-													}
-													echo $option_parentid;
-													?>
-                                                        </select>
-                                                    </div>
-                                                </div>
                                             </div>
                                         </div>
                                         <div class="row">

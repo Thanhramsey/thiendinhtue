@@ -41,8 +41,6 @@ class Chinhsach extends CI_Controller {
 		$this->load->library('alias');
 		$this->form_validation->set_rules('name', 'Tên hóa đơn', 'required|is_unique[db_chinhsach.name]');
 		$this->form_validation->set_rules('typeHd', 'Loại hóa đơn', 'required');
-		$this->form_validation->set_rules('sohieu', 'Số hóa đơn', 'required');
-		$this->form_validation->set_rules('customer_id', 'Khách hàng', 'required');
 		$this->form_validation->set_rules('ngay', 'Ngày', 'required');
 		$this->form_validation->set_rules('thang', 'Tháng', 'required');
 		$this->form_validation->set_rules('nam', 'Năm', 'required');
@@ -51,7 +49,7 @@ class Chinhsach extends CI_Controller {
 				'name' =>$_POST['name'],
 				'type' =>$_POST['typeHd'],
 				'sohieu' =>$_POST['sohieu'],
-				'customer_id'=>$_POST['customer_id'],
+				'customer_id'=>0,
 				'ngaybanhanh'=>$_POST['nam']."/".$_POST['thang']."/".$_POST['ngay'],
 				'created_at'=>$today,
 				'created_by'=>$this->session->userdata('id'),
@@ -62,8 +60,8 @@ class Chinhsach extends CI_Controller {
 			);
 			$config['upload_path']          = './public/images/chinhsach/';
 			$config['encrypt_name'] = TRUE;
-            $config['allowed_types']        = 'pdf|doc|docx';
-            $config['max_size']             = 10000;
+            $config['allowed_types']        = 'pdf|doc|docx|jpg|png|jpeg';
+            $config['max_size']             = 100000;
             $this->load->library('upload', $config);
             if ( $this->upload->do_upload('file_pdf')){
                 $data = $this->upload->data();
@@ -98,7 +96,7 @@ class Chinhsach extends CI_Controller {
 				'name' =>$_POST['name'],
 				'type' =>$_POST['typeHd'],
 				'sohieu' =>$_POST['sohieu'],
-				'customer_id'=>$_POST['customer_id'],
+				'customer_id'=>1,
 				'updated_at'=>$today,
 				'updated_by'=>$this->session->userdata('id'),
 				'trash'=>1,

@@ -15,6 +15,12 @@ body {
     
 }
 
+.tb-vanban th{
+    border: 1px solid #dddddd;
+    background-color: #0056b3;
+    color: #ffffff
+}
+
 
 .surgery.operations img{
 max-height: 275px;

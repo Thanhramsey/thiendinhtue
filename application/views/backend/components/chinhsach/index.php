@@ -49,7 +49,7 @@
                                                 <th class="text-center">Hóa đơn</th>
                                                 <th class="text-center">Số hiệu</th>
                                                 <th class="text-center">Loại </th>
-                                                <th class="text-center">Khách hàng</th>
+                                                <!-- <th class="text-center">Khách hàng</th> -->
                                                 <th class="text-center">Download</th>
                                                 <th class="text-center" colspan="2">Thao tác</th>
                                             </tr>
@@ -66,10 +66,10 @@
                                                     <span> Files</span>
                                                     <?php endif; ?>
                                                 </td>
-                                                <td>
+                                                <!-- <td>
                                                     <?php $customer = $this->Mcustomer->customer_detail($row['customer_id']);
 													echo $customer['fullname'] ?>
-                                                </td>
+                                                </td> -->
                                                 <td class="text-center">
                                                     <a
                                                         href="<?php echo base_url() ?>public/images/chinhsach/<?php echo $row['file'] ?>">

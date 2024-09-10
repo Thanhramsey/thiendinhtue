@@ -34,8 +34,8 @@
                                                 <label>Loại văn bản<span class="maudo">(*)</span></label>
                                                 <select name="typeHd" class="form-control" id="typeHd">
                                                     <option value="">[--Chọn loại -]</option>
-                                                    <option value='1'>Văn bản</option>
-                                                    <option value='2'>File</option>
+                                                    <option value='1'>Ảnh</option>
+                                                    <option value='2' selected>File</option>
                                                 </select>
                                                 <div class="error" id="password_error">
                                                     <?php echo form_error('typeHd') ?></div>
@@ -50,22 +50,7 @@
                                                     <?php echo form_error('sohieu') ?></div>
                                             </div>
                                         </div>
-                                        <div id="customer" class="col-md-4" style="padding-right: 0px;display: none">
-                                            <div class="form-group">
-                                                <label>Chủ hóa đơn</label>
-                                                <select name="customer_id" class="form-control">
-                                                    <option value="">[--Chọn tên khách hàng--]</option>
-                                                    <?php
-													$list = $this->Mcustomer->customer_list();
-													$option_parentid = "";
-													foreach ($list as $r) {
-														$option_parentid .= "<option value='" . $r['id'] . "'>" . $r['fullname'] . "</option>";
-													}
-													echo $option_parentid;
-													?>
-                                                </select>
-                                            </div>
-                                        </div>
+
                                     </div>
                                 </div>
                                 <div class="row">

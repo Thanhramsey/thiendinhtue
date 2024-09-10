@@ -6,14 +6,13 @@ class Vanban extends CI_Controller {
 	function __construct()
 	{
 		parent::__construct();
-		$this->data['com']='Vanban';
 		$this->load->model('frontend/Mcategory');
 		$this->load->model('frontend/Mproduct');
 		$this->load->model('frontend/Mcontact');
 		$this->load->model('frontend/Mproducer');
 		$this->load->model('backend/Muser');
 		$this->load->model('frontend/Mchinhsach');
-
+		$this->data['com']='vanban';
 	}
 
 	public function index()
@@ -32,4 +31,3 @@ class Vanban extends CI_Controller {
 
 
 }
-

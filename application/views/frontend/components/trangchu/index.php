@@ -17,108 +17,54 @@
 
     <div class="container">
         <div class="row mx-md-0">
-            <!--Column item-->
-            <div class="col-md-4 flip p-0 box-margin">
-
-                <div class="front">
-                    <div class="feature-col one">
-                        <div class="box center-block">
-                            <div class="feature-icon"><i class="lni lni-coffee-cup"></i></div>
-                            <h4 class="mb-4 feature-head">Về Thiên Đinh Tuệ</h4>
-                            <p class="text-white mb-4 text-center">Thiên Đinh Tuệ là sự kết hợp giữa truyền thống và
-                                hiện đại, mang đến những tách cà phê đậm đà, thơm ngon từ những hạt cà phê tinh túy
-                                nhất của vùng đất Tây Nguyên.</p>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="back">
-                    <div class="feature-col-1 one-1">
-                        <div class="box center-block">
-                            <div class="feature-icon"><i class="lni lni-coffee-cup"></i></div>
-                            <h4 class="mb-4 theme-dark feature-head">Về Thiên Đinh Tuệ</h4>
-                            <p class="theme-dark mb-4 text-center">Thiên Đinh Tuệ là sự kết hợp giữa truyền thống và
-                                hiện đại, mang đến những tách cà phê đậm đà, thơm ngon từ những hạt cà phê tinh túy
-                                nhất của vùng đất Tây Nguyên.</p>
-                        </div>
-                    </div>
-
-                </div>
+            <div class="col-md-6">
+                <img src="public/images/trangchu/coffe.png" alt="Mô tả hình ảnh" class="img-fluid">
             </div>
 
-            <!--Column item-->
-            <div class="col-md-4 flip p-0 mx-md-3 box-margin">
-
-                <div class="front">
-                    <div class="feature-col two">
-                        <div class="box center-block">
-                            <div class="feature-icon"><i class="lni lni-coffee-cup"></i></div>
-                            <h4 class="mb-4 feature-head">Sứ mệnh của chúng tôi</h4>
-                            <p class="text-white mb-4 text-center">Mang lại trải nghiệm cà phê tuyệt vời cho mọi
-                                khách hàng, giữ vững giá trị bền vững và phát triển cộng đồng người trồng cà phê tại
-                                Việt Nam.</p>
-
-                        </div>
-                    </div>
+            <!-- Cột nội dung -->
+            <div class="col-md-6">
+                <div class="text-center">
+                    <img src="public/images/trangchu/coffe_bean.png" alt="Mô tả hình ảnh" class="img-fluid">
+                    </div<>
+                    <p>Thiên Định Tuệ là sự kết hợp giữa truyền thống và hiện đại mang đến các sản phẩm
+                        cà
+                        phê đến vời người sử dụng đậm đà, thơm ngon đặc trung của vùng miền tại Tây Nguyên
+                        đặc
+                        biệt là sản phẩm cà phê được trồng tại vùng đất IaChâm được chăm sóc và thu hoạch
+                        theo
+                        hướng hữu cơ thân thiện với môi trường trường tồn với thời gian. Sản phẩm cà phê
+                        rang
+                        xay của Thiên Định Tuệ là sản phẩm nguyên chất 100% cam kết không tẩm ướp, không độn,
+                        là
+                        sản phẩm cà phê chất lượng sạch, tốt cho sức khỏe con người, mang đến sự sảng
+                        khoái,
+                        vui vẻ, hạnh phúc và khơi dậy tư duy làm việc tuyệt vời.</p>
                 </div>
-
-
-                <div class="back">
-                    <div class="feature-col-2 two-2">
-                        <div class="box center-block">
-                            <div class="feature-icon"><i class="lni lni-coffee-cup"></i></div>
-                            <h4 class="theme-dark mb-4 feature-head">Sứ mệnh của chúng tôi</h4>
-                            <p class="theme-dark mb-4 text-center">Mang lại trải nghiệm cà phê tuyệt vời cho mọi
-                                khách hàng, giữ vững giá trị bền vững và phát triển cộng đồng người trồng cà phê tại
-                                Việt Nam.</p>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Column item-->
-            <div class="col-md-4 flip p-0">
-                <div class="front">
-                    <div class="feature-col three">
-                        <div class="box center-block">
-                            <div class="feature-icon"><i class="lni lni-coffee-cup"></i></div>
-                            <h4 class="mb-4 feature-head">Cam kết chất lượng:</h4>
-                            <p class="text-white mb-4 text-center">Mỗi hạt cà phê tại Thiên Đỉnh Tuệ đều được chọn
-                                lọc kỹ càng, rang xay với công nghệ tiên tiến để đảm bảo chất lượng cao nhất trong
-                                từng sản phẩm.</p>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="back">
-                    <div class="feature-col-3 three-3">
-                        <div class="box center-block">
-                            <div class="feature-icon"><i class="lni lni-coffee-cup"></i></div>
-                            <h4 class="mb-4 feature-head">Cam kết chất lượng</h4>
-                            <p class="theme-dark mb-4 text-center">Mỗi hạt cà phê tại Thiên Đỉnh Tuệ đều được chọn
-                                lọc kỹ càng, rang xay với công nghệ tiên tiến để đảm bảo chất lượng cao nhất trong
-                                từng sản phẩm.</p>
-                        </div>
-                    </div>
+                <div class="d-flex justify-content-start mt-3">
+                    <!-- Nút màu cam với biểu tượng -->
+                    <a href="tin-tuc/gioi-thieu-cong-ty" class="btn btn-orange me-2" style="margin-right:10px">
+                        <i class="fas fa-plus-circle"></i> VỀ CHÚNG TÔI
+                    </a>
+                    <!-- Nút viền mỏng với biểu tượng -->
+                    <a href="lien-he" class="btn btn-outline-dark">
+                        <i class="fas fa-forward"></i> LIÊN HỆ
+                    </a>
                 </div>
             </div>
         </div>
-    </div>
 
 </section>
 <!--feature-box ends -->
 
 <!-- About us-->
-<section id="whymegaone" class="bg-light-gray">
+<section id="whymegaone" class="bg-light-gray" style="padding-bottom:30px">
     <div class="container">
         <div class="row">
             <div class="container">
                 <div class="main-title style-two d-flex justify-content-md-around align-items-center flex-column flex-md-row text-center text-md-left wow fadeIn"
                     data-wow-delay="300ms">
                     <div class="col-md-5 mb-4 mb-md-0">
-                        <h5 class="mb-3"> Khơi nguồn cảm hứng </h5>
+                        <h5 class="mb-3"> <strong>Khơi nguồn cảm hứng </strong></h5>
                         <h2 class="pb-0"> Từ từng giọt <span class="family">cà </span> phê</h2>
 
                     </div>
@@ -187,181 +133,133 @@
 </section>
 <!-- end Bars-->
 
-<!-- Appointment -->
-<!-- <section id="reservation" class="form-bg parallax parallaxie">
+
+
+
+<section style="padding-top:0px">
+    <div>
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="appointment-box">
-
-                        <div class="form-title">
-                            <h2>Book Your Table</h2>
-                        </div>
-                        <div class="form-para">
-                            <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                                Aenean sollicitudin, lorem quis bibendum auctor.</p>
-                        </div>
-                        <form id="contact-form-data">
-
-                            <div class="row">
-                                <div class="col-sm-12" id="result"></div>
-
-                                <div class="col-md-12">
-                                    <div class="row">
-                                        <div class="col-md-6 mb-3">
-                                            <input type="text" class="form-control m-mb-20" required=""
-                                                placeholder="Name" name="userName">
-                                        </div>
-                                        <div class="col-md-6 mb-3">
-                                            <input type="text" class="form-control m-mb-20" required=""
-                                                placeholder="Email" name="userEmail">
-                                        </div>
-                                        <div class="col-md-6 mb-3">
-                                            <div class="position-relative m-mb-20">
-
-                                                <label class="position-absolute m-label">
-                                                    <span class="calender-line"></span>
-                                                    <i class="fas fa-calendar-alt calender-icon"></i>
-                                                </label>
-
-                                                <input type="text" required="" id="my-date"
-                                                    placeholder="Reservation Date:" class=" form-control datepicker"
-                                                    name="reservationDate">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-3">
-                                            <div class="position-relative m-mb-20">
-                                                <label class="position-absolute m-label">
-                                                    <span class="calender-line"></span>
-                                                    <i class="icofont-caret-down mr-4 "></i>
-                                                </label>
-                                                <select class="js-example-basic-single" required="" name="totalPeople">
-                                                    <option value="Male">Total People</option>
-                                                    <option value="1">1</option>
-                                                    <option value="2">2</option>
-                                                    <option value="3">3</option>
-                                                    <option value="4">4</option>
-                                                    <option value="5">5</option>
-                                                </select>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-12">
-                                            <textarea class="message form-control m-mb-20 pt-2" placeholder="Message:"
-                                                name="userMessage"></textarea>
-                                        </div>
-
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-12 text-center text-md-right">
-                                            <button type="button"
-                                                class="contact_btn mt-3 btn btn-rounded btn-large btn-pink fadeInDown-slide animated  text-uppercase">
-                                                Submit
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
+            <div class="title-box">
+                <div class="title-container">
+                    <h1 class="title" style="margin-bottom:0">Chúng Tôi Là Những Chuyên Gia</h1>
                 </div>
+                <div class="underline"></div>
             </div>
         </div>
-    </section> -->
-<!-- ends Appointment -->
+    </div>
 
-<section>
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
-                <div class="department-sub alt-font text-center">
-                    <h5 class="pink profession">Chúng Tôi Là Những Chuyên Gia</h5>
-                </div>
-                <div class="department-title main-font text-center">
-                    <h2 class="grey">Cam kết mang đến cho bạn những trải nghiệm cà phê tuyệt vời nhất.</h2>
-                </div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide feature-item ">
+                        <div class="text-center">
+                            <span class="icon">
+                                <i aria-hidden="true" class="lni-coffee-cup"></i></span>
+                        </div>
+                        <div class="mb-md-0 mb-5">
+                            <div class="text feature-txt ">
+                                <h4 class="feature-heading">Cà phê rang xay</h4>
+                                <p>Pha trộn hoàn hảo từ những hạt cà phê tươi ngon, mang lại hương vị đậm đà và
+                                    tinh tế
+                                    cho
+                                    từng tách cà phê.</p>
+                            </div>
 
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-4">
-                <div class="feature-item mb-md-0 mb-5">
-
-
-                    <span class="icon">
-                        <i aria-hidden="true" class="lni-dinner"></i></span>
-
-
-                    <div class="text feature-txt ">
-                        <h4 class="feature-heading">Cà phê rang xay</h4>
-                        <p>Pha trộn hoàn hảo từ những hạt cà phê tươi ngon, mang lại hương vị đậm đà và tinh tế cho
-                            từng tách cà phê.</p>
+                        </div>
                     </div>
 
-                </div>
-                <div class="feature-item mb-md-0 mb-5">
-                    <span class="icon-2">
-                        <i aria-hidden="true" class="lni-pizza"></i></span>
+                    <div class="swiper-slide feature-item ">
+                        <div class="text-center">
+                            <span class="icon">
+                                <i aria-hidden="true" class="lni-coffee-cup"></i></span>
+                        </div>
+                        <div class="mb-md-0 mb-5">
+                            <div class="text feature-txt ">
+                                <h4 class="feature-heading">Cà phê đặc sản</h4>
+                                <p>Khám phá những loại cà phê độc đáo từ các vùng trồng cà phê nổi tiếng trên
+                                    thế giới,
+                                    được tuyển chọn kỹ lưỡng để mang đến hương vị đặc biệt nhất.</p>
+                            </div>
 
-                    <div class="text feature-txt">
-                        <h4 class="feature-heading">Cà phê pha máy</h4>
-                        <p>Thưởng thức sự kết hợp hoàn hảo giữa công nghệ hiện đại và hương vị cà phê truyền thống
-                            với những tách cà phê pha máy chuẩn vị.</p>
+                        </div>
                     </div>
 
-                </div>
 
-            </div>
-            <div class="col-md-4">
-                <div class="feature-item mb-md-0 mb-5">
-                    <span class="icon-2">
-                        <i aria-hidden="true" class="lni-cake"></i></span>
-                    <div class="text feature-txt">
-                        <h4 class="feature-heading">Cà phê đặc sản</h4>
-                        <p>Khám phá những loại cà phê độc đáo từ các vùng trồng cà phê nổi tiếng trên thế giới, được
-                            tuyển chọn kỹ lưỡng để mang đến hương vị đặc biệt nhất.</p>
+                    <div class="swiper-slide feature-item ">
+                        <div class="text-center">
+                            <span class="icon">
+                                <i aria-hidden="true" class="lni-coffee-cup"></i></span>
+                        </div>
+                        <div class="mb-md-0 mb-5">
+                            <div class="text feature-txt ">
+                                <h4 class="feature-heading">Dịch vụ pha chế chuyên nghiệp</h4>
+                                <p>Đội ngũ pha chế của chúng tôi luôn sẵn sàng tạo ra những tách cà phê hoàn
+                                    hảo, từ
+                                    những công thức truyền thống đến những sáng tạo mới lạ.</p>
+                            </div>
+
+                        </div>
                     </div>
 
-                </div>
-                <div class="feature-item mb-md-0 mb-5">
-                    <span class="icon">
-                        <i aria-hidden="true" class="lni-coffee-cup"></i></span>
-                    <div class="text feature-txt">
-                        <h4 class="feature-heading">Trà & Cà phê lạnh</h4>
-                        <p>Tận hưởng hương vị tươi mát và độc đáo của các loại trà và cà phê lạnh, được pha chế tinh
-                            tế và sáng tạo.</p>
+                    <div class="swiper-slide feature-item ">
+                        <div class="text-center">
+                            <span class="icon">
+                                <i aria-hidden="true" class="lni-coffee-cup"></i></span>
+                        </div>
+                        <div class="mb-md-0 mb-5">
+                            <div class="text feature-txt ">
+                                <h4 class="feature-heading">Cà phê pha máy</h4>
+                                <p>Thưởng thức sự kết hợp hoàn hảo giữa công nghệ hiện đại và hương vị cà phê
+                                    truyền
+                                    thống với những tách cà phê pha máy chuẩn vị.</p>
+                            </div>
+
+                        </div>
                     </div>
 
-                </div>
+                    <div class="swiper-slide feature-item ">
+                        <div class="text-center">
+                            <span class="icon">
+                                <i aria-hidden="true" class="lni-coffee-cup"></i></span>
+                        </div>
+                        <div class="mb-md-0 mb-5">
+                            <div class="text feature-txt ">
+                                <h4 class="feature-heading">Cà phê hạt nguyên chất</h4>
+                                <p>Trải nghiệm hương vị đậm đà và tinh tế từ những hạt cà phê nguyên chất được
+                                    chọn lọc
+                                    kỹ lưỡng, hoàn hảo cho những người yêu thích pha chế tại nhà.</p>
+                            </div>
 
-            </div>
-            <div class="col-md-4">
-                <div class="feature-item mb-md-0 mb-5 ">
-
-                    <span class="icon">
-                        <i aria-hidden="true" class="lni-service"></i></span>
-
-                    <div class="text feature-txt">
-                        <h4 class="feature-heading">Dịch vụ pha chế chuyên nghiệp</h4>
-                        <p>Đội ngũ pha chế của chúng tôi luôn sẵn sàng tạo ra những tách cà phê hoàn hảo, từ những
-                            công thức truyền thống đến những sáng tạo mới lạ.</p>
+                        </div>
                     </div>
 
-                </div>
-                <div class="feature-item">
+                    <div class="swiper-slide feature-item ">
+                        <div class="text-center">
+                            <span class="icon">
+                                <i aria-hidden="true" class="lni-coffee-cup"></i></span>
+                        </div>
+                        <div class="mb-md-0 mb-5">
+                            <div class="text feature-txt ">
+                                <h4 class="feature-heading">Tạo điều kiện thuận lợi cho những người tu học theo
+                                    lời Phật
+                                    dạy</h4>
+                                <p>Hỗ trợ những người tu học, tập sống phạm hạnh theo những lời Đức Phật Thích
+                                    Ca Mâu Ni
+                                    chỉ dạy, hướng đến mục đích chân chánh giải thoát.</p>
+                            </div>
 
-                    <span class="icon-2">
-                        <i aria-hidden="true" class="lni-fresh-juice"></i></span>
-
-                    <div class="text feature-txt">
-                        <h4 class="feature-heading">Cà phê hạt nguyên chất</h4>
-                        <p>Trải nghiệm hương vị đậm đà và tinh tế từ những hạt cà phê nguyên chất được chọn lọc kỹ
-                            lưỡng, hoàn hảo cho những người yêu thích pha chế tại nhà.</p>
+                        </div>
                     </div>
 
-                </div>
 
+                    <!-- Thêm nhiều slide nếu cần -->
+                </div>
+                <!-- Thêm pagination nếu cần -->
+                <div class="swiper-pagination"></div>
+                <!-- Thêm navigation nếu cần -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
         </div>
 
@@ -409,38 +307,83 @@
 <!-- end Counters-->
 
 <!-- portfolio -->
-<section id="ourmenu">
+<section id="ourmenu" class="bg-ourmenu">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="port">
-                    <div class="portfolio-title">
-                        <h2 class="grey">Các sản phẩm của chúng tôi. </h2>
+                <div class="title-box">
+                    <div class="title-container">
+                        <h1 class="title" style="margin-bottom:0">Sản phẩm</h1>
+                        <a href="san-pham" class="view-all">
+                            Xem tất cả
+                        </a>
                     </div>
-                    <div class="portfolio-subtitle">
-                        <p></p>
-                    </div>
+                    <div class="underline"></div>
                 </div>
-                <ul class="da-thumbs gallery">
-                    
-                    <?php foreach ($sanpham as $item) :?>
-                        <li class="items surgery operations">
-                        <img src="public/images/products/<?php echo $item['avatar']; ?>" alt="img">
-                        <div class="overlay">
-                            <a href="public/images/products/<?php echo $item['avatar']; ?>" class="text-center" data-fancybox="images">
-                                <div class="search-icon"><i class="fa fa-image"></i> </div>
-                                <h4 class=""><?php echo $item['name']; ?></h4>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <?php foreach ($sanpham as $item) :?>
+                        <div class="swiper-slide">
+                            <img style="margin-right:15px" alt="img"
+                                src="public/images/products/<?php echo $item['avatar']; ?> ">
+                            <p><?php echo $item['name']; ?></p>
+                            <a href="<?php echo $item['alias'] ?>" class="btn btn-outline-dark btn-chitiet">
+                                Xem chi tiết
                             </a>
                         </div>
-                    </li>
-                    <?php endforeach; ?>
 
-                </ul>
+                        <?php endforeach; ?>
+                        <!-- Thêm nhiều slide nếu cần -->
+
+                    </div>
+                    <!-- Thêm pagination nếu cần -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Thêm navigation nếu cần -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+
             </div>
         </div>
     </div>
 </section>
 <!-- Ends portfolio -->
+
+<section id="hinh" class="bg-hinh">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="title-box">
+                    <div class="title-container">
+                        <h1 class="title" style="margin-bottom:0">Hình ảnh</h1>
+                        <a href="thuvien" class="view-all">
+                            Xem tất cả
+                        </a>
+                    </div>
+                    <div class="underline"></div>
+                </div>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <?php foreach ($hinhanh as $item) :?>
+                        <div class="swiper-slide">
+                            <img style="margin-right:15px" alt="img"
+                                src="public/images/banners/<?php echo $item['img']; ?> ">
+                        </div>
+                        <?php endforeach; ?>
+                        <!-- Thêm nhiều slide nếu cần -->
+
+                    </div>
+                    <!-- Thêm pagination nếu cần -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Thêm navigation nếu cần -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
 
 <!-- testimonial -->
 <section class="bg-testimonial parallax parallaxie">
@@ -448,100 +391,109 @@
         <div class="row">
             <div class="test">
                 <div class="testimonial-title">
-                    <h2 class="text-white">Khách hàng</h2>
+                    <h2 class="text-black"><strong>Khách hàng<strong></h2>
                 </div>
                 <div class="testimonial-subtitle">
-                    <p>Đánh giá của khách hàng</p>
+                    <p class="text-black"><strong>Đánh giá của khách hàng
+                            <strong>
+                    </p>
                 </div>
             </div>
         </div>
-        
+
 
         <div class="row">
+
             <div id="testimonial_slider" class="owl-carousel">
 
                 <!--testimonial item-->
                 <div class="testimonial-item item">
                     <i class="fa fa-quote-left testimonial-icon gradient-text1"></i>
-                    <p class="mb-4">Đây thật sự là điểm đến lý tưởng. Cà phê thơm ngon, không gian ấm cúng và nhân
-                        viên phục vụ rất nhiệt tình. Chắc chắn tôi sẽ quay lại!
-                    </p>
+                    <p class="mb-4"><strong>Đây thật sự là điểm đến lý tưởng. Cà phê thơm ngon, không gian ấm cúng và
+                            nhân
+                            viên phục vụ rất nhiệt tình. Chắc chắn tôi sẽ quay lại!
+                        </strong></p>
 
                     <!--Image-->
                     <div class="testimonial-image">
                         <img src="public/restaurant/img/testimonial-1.png" alt="image">
                     </div>
-                    <h5 class="font-weight-500 main-font pink">Nguyễn Thị Lan Anh</h5>
+                    <h3 class="font-weight-500 main-font pink">Nguyễn Thị Lan Anh</h3>
                     <span class="destination main-font">Từ Liêm, Hà Nội</span>
                 </div>
                 <!--testimonial item-->
                 <div class="testimonial-item item">
                     <i class="fa fa-quote-left testimonial-icon gradient-text1"></i>
-                    <p class="mb-4">Cà phê ở đây rất tuyệt, hương vị đậm đà và đặc biệt. Tôi thích cách họ chăm sóc
-                        từng chi tiết nhỏ nhất. Dịch vụ giao hàng cũng rất nhanh chóng và tiện lợi.
-                    </p>
+                    <p class="mb-4"><strong>Cà phê ở đây rất tuyệt, hương vị đậm đà và đặc biệt. Tôi thích cách họ chăm
+                            sóc
+                            từng chi tiết nhỏ nhất. Dịch vụ giao hàng cũng rất nhanh chóng và tiện lợi.
+                        </strong></p>
 
                     <!--Image-->
                     <div class="testimonial-image">
                         <img src="public/restaurant/img/testimonial-2.png" alt="image">
                     </div>
-                    <h5 class="font-weight-500 main-font pink">Trần Văn Minh</h5>
+                    <h3 class="font-weight-500 main-font pink">Trần Văn Minh</h3>
                     <span class="destination main-font">Pleiku, Gia Lai</span>
                 </div>
                 <!--testimonial item-->
                 <div class="testimonial-item item">
                     <i class="fa fa-quote-left testimonial-icon gradient-text1"></i>
-                    <p class="mb-4">Không gian quán rất thoải mái và thoáng đãng. Đồ uống đa dạng, từ cà phê đến trà
-                        đều ngon tuyệt, rất hợp để thưởng thức cùng cà phê.
-                    </p>
+                    <p class="mb-4"><strong>Không gian quán rất thoải mái và thoáng đãng. Đồ uống đa dạng, từ cà phê đến
+                            trà
+                            đều ngon tuyệt, rất hợp để thưởng thức cùng cà phê.
+                        </strong></p>
 
                     <!--Image-->
                     <div class="testimonial-image">
                         <img src="public/restaurant/img/testimonial-3.png" alt="image">
                     </div>
-                    <h5 class="font-weight-500 main-font pink">Phạm Thùy Dung</h5>
+                    <h3 class="font-weight-500 main-font pink">Phạm Thùy Dung</h3>
                     <span class="destination main-font">Pleiku, Gia Lai</span>
                 </div>
                 <!--testimonial item-->
                 <div class="testimonial-item item">
                     <i class="fa fa-quote-right testimonial-icon gradient-text1"></i>
-                    <p class="mb-4">Mình đã mua cà phê hạt về nhà và rất hài lòng với chất lượng. Hương vị đậm đà,
-                        thơm lừng, đúng là cà phê nguyên chất. Sẽ tiếp tục ủng hộ quán!
-                    </p>
+                    <p class="mb-4"><strong>Mình đã mua cà phê hạt về nhà và rất hài lòng với chất lượng. Hương vị đậm
+                            đà,
+                            thơm lừng, đúng là cà phê nguyên chất. Sẽ tiếp tục ủng hộ quán!
+                        </strong></p>
 
                     <!--Image-->
                     <div class="testimonial-image">
                         <img src="public/restaurant/img/testimonial-1.png" alt="image">
                     </div>
-                    <h5 class="font-weight-500 main-font pink">Lê Quốc Hưng</h5>
+                    <h3 class="font-weight-500 main-font pink">Lê Quốc Hưng</h3>
                     <span class="destination main-font">Tân Bình, TP.HCM</span>
                 </div>
                 <!--testimonial item-->
                 <div class="testimonial-item item">
                     <i class="fa fa-quote-right testimonial-icon gradient-text1"></i>
-                    <p class="mb-4">Dịch vụ tuyệt vời, nhân viên thân thiện và chuyên nghiệp. Cà phê ở đây thực sự
-                        khác biệt, mỗi tách đều mang lại cảm giác mới lạ và độc đáo. Rất đáng để thử!
-                    </p>
+                    <p class="mb-4"><strong>Dịch vụ tuyệt vời, nhân viên thân thiện và chuyên nghiệp. Cà phê ở đây thực
+                            sự
+                            khác biệt, mỗi tách đều mang lại cảm giác mới lạ và độc đáo. Rất đáng để thử!
+                        </strong></p>
 
                     <!--Image-->
                     <div class="testimonial-image">
                         <img src="public/restaurant/img/testimonial-1.png" alt="image">
                     </div>
-                    <h5 class="font-weight-500 main-font pink">Hoàng Thị Mai</h5>
+                    <h3 class="font-weight-500 main-font pink">Hoàng Thị Mai</h3>
                     <span class="destination main-font">Đà Nẵng</span>
                 </div>
                 <!--testimonial item-->
                 <div class="testimonial-item item">
                     <i class="fa fa-quote-right testimonial-icon gradient-text1"></i>
-                    <p class="mb-4">Quán cà phê này thật sự là một điểm đến lý tưởng cho những ai yêu thích cà phê.
-                        Mỗi lần ghé thăm đều là một trải nghiệm mới mẻ và thú vị.
-                    </p>
+                    <p class="mb-4"><strong>Quán cà phê này thật sự là một điểm đến lý tưởng cho những ai yêu thích cà
+                            phê.
+                            Mỗi lần ghé thăm đều là một trải nghiệm mới mẻ và thú vị.
+                        </strong></p>
 
                     <!--Image-->
                     <div class="testimonial-image">
                         <img src="public/restaurant/img/testimonial-1.png" alt="image">
                     </div>
-                    <h5 class="font-weight-500 main-font pink">Đỗ Thanh Tùng</h5>
+                    <h3 class="font-weight-500 main-font pink">Đỗ Thanh Tùng</h3>
                     <span class="destination main-font">Nha Trang</span>
                 </div>
 
@@ -553,11 +505,17 @@
 <!-- Ends testimonial -->
 
 <!--Blog Start-->
-<section id="ourblog" class="bg-light">
+<section id="ourblog" class="bg-light bg-tintuc">
     <div class="container">
 
-        <div class="portfolio-title text-center">
-            <h2 class="grey">Tin tức</h2>
+        <div class="title-box">
+            <div class="title-container">
+                <h1 class="title" style="margin-bottom:0">Tin tức</h1>
+                <a href="tin-tuc" class="view-all">
+                    Xem tất cả
+                </a>
+            </div>
+            <div class="underline"></div>
         </div>
         <div class="swiper-container">
             <div class="swiper-wrapper">
@@ -566,7 +524,10 @@
                     <a href="tin-tuc/<?php echo $item['alias']; ?>">
                         <img style="margin-right:15px" src="public/images/posts/<?php echo $item['img']; ?>">
                     </a>
-                    <p><?php echo $item['title']; ?></p>
+                    <a href="tin-tuc/<?php echo $item['alias']; ?>">
+                        <p><?php echo $item['title']; ?></p>
+                    </a>
+
                 </div>
                 <?php endforeach; ?>
                 <!-- Thêm nhiều slide nếu cần -->

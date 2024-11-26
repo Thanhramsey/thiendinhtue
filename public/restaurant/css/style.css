@@ -39,6 +39,32 @@ body {
     overflow: auto;
 }
 
+/* CSS cho nút màu cam */
+.btn-orange {
+    background-color: #f36d3f !important; /* Màu cam */
+    color: #fff; /* Màu chữ trắng */
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* CSS cho nút viền mỏng */
+.btn-outline-dark {
+    color: #333;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.btn-chitiet{
+    background-color: #22433a !important;
+}
+
+/* Căn chỉnh biểu tượng và văn bản */
+.btn i {
+    margin-right: 5px;
+}
 
 .tb-vanban th{
     border: 1px solid #dddddd;
@@ -103,7 +129,7 @@ max-height: 275px;
     display: none;
 }
 .alt-font {    font-family: 'Roboto', sans-serif;}
-.main-font {   font-family: 'Baloo Bhai', cursive;}
+.main-font {   font-family: 'Roboto', sans-serif;}
 
 
 .nav-item {
@@ -847,8 +873,8 @@ a:focus, a:active, button:focus, button:active, .btn.active.focus, .btn.active:f
     color: #0284d0;}
 .light-blu {color: #39c5de;}
 body {font-size: 14px;
-    color: #7e8186;
-    font-family: 'Poppins', sans-serif;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
 line-height: 24px;
     font-weight: 400;
 position: relative;
@@ -865,7 +891,7 @@ body.pushmenu-push-toLeft {
     transition: all 300ms linear;
 }
 header a.logo {display: inline-block; vertical-align: middle;line-height: 0;}
-header a.logo img {max-height:35px; max-width: 150px; vertical-align: sub;}
+header a.logo img {max-height:50px; max-width: 150px; vertical-align: sub;}
 section {padding: 80px 0px 120px 0px;}
 ol, ul {margin: 0; padding: 0; list-style: none;}
 /* ===================================
@@ -1015,8 +1041,8 @@ ol, ul {margin: 0; padding: 0; list-style: none;}
 
 .header-appear .navbar-top-default .navbar-nav .nav-link {
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    color: #000;
+    font-size: 16px;
+    color: #ffffff;
     font-weight: 500;
     text-transform: capitalize;
 }
@@ -1374,7 +1400,7 @@ button:hover {
     height: 80px;
     position: fixed;
     z-index: 999;
-    background: #fff;
+    background: #22433a;
     -webkit-animation-name: animationFade;
     -o-animation-name: animationFade;
     animation-name: animationFade;
@@ -2075,7 +2101,7 @@ input, select, textarea {margin :0;}
 /* features */
 .feature-item {
     display: table;
-    margin: 30px 0 0;
+    margin: 0;
     max-width: 450px;
     text-align: left;
 }
@@ -2181,7 +2207,7 @@ input, select, textarea {margin :0;}
 }
 .main-title.style-two h2 {
     font-size: 48px;
-    font-family: 'Baloo Bhai', cursive;
+    font-family: 'Roboto', sans-serif;
     text-transform: initial;
     font-weight: 500;
     color: #484b59;
@@ -2189,12 +2215,41 @@ input, select, textarea {margin :0;}
     max-width: 700px;
 }
 .main-title.style-two p {
-    color: #797979;
+    color: #000;
     max-width: 720px;
     margin: 0 auto;
     font-size: 16px;
 }
+.title-box{
+    display: block;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+.underline {
+    width: 100px; /* Độ dài của gạch chân */
+    height: 3px; /* Độ dày của gạch chân */
+    background-color: #e02f46; /* Màu đỏ */
+}
 
+.bg-ourmenu {
+    background: url("../img/sharp.png") no-repeat;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.bg-hinh {
+    background: url("../img/sharp2.png") no-repeat;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.bg-tintuc {
+    background-image: url("../img/news.png"), url("../img/news.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom left, bottom right;
+    background-size: contain, contain;
+}
 /* ===================================
                Bars
 ====================================== */
@@ -2206,7 +2261,12 @@ input, select, textarea {margin :0;}
 .prog-item p {
     font-size: 14px;
     margin-bottom: 5px;
-    color: #7e8186;
+    color: #000;
+    font-weight: bold
+}
+.prog-item span {
+    color: #000;
+    font-weight: bold
 }
 
 
@@ -2231,7 +2291,7 @@ input, select, textarea {margin :0;}
     right: 0px;
     font-size: 13px;
     font-weight: 600;
-    color: #7e8186
+    color: #000
 }
 .bar-dark{
     background: #e02f46;
@@ -2345,11 +2405,33 @@ input, select, textarea {margin :0;}
     color: #262144; /* Match icon color with the title */
     margin-right: 5px;
 }
+.swiper-button-next,
+.swiper-button-prev {
+    display: none;
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.view-all {
+    font-size: 2rem;
+    color: #0000ee; /* Màu xanh đậm cho liên kết */
+    text-decoration: none;
+}
+
+.view-all:hover {
+    text-decoration: underline;
+}
 
 
 .swiper-container {
     width: 100%;
-    height: 300px;
+    height: 400px;
+    padding: 10px;
   }
   .swiper-slide {
     display: flex;
@@ -2357,24 +2439,49 @@ input, select, textarea {margin :0;}
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: #eee;
+    /* background: #eee; */
     overflow: hidden; /* Đảm bảo không có phần nội dung nào bị tràn ra ngoài */
     border-radius: 10px;
+    box-shadow: 2px 4px 12px rgba(0,0,0,.0784313725);
   }
   .swiper-slide img {
     width: 100%;
     height: auto;
+    max-height: 240px;
     border-radius: 10px;
     object-fit: cover; /* Đảm bảo hình ảnh không bị biến dạng */
   }
   .swiper-slide p {
     font-size: 18px;
     margin: 10px 0;
-    background: #fff; /* Đặt nền cho tiêu đề nếu cần */
+    /* background: #fff; Đặt nền cho tiêu đề nếu cần */
     padding: 5px; /* Thêm khoảng đệm cho tiêu đề */
     width: 100%; /* Chiếm toàn bộ chiều rộng của slide */
     border-radius:5px ;
   }
+  .swiper-slide a p{
+    color: #000
+  }
+  .swiper-slide a p:hover{
+    color: #e02f46;
+    text-decoration: underline;
+  }
+
+
+  .bg-hinh .swiper-container {
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+  }
+  .bg-hinh .swiper-slide img {
+    width: 100%;
+    height: auto;
+    max-height: 350px;
+    border-radius: 10px;
+    object-fit: contain; /* Đảm bảo hình ảnh không bị biến dạng */
+  }
+
+
 
 /*-------------------------
     Appointment card
@@ -2546,10 +2653,10 @@ input, select, textarea {margin :0;}
 ====================================== */
 
 .department-sub {font-size: 16px; margin-bottom: 20px;
-    color: #7e8186; }
+    color: #000; }
 .title-clr {color: #84b813;}
 .department-title h2 {font-size: 48px; margin-bottom: 80px; font-weight: 400;
-    font-family: 'Baloo Bhai', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 .feature-item{
@@ -2558,14 +2665,14 @@ input, select, textarea {margin :0;}
 }
 
 .feature-item .feature-heading{
-    color: #3c3f46;
+    color: #000;
     font-family: 'Roboto', sans-serif;
     font-size: 19px;
     margin-bottom: 10px;
     line-height: 1.2;
-    font-weight: 400;
+    font-weight: bold;
 }
-.feature-txt {text-align: left; display: table-cell; vertical-align: middle;}
+.feature-txt {text-align: center; display: table-cell; vertical-align: middle;}
 .feature-item .icon {
     background-color: #84b813;
     width: 70px;
@@ -2668,12 +2775,12 @@ input, select, textarea {margin :0;}
 font-size: 48px;
 margin-bottom: 20px;
     font-weight: 400;
-    font-family: 'Baloo Bhai', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 .portfolio-subtitle {
     font-size: 16px;
     margin-bottom: 40px;
-    color: #7e8186;
+    color: #000;
 }
 .port {text-align: center; margin: 0 auto; max-width: 600px; }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
@@ -2751,12 +2858,12 @@ margin-bottom: 20px;
     font-size: 48px;
     margin-bottom: 20px;
     font-weight: 400;
-    font-family: 'Baloo Bhai', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 .testimonial-subtitle {
     font-size: 16px;
     margin-bottom: 80px;
-    color: #ffffff;
+    color: #000;
 }
 .test {text-align: center;
 margin: 0 auto; max-width: 600px;}
@@ -2798,6 +2905,7 @@ margin: 0 auto; max-width: 600px;}
     text-align: center;
     background-color: #ffffff;
     padding: 50px 30px;
+    border-radius: 10px;
     -webkit-transition: all .3s ease-in-out !important;
     -moz-transition: all .3s ease-in-out !important;
     -ms-transition: all .3s ease-in-out !important;
@@ -2840,7 +2948,16 @@ margin: 0 auto; max-width: 600px;}
 }
 .testimonial-item:hover .destination{
     font-size: 13px;
-    font-weight: 400;
+    font-weight: bold;
+    color: #ffffff;
+    -webkit-transition: all .3s ease-in-out !important;
+    -moz-transition: all .3s ease-in-out !important;
+    -ms-transition: all .3s ease-in-out !important;
+    -o-transition: all .3s ease-in-out !important;
+    transition: all .3s ease-in-out !important;
+}
+.testimonial-item:hover .main-font{
+    font-weight: bold;
     color: #ffffff;
     -webkit-transition: all .3s ease-in-out !important;
     -moz-transition: all .3s ease-in-out !important;
@@ -2850,7 +2967,7 @@ margin: 0 auto; max-width: 600px;}
 }
 .testimonial-item .destination{
     font-size: 13px;
-    font-weight: 400;
+    font-weight: bold;
     color: #616161;
     -webkit-transition: all .3s ease-in-out !important;
     -moz-transition: all .3s ease-in-out !important;
@@ -4409,7 +4526,7 @@ Go Top CSS
     .department-sub {
         font-size: 18px;
         margin-bottom: 0;
-        color: #7e8186;
+        color: #000;
     }
 
     .profession {

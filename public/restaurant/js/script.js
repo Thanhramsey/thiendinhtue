@@ -147,6 +147,10 @@ jQuery(function ($) {
     items: 1,
     dots: true,
     nav: false,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    smartSpeed: 500,
+    loop: true,
     responsive: {
       992: {
         items: 3,

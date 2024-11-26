@@ -17,18 +17,23 @@
                 <div id="image-gallery">
                     <div class="img-gallery">
                         <?php
-                        $html = '';
-                        foreach ($anh as $img) {
-                            $html = "<div class='col-md-4'>";
-                            $html .=  "<div class='fadeInLeft text-center' data-wow-delay='1s' data-wow-duration='3s'";
-                            $html .= "style='visibility: visible; animation-delay: 1s; animation-name: fadeInLeft; animation-duration: 3s'>";
-                            $html .= "<a data-fancybox='gallery'  data-src='public/images/chinhsach/". $img['file'] ."'>";
-                            $html .= "<img style='width: 270px;height:350px; border-radius:5px;margin-top:10px'  src='public/images/chinhsach/". $img['file'] ."'>";
-                            $html .= "  </a>";
-                            $html .= " </div> </div>";
-                            echo $html;
-                        }
-                        ?>
+                    foreach ($list as $img) {
+                        // Kiểm tra đuôi file, nếu là PDF thì hiển thị ảnh PDF thay vì ảnh thực tế
+                        $filePath = (pathinfo($img['file'], PATHINFO_EXTENSION) === 'pdf') 
+                                    ? 'public/images/chinhsach/PDF_file.png' 
+                                    : 'public/images/chinhsach/' . $img['file'];
+                        
+                        $html = "<div class='col-md-4'>";
+                        $html .= "<div class='fadeInLeft text-center' data-wow-delay='1s' data-wow-duration='2s' ";
+                        $html .= "style='visibility: visible; animation-delay: 1s; animation-name: fadeInLeft; animation-duration: 2s'>";
+                        $html .= "<a data-fancybox='gallery' data-src='public/images/chinhsach/". $img['file'] ."'>";
+                        $html .= "<img style='width: 270px;height:350px; border-radius:5px;margin-top:10px' src='". $filePath ."'>";
+                        $html .= "</a>";
+                        $html .= "</div><p class='center'> ". htmlspecialchars($img['name']) ." </p></div>";
+                        
+                        echo $html;
+                    }
+                    ?>
                     </div>
                 </div>
 
@@ -54,8 +59,8 @@
                                     <?php endif; ?>
                                 </td>
                                 <td class="text-center">
-                                    <a href="#" class="view-details" data-toggle="modal" data-target="#fileModal"
-                                        data-file="<?php echo base_url() ?>public/images/chinhsach/<?php echo $item['file'] ?>">
+                                    <a data-fancybox="gallery"
+                                        data-src="<?php echo base_url() ?>public/images/chinhsach/<?php echo $item['file'] ?>">
                                         Xem chi tiết
                                     </a>
                                 </td>

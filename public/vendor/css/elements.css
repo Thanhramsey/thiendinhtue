@@ -2126,7 +2126,7 @@ header.mega-elements  .fixed-menu.navbar-top-default .header-social a:hover {
 }
 
 .ui-block-06.about .text-pink {color: #c32865;}
-.ui-block-06.about .text-grey {color: #797979;}
+.ui-block-06.about .text-grey {color: #000;}
 .ui-block-06.about .text-white {color: #ffffff;}
 
 /*font-weight*/
@@ -2402,7 +2402,7 @@ header.mega-elements  .fixed-menu.navbar-top-default .header-social a:hover {
 }
 
 .ui-block-08.about .info{
-    color: #797979;
+    color: #000;
     font-size: 16px;
     font-family:'Open Sans', sans-serif;
     line-height: 1.7;
@@ -10269,7 +10269,7 @@ section.ui-block-25 {
 
 .ui-block-13.stats .main-title.style-two h2 {
     font-size: 48px;
-    font-family: 'Baloo Bhai', cursive;
+    font-family: 'Roboto', sans-serif;
     text-transform: initial;
     font-weight: 500;
     color: #484b59;
@@ -10278,7 +10278,7 @@ section.ui-block-25 {
 }
 
 .ui-block-13.stats .main-title.style-two p {
-    color: #797979;
+    color: #000;
     max-width: 720px;
     margin: 0 auto;
     font-size: 16px;
@@ -10291,7 +10291,7 @@ section.ui-block-25 {
 .ui-block-13.stats .prog-item p {
     font-size: 14px;
     margin-bottom: 5px;
-    color: #7e8186;
+    color: #000;
 }
 
 .ui-block-13.stats .prog-item .skills-progress {
@@ -10317,7 +10317,7 @@ section.ui-block-25 {
     right: 0;
     font-size: 13px;
     font-weight: 600;
-    color: #7e8186
+    color: #000
 }
 
 .ui-block-13.stats .bar-dark{
@@ -16740,7 +16740,7 @@ section.ui-block-25 {
         UI-Block-04
 ==================================== */
 .ui-block-04.blog .alt-font {font-family: 'Roboto', sans-serif;}
-.ui-block-04.blog .main-font {font-family: 'Baloo Bhai', cursive;}
+.ui-block-04.blog .main-font {font-family: 'Roboto', sans-serif;}
 
 .ui-block-04.blog  .blog-text{
     max-width: 500px;
@@ -16808,7 +16808,7 @@ section.ui-block-25 {
 
 .ui-block-04.blog .blog-text p{
     font-size: 14px;
-    color: #7e8186;
+    color: #000;
     font-family: 'Roboto', sans-serif;
     line-height: 24px;
     font-weight: 400;
@@ -17146,7 +17146,7 @@ section.ui-block-25 {
 
 .ui-block-07.blog .text-pink {color: #c32865;}
 
-.ui-block-07.blog .text-grey {color: #797979;}
+.ui-block-07.blog .text-grey {color: #000;}
 
 .ui-block-07.blog .text-white {color: #ffffff;}
 
@@ -17452,7 +17452,7 @@ section.ui-block-25 {
 }
 
 .ui-block-09.blog .info{
-    color: #797979;
+    color: #000;
     font-size: 14px;
     font-family:'Open Sans', sans-serif;
     line-height: 1.7;
@@ -18420,7 +18420,7 @@ section.ui-block-25 {
 }
 
 .ui-block-15.blog .text-grey {
-    color: #7e8186;
+    color: #000;
 }
 
 .ui-block-15.blog .alt-font {
@@ -24513,7 +24513,7 @@ section.ui-block-25 {
     font-size: 48px;
     margin-bottom: 20px;
     font-weight: 400;
-    font-family: 'Baloo Bhai', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 .ui-block-15.testimonial-sec .testimonial-subtitle {
@@ -24660,7 +24660,7 @@ section.ui-block-25 {
 }
 
 .ui-block-15.testimonial-sec .main-font {
-    font-family: 'Baloo Bhai', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 @media screen and (max-width: 768px) {
@@ -27121,7 +27121,7 @@ section,.section-padding {position: relative;padding: 7.5rem 0;overflow: hidden;
 }
 
 .ui-block-17.quote .info {
-    color: #797979;
+    color: #000;
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     line-height: 1.7;
@@ -31346,7 +31346,7 @@ section.main-page {position: relative; padding: 7.5rem 0; overflow: hidden;}
 .ui-block-12.portfolio .portfolio-subtitle {
     font-size: 16px;
     margin-bottom: 40px;
-    color: #7e8186;
+    color: #000;
 }
 
 .ui-block-12.portfolio .nav-link {

@@ -23,6 +23,7 @@ class Trangchu extends CI_Controller {
         $this->data['view']='index';
         $this->data['news'] = $this->Mcontent->content_get_news(6);
         $this->data['sanpham'] = $this->Mproduct->content_get_news(6);
+        $this->data['hinhanh']=$this->Mslider->list_img_class_1(6,1);
 		$this->load->view('frontend/layout',$this->data);
 	}
 }

@@ -247,7 +247,7 @@
         },
         loop: true,
         autoplay: {
-            delay: 3000, // Thay đổi thời gian giữa các slide (3 giây)
+            delay: 300000, // Thay đổi thời gian giữa các slide (3 giây)
             disableOnInteraction: false, // Cho phép autoplay tiếp tục khi người dùng tương tác
         },
     });

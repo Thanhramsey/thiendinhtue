@@ -88,6 +88,7 @@
             return m.minutes() + m.hours() * 60;
         }
         $('#cahocId').select2();
+        $('#donvi').select2();
         $('#calamid').select2();
         $('#hocvienId').select2();
         $('#lsHocVien').select2();

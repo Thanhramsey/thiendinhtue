@@ -114,6 +114,10 @@ $route['hoidap/recyclebin'] ='hoidap/recyclebin';
 $route['hoidap/trash/(:num)'] ='hoidap/trash/$1';
 $route['hoidap/recyclebin/(:num)'] ='hoidap/recyclebin/$1';
 
+//phieuPhoiHop
+$route['admin/phieuPhoiHop'] ='admin/phieuPhoiHop';
+
+
 
 
 $route['admin/category'] ='admin/category';

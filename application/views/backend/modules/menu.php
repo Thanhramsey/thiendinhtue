@@ -22,26 +22,55 @@
             <?php
 			if ($user['role'] == 1) {
 				echo ' <li class="header">QUẢN LÝ CỬA HÀNG</li>
-        <li class="treeview">
-            <a href="admin">
-                <i class="glyphicon glyphicon-signal"></i> <span>Thống kê</span>
-            </a>
-        </li>
-        <li class="treeview">
-            <a href="admin/product">
-                <i class="glyphicon glyphicon-apple"></i><span>Sản phẩm</span>
-            </a>
-        </li>
-        <li class="treeview">
-            <a href="admin/orders">
-                <i class="glyphicon glyphicon-shopping-cart"></i> <span>Đơn hàng</span>
-            </a>
-        </li>';
+			<li class="treeview">
+				<a href="admin">
+					<i class="glyphicon glyphicon-signal"></i> <span>Thống kê</span>
+				</a>
+			</li>
+			<li class="treeview">
+				<a href="admin/product">
+					<i class="glyphicon glyphicon-apple"></i><span>Sản phẩm</span>
+				</a>
+			</li>
+			<li class="treeview">
+				<a href="admin/orders">
+					<i class="glyphicon glyphicon-shopping-cart"></i> <span>Đơn hàng</span>
+				</a>
+			</li>';
+			}
+			?>
+            <!-- Phối hợp OL & OB -->
+            <li class="header">QUẢN LÝ BÁN HÀNG</li>
+            <li><a href="admin/phieuPhoiHop"><i class="glyphicon glyphicon-off"></i> <span>Tạo phiếu</span></a></li>
+            <li><a href="admin/user/logout.html"><i class="glyphicon glyphicon-off"></i> <span>Báo cáo</span></a></li>
+            <?php
+			if ($user['role'] == 1) {
+				echo '<li>
+					<a href="admin/useradmin">
+						<i class="glyphicon glyphicon-briefcase"></i><span> Quản lý nhân viên</span>
+					</a>
+				 </li>
+				<li class="treeview">
+					<a href="admin/coupon">
+						<i class="glyphicon glyphicon-piggy-bank"></i> <span>Quản lý trạm BTS</span>
+					</a>
+				</li>
+				<li class="treeview">
+					<a href="admin/contact">
+						<i class="glyphicon glyphicon-earphone"></i> <span>Quản lý menu</span>
+					</a>
+				</li>
+				<li class="treeview">
+					<a href="admin/customer">
+						<i class="glyphicon glyphicon-user"></i><span>Khách hàng</span>
+					</a>
+				</li>';
 			}
 			?>
 
+
             <!-- quan ly hoc vu -->
-            <?php
+            <!-- <?php
 			if ($user['role'] == 1) {
 				echo '<li class="header">QUẢN LÝ DANH MỤC</li>
 				<li>
@@ -72,7 +101,7 @@
 			
 
 			}
-			?>
+			?> -->
             <?php
 			if ($user['role'] == 1) {
 				echo '<li class="treeview">

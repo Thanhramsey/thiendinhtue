@@ -118,6 +118,18 @@ $route['hoidap/recyclebin/(:num)'] ='hoidap/recyclebin/$1';
 $route['admin/phieuPhoiHop'] ='admin/phieuPhoiHop';
 
 
+//donVi
+$route['admin/donvi'] ='admin/donvi';
+$route['admin/donvi/(:num)'] ='admin/donvi/index/$1';
+$route['donvi/insert'] ='donvi/insert';
+$route['donvi/update/(:num)'] ='donvi/update/$1';
+$route['donvi/status/(:num)'] ='donvi/status/$1';
+$route['donvi/recyclebin'] ='donvi/recyclebin';
+$route['donvi/recyclebin/(:num)'] ='donvi/recyclebin/$1';
+$route['donvi/trash/(:num)'] ='donvi/trash/$1';
+$route['donvi/delete/(:num)'] ='donvi/delete/$1';
+$route['donvi/restore/(:num)'] ='donvi/restore/$1';
+
 
 
 $route['admin/category'] ='admin/category';

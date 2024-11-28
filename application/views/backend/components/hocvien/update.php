@@ -44,7 +44,7 @@ $listCa = $this->Mcahoc->cahoc_list();
                                     <select class="select2" multiple name="cahocId[]" id="cahocId" class="form-control"
                                         style="width:70%">
                                         <?php foreach ($listCa as $ca): ?>
-                                        <option value="<?php echo $ca['id']; ?>"
+                                        <option value="<?php echo $ca['id'];?>"
                                             <?php echo (in_array($ca['id'], array_column($cahochv, 'cahoc_id'))) ? 'selected' : ''; ?>>
                                             <?php echo $ca['name']; ?>
                                         </option>

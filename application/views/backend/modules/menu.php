@@ -54,17 +54,18 @@
 					<a href="admin/coupon">
 						<i class="glyphicon glyphicon-piggy-bank"></i> <span>Quản lý trạm BTS</span>
 					</a>
-				</li>
+				</li>				
+				<li class="treeview">
+                <a href="admin/donvi">
+                    <i class="glyphicon glyphicon-leaf"></i><span>Quản lý đơn vị</span>
+                </a>
+            	</li>
 				<li class="treeview">
 					<a href="admin/contact">
 						<i class="glyphicon glyphicon-earphone"></i> <span>Quản lý menu</span>
 					</a>
 				</li>
-				<li class="treeview">
-					<a href="admin/customer">
-						<i class="glyphicon glyphicon-user"></i><span>Khách hàng</span>
-					</a>
-				</li>';
+				';
 			}
 			?>
 
@@ -101,7 +102,7 @@
 			
 
 			}
-			?> -->
+			?> 
             <?php
 			if ($user['role'] == 1) {
 				echo '<li class="treeview">
@@ -120,7 +121,7 @@
                 </a>
             </li>';
 			}
-			?>
+			?>-->
 
 
             <?php

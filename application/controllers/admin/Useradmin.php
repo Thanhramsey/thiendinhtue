@@ -5,6 +5,7 @@ class Useradmin extends CI_Controller {
 	public function __construct(){
 		parent::__construct();
 		$this->load->model('backend/Muser');
+		$this->load->model('backend/Mdonvi');
 		$this->load->model('backend/Morders');
 		$this->load->model('backend/Mproduct');
 		if(!$this->session->userdata('sessionadmin'))
@@ -26,7 +27,7 @@ class Useradmin extends CI_Controller {
 		$first=$this->phantrang->PageFirst($limit, $current);
 		$total=$this->Muser->users_count();
 		$this->data['strphantrang']=$this->phantrang->PagePer($total, $current, $limit, $url='admin/useradmin');
-		$this->data['list']=$this->Muser->users_all($limit, $first);
+		$this->data['list']=$this->Muser->users_all($limit, $first);		
 		$this->data['view']='index';
 		$this->data['title']='Danh sách tài khoản';
 		$this->load->view('backend/layout', $this->data);
@@ -56,10 +57,11 @@ class Useradmin extends CI_Controller {
 				'username' =>$_POST['username'],
 				'password' =>sha1($_POST['password']),
 				'role' =>$_POST['role'],
+				'donviid' =>$_POST['donviid'],
 				'status' =>$_POST['status'],
 				'created' =>$today,
 				'detail'=>$_POST['detail'],
-				'star'=>$_POST['star'],
+				'star'=> 5,
 				'trash'=>1
 			);
 			$config['upload_path']          = './public/images/admin/';
@@ -78,6 +80,7 @@ class Useradmin extends CI_Controller {
 			redirect('admin/useradmin','refresh');
 		}
 		else{
+			$this->data['listDonvi'] = $this->Mdonvi->donvi_all_2();
 			$this->data['view']='insert';
 			$this->data['title']='Thêm mới tài khoản';
 			$this->load->view('backend/layout', $this->data);
@@ -96,6 +99,7 @@ class Useradmin extends CI_Controller {
 		$this->form_validation->set_rules('address', 'Địa chỉ', 'required');
 		$this->form_validation->set_rules('password', 'Mật khẩu', 'required|min_length[5]|max_length[32]');
 		$star = $row['star'];
+		$this->data['listDonvi'] = $this->Mdonvi->donvi_all_2();
 		if (!empty($_POST['star'])) {
 			$star = $_POST['star'];
 		}
